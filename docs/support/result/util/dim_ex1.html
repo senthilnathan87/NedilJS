@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dim  - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	div {
+		display : inline-block;
+		padding : 10px;
+		margin : 5px;
+		border : 2px solid red;
+	}
+	
+	#box1 {
+		width : 100px;
+		height : 100px;
+	}
+	
+	#box2 {
+		width : 50px;
+		height : 200px;
+	}
+	
+	#box3 {
+		width : 300px;
+		height : 100px;
+	}
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+			
+			$.get("div").on("click", function() {
+				
+				// Get the dimension of clicked div
+				var di = $.self().dim();
+				alert("Dimension - wid : " + di.wid + " ht : " + di.ht);
+				
+			});
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	<div id="box1">Click</div>
+	
+	<div id="box2">Click</div>
+	
+	<div id="box3">Click</div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css  - Example 2 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	div {
+		display : inline-block;
+		padding : 10px;
+		margin : 5px;
+	}
+	
+	.big_red {
+		width : 200px;
+		height : 100px;
+		background-color : red;
+	}
+	
+	.text {
+		font-size: 20px;
+		color : #aaa;
+	}
+	
+	.thick_border {
+		border: 20px solid black;
+	}
+	
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+			
+			$.get("#btn1").on("click", function() {			
+				// Attach thick_border, text and remove big_red class simultaneously
+				$.get("#box1").css("+thick_border +text -big_red");
+			});		
+
+			$.get("#reset").on("click", function() {							
+				window.location.reload();
+			});			
+
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	<div id="box1" class="big_red">Div with "big_red" class</div>
+		
+	<br/>
+	<input type="button" id="btn1" value="Add 'thick_border', 'text' and Remove 'big_red'" /> 
+	
+	<br/>
+	<input type="button" id="reset" value="Reset" /> 	
+
+</body>
+
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pos  - Example 2 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	div {
+		display : inline-block;
+		padding : 10px;
+		margin : 5px;
+	}
+	
+	#box {
+		width : 100px;
+		height : 100px;
+		border : 2px solid red;
+	}
+	
+	#cont {
+		width : 200px;
+		height : 200px;
+		border : 2px solid #000;
+	}
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+			
+			$.get("#btn1").on("click", function() {
+				$.get("#box").pos({ x : 0, y : 0});
+			});
+			
+			$.get("#btn2").on("click", function() {
+				$.get("#box").pos({ x : 100, y : 100});
+			});			
+			
+		});						
+			
+	</script>
+</head>
+
+<body>
+
+	<div id="cont"> 
+		<div id="box">Box 2</div>
+	</div>
+	
+	<br/>
+	
+	<input type="button" id="btn1" value="Set at 0,0" />
+	<input type="button" id="btn2" value="Set at 100, 100" />
+
+</body>
+
+
+</html>

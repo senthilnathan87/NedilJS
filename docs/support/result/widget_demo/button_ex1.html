@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Button | Nedil Widget </title>
+
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+
+		<script type="text/javascript">
+			$.domLoaded(function() {
+			
+				// simple button widget
+				$.get("#btn1").widget("button");
+				
+				// button widget with click event
+				$.get("#btn2").widget("button", {
+					text : "Click Me!!!", 
+					event : { 
+						"click" : function() {
+							alert("Hello World"); 
+						} 
+					}
+				});
+				
+				//  disbaled button widget to showcase enable(), disable() methods
+				var disBtn = $.get("#btn3").widget("button", {
+					text : "Disabled", 
+					enabled : false, 
+					event : { 
+						"click" : function() {
+							alert("Hello World"); 
+						} 
+					}
+				});	
+
+				// icon button
+				$.get("#btn4").widget("button", {
+					text : "Big Icon",					
+					icon : { src : "../../../js/lib/widget_lib/images/freeicons/user.png",
+						pos : "left", 
+						wid : 100,
+						ht : 100
+					}
+				});
+
+				$.get("#btn5").widget("button", {
+					text : "Small Icon", 
+					icon : { src : "../../../js/lib/widget_lib/images/freeicons/user.png",
+						pos : "left", 
+						wid : 50,
+						ht : 50
+					}
+				});	
+
+
+				$.get("#btn6").widget("button", {
+					text : "Disabled Icon", 
+					enabled : false, 
+					icon : { src : "../../../js/lib/widget_lib/images/freeicons/user.png",
+						pos : "left", 
+						wid : 50,
+						ht : 50
+					}
+				});
+
+				$.get("#btn7").widget("button", {
+					text : "Top Icon", 
+					icon : { src : "../../../js/lib/widget_lib/images/freeicons/user.png",
+						pos : "top", 
+						wid : 50,
+						ht : 50
+					}
+				});	
+
+
+				$.get("#btn8").widget("button", {
+					text : "Bottom Icon", 
+					icon : { src : "../../../js/lib/widget_lib/images/freeicons/user.png",
+						pos : "bottom", 
+						wid : 50,
+						ht : 50
+					}
+				});	
+
+				$.get("#btn9").widget("button", {
+					text : "Right Icon",  
+					icon : { src : "../../../js/lib/widget_lib/images/freeicons/user.png",
+						pos : "right", 
+						wid : 50,
+						ht : 50
+					}
+				});	
+
+				$.get("#toggle").on("click", function() {
+					if(disBtn.enabled) {
+						disBtn.disable();
+					} else {
+						disBtn.enable();
+					}
+				});
+				
+			});
+		</script>		
+
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+		
+			table td {
+				padding : 10px;	
+			}
+			#toggle {
+				text-decoration:underline;
+				cursor:default;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<table>
+			<tr><td>Default Button</td><td><div id="btn1">Default</div></td></tr>
+			<tr><td>Button with Custom Text and Click Event</td><td><div id="btn2"></div></td></tr>	
+			<tr><td>Disabled Button</td><td><div id="btn3"></div> <span id="toggle">Enable/Disable</span></td></tr>
+			<tr><td>Icon Button with Different Size</td><td><div id="btn4"></div>	<div id="btn5"></div>	<div id="btn6"></div></td></tr>
+			<tr><td>Icon Button with Position</td><td><div id="btn7"></div>	<div id="btn8"></div>	<div id="btn9"></div></td></tr>
+		</table>
+		
+	</body>	
+</html>

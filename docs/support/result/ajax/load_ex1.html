@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>load (AJAX) Request  - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+		#result {
+			width : 400px;
+			border : 2px solid #000;
+			padding : 10px;
+		}
+		
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+
+			$.get("#ajax1").on("click", function() {
+			
+				$.get("#result").load("../../ajax/AjaxServer.php", { "example" : "4" });
+				
+			});
+			
+		});	
+	</script>
+</head>
+
+<body>
+<input type="button" id="ajax1" value="Load" />
+
+<div id="result">
+</div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wrapChildren  - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+		#parent {
+			display : inline-block;
+			background-color : #fff;
+			border : 2px solid red;
+			padding : 10px;
+		}
+		
+		.child {
+			width : 70px;
+			height : 50px;
+			margin : 5px;
+			background-color : #0af;
+		}
+		
+		.wrapper {
+			background-color : yellowgreen;
+			padding : 20px;
+		}		
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+
+			$.get("#add").on("click", function() {
+			
+				//add a wrapper to all children of #parent
+				$.get("#parent").wrapChildren("div", {
+					"class" : "wrapper",
+					"text" : "Wrapper and New Parent"
+				});
+				
+			});
+			
+		});						
+			
+	</script>
+</head>
+
+<body>
+<div id="parent"> 
+Parent
+	<div class="child">child</div>
+	<div class="child">child</div>
+	<div class="child">child</div>
+
+</div>
+<br/>
+<input type="button" id="add" value="Wrap Parent Children" />
+
+</body>
+
+
+</html>

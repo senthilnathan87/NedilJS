@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation Paths and Easing - Combining multiple animation types - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	#box {
+		background-color : #99cc33;
+		width : 50px;
+		height : 50px;
+		border: 1px solid #f00;
+	}
+	</style>
+	 
+	<script type="text/javascript">
+	
+		$.domLoaded(function() {
+			
+			var box = $.get("#box");
+			$.get("#ani").on("click", function() {
+				box.animate({
+					to : { x : 200 },
+					anim : "Location.smooth",
+					duration : 1000,
+					oncomplete : function() {
+						box.animate({
+							to : { ht : 200 },
+							anim : "Dimension.bounce.easeout",
+							duration : 2000
+						});		
+
+						box.animate({
+							to : "#f0f",
+							anim : "Color.smooth",
+							prop : "background-color",
+							duration : 2000, 
+							oncomplete : function() {
+								box.animate({
+									to : 5,
+									anim : "CSS.smooth.return",
+									prop : "border-width",
+									duration : 1000
+								});									
+							}
+						});						
+						
+					}
+				});
+				
+				box.animate({
+					to : { wid : 400 },
+					anim : "Dimension.smooth",
+					duration : 1000
+				});					
+				
+			
+			});
+			
+			$.get("#reset").on("click", function() {							
+				window.location.reload();
+			});			
+
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	<input type="button" id="ani" value="Animate" /> <input type="button" id="reset" value="Reset" /> 
+	<br/>
+	
+	<div id="box"></div>
+
+
+	
+</body>
+
+
+</html>

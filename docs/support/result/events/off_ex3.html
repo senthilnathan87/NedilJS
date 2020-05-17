@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>off event - Example 2 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+		div {
+			display : inline-block;
+			width : 100px;
+			height : 100px;
+			border : 1px solid red;
+		}
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+		
+			//Attach 2 "click" events to div and store the event IDs	
+			var listen = function() {
+				alert("First Event Trigger");
+			}
+			
+			$.get("div").on("click", listen);
+			
+			var ev2 = $.get("div").on("click", function() {
+				alert("Second Event Trigger");
+			});
+			
+			// Turn OFF first click event using function reference
+			$.get("#off").on("click", function() {
+				$.get("div").off("click", listen);
+			});
+			
+		});	
+	</script>
+</head>
+
+<body>
+<div> Click Me</div>
+<br/>
+<input type="button" id="off" value="Turn off first Click event" />
+
+</body>
+
+
+</html>

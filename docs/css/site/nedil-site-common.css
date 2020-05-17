@@ -1,0 +1,162 @@
+html, body {
+	padding : 0px;
+	margin : 0px;
+	width : 100%;
+	background-color : #555;
+}
+
+img {
+	outline : 0px;
+	border : 0px;
+}
+
+a {
+	outline : 0px;
+	border : 0px;
+	text-decoration : none;
+}
+
+#site {
+	width : 85%;
+	min-width : 1000px;
+	margin : 0 auto;
+	-webkit-box-shadow: 1px 1px 65px 2px rgba(30,30,30,1);
+	-moz-box-shadow: 1px 1px 65px 2px rgba(30,30,30,1);
+	box-shadow: 1px 1px 65px 2px rgba(30,30,30,1);	
+}
+
+#header, #content, #footer {
+	width : 100%;
+
+}
+
+#header {
+	background-color : #fff;
+}
+
+#Nedil_JS_logo {
+	padding : 10px;
+	display : inline-block;
+	outline : 0px;
+	margin-left: 40px;
+}
+
+#menus{
+	display : inline-block;
+	float: right;
+	margin-right: 10px;
+}
+
+.menu {
+	padding : 30px;
+	padding-top: 20px;
+	padding-bottom : 20px;
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	color: rgb(100,100,100);
+	cursor : pointer;
+	margin-top : 0px;
+	display: inline-block;
+	transition: all 0.5s ease;
+	margin-left: 2px;
+	border-radius: 3px;
+	border: 0px solid #888;
+	font-weight : bold;
+}
+
+#content {
+	background-color: #777;
+}
+
+#extra_panel {
+	width: 85%;
+	min-width : 100px;
+	background-color: #000;
+	padding : 10px;
+	background: rgb(0, 0, 20)  url('../../images/down_back.png') repeat-x;
+	-webkit-box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
+	-moz-box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
+	box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);	
+	border-radius : 20px;
+	text-align : center;
+	margin-top:20px;
+	color: #fff; 
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+.share_ic {
+	width : 50px;
+	height : 50px;
+	margin : 3px;
+}
+
+#footer {
+	background: rgb(20, 20, 20)  url('../../images/down_back.png') repeat-x;
+	height : 60px;
+	margin-top : -10px;
+	margin-bottom : 10px;
+	padding-top : 20px;
+	color: #0af;
+	text-align :center;
+	font-size: 12px;
+	font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+	line-height : 25px;	
+	text-shadow: black 0.1em 0.1em 0.2em;
+	position : relative;
+	z-Index : 10;
+	
+}
+
+#footer span {
+	color : #fff;
+	margin-top: 20px;
+}
+
+#footer a {
+	color : #fff;
+	margin : 10px;
+}
+
+#footer span  a  {
+	text-decoration : underline !important;
+	color: #0ad;
+	margin: 0px;
+	cursor: pointer;
+}
+
+.spacer {
+	height : 15px;
+}
+
+.n_code_block {
+	background-color : #008;
+	color : #fff;
+	padding : 10px;
+	margin : 3px;
+	display : inline-block;
+	margin-bottom : 0px;
+}
+
+.n_code_string {
+	color:#0f0;
+}
+
+.n_code_misc {
+	color:#ff0;
+}
+
+.news {
+	height : 60px;
+	margin-top : -10px;
+	margin-bottom : 10px;
+	padding-top : 20px;
+	color: #0af;
+	text-align :center;
+	font-size: 15px;
+	font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+	line-height : 25px;	
+	text-shadow: black 0.1em 0.1em 0.2em;
+	position : relative;
+	z-Index : 10;
+	color : #fff;
+	margin : 10px;
+}

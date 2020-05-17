@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<title>How to create panel widgets in Nedil JS - Nedil JS</title>
+	<meta name="description" content="Nedil JS - How to create panel widgets in Nedil JS" />
+	<meta name="keywords" content="NedilJS,Nedil,Nedil JS, JavaScript Framework,APIs,AJAX,CSS Selectors,DOM Manipulation,Data Structures,Animation,Animate,CSS,Style,Widgets,Web Applications,"panel" />
+	<meta property="og:title" content="Nedil JS - How to create panel widgets in Nedil JS" />
+	<meta property="og:description" content="Nedil JS - How to create panel widgets in Nedil JS" />
+
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<link rel="author" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>	
+	<link rel="publisher" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>		
+	<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />	
+	<meta property="og:image" content="http://nediljs.com/images/NedilJS-logo-small.png"/>
+	
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shCore.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shThemeRDark.css" />
+	
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shCore.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushXml.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushPhp.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushJScript.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushCss.js"></script>
+	
+	<script type="text/javascript" src="../../js/lib/Nedil.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-common.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-documentation.css" />
+
+	<script type="text/javascript" src="../../js/site/nedil-site-common.js"></script>	
+	<script type="text/javascript" src="../../js/site/nedil-site-documentation.js"></script>		
+	
+	<script type="text/javascript">
+		SyntaxHighlighter.defaults['toolbar'] = false;
+      	SyntaxHighlighter.all();	
+	</script>
+	<script type="text/javascript">
+</script>		
+</head>
+<body>
+
+<div id="site">
+	<div id="header">
+		<table cellpadding="0" cellspacing="0" width="100%">
+		<tr><td>
+		<div id="Nedil_JS_logo">
+			<a href="../../index.html"><img src="../../images/NedilJS-logo-small.png" alt="Nedil JS, A Simple and Complete JavaScript Framework" align="top"/></a>
+		</div>
+		</td><td>
+		<div id="menus">
+			<a href="installation.html"><span class="menu">Documentation</span></a>
+			<a href="../../download.html"><span class="menu">Download</span></a>
+			<a href="aboutdefaultwidgets1.html"><span class="menu">Demo</span></a>		
+			<a href="../../about.html"><span class="menu">About</span></a>
+			<a href="../../contact.php"><span class="menu">Contact</span></a>
+		</div>
+		
+		</td></tr></table>
+	</div>
+	<div id="content">
+		<table cellpadding="0" cellspacing="0" style="width:100%">
+		<tr>
+		<td style="width: 250px; min-width:250px; vertical-align: top">
+			<div class="side_menus">
+				<div class="head">
+					<span class="main" id="main_1">Widgets Creation<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_1">
+						<a href="aboutdefaultwidgets1.html">About Default Widgets</a>									
+						<a href="howtocreateawidget1.html">How to create a widget ? </a>				
+					</div>
+				</div>	
+				<div class="head" >
+					<span class="main" id="main_2">Widgets<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_2">
+						<a href="button.html">Button</a>				
+						<a href="checkbox.html">Check Box</a>				
+						<a href="radiobutton.html">Radio Button</a>				
+						<a href="textbox.html">Text Box</a>				
+						<a href="panel.html" class="selected">Panel</a>				
+						<a href="dialog.html">Dialog</a>				
+						<a href="tabs.html">Tabs</a>				
+						<a href="accordion.html">Accordion</a>				
+						<a href="menu.html">Menu</a>				
+						<a href="calendar.html">Calendar</a>				
+						<a href="colorpicker.html">Color Picker</a>				
+						<a href="ajaxdatagrid.html">AJAX Data Grid</a>				
+						<a href="dropdown.html">Drop Down</a>				
+						<a href="autocomplete.html">Auto Complete</a>				
+						<a href="numberroller.html">Number Roller</a>				
+						<a href="slider.html">Slider</a>				
+						<a href="progressbar.html">Progress Bar</a>				
+						<a href="slideshow.html">Slide Show</a>				
+						<a href="tree.html">Tree</a>
+					</div>
+				</div>							
+			</div>
+		</td>
+		<td style="vertical-align: top; " rowspan="2">
+			<div class="main_doc">
+		
+				<div class="head_doc">Panel Widget</div>		
+				<div class="explanation">
+					Panel widget is a container. It can hold other user interface elements in an organized way. It support horizontal and vertical layout of it's child elements. Panel can be made draggable and resizable. There are plenty of configuration options for panel.
+					<br/>
+					<br/>
+				<span class="oth_head" style="margin:0px">Basic Usage</span>						
+					<pre class="brush: js;">$.domLoaded(function() {
+	
+	$.get("#pan").widget("panel", CONFIG_JSON );	
+	
+}</pre>					
+				</div>	
+
+				<div class="field_explain">
+					<span class="field_head">Configuring Options</span>
+					<div class="explanation">				
+						It contains array of JSON objects. The properties are mentioned below.
+					</div>						
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Name</th><th>Type</th><th>Must/Optional</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">layout</td><td>String</td><td>Optional</td><td>Sets the layout of child elements. Allowed values are "horizontal" and "vertical"</td></tr>
+						<tr class="tab_even"><td class="high">dim</td><td>JSON</td><td>Optional</td><td>Sets dimension of the panel
+							<table cellpadding="0" cellspacing="0" >
+								<tr class="tab_head"><th>Name</th><th>Description</th></tr>
+								<tr class="tab_odd"><td class="high">wid</td><td>Width of the panel</td></tr>
+								<tr class="tab_even"><td class="high">ht</td><td>Height of the panel</td></tr>
+							</table>								
+						</td></tr>
+						<tr class="tab_odd"><td class="high">pos</td><td>JSON</td><td>Optional</td><td>Sets position of the panel
+							<table cellpadding="0" cellspacing="0" >
+								<tr class="tab_head"><th>Name</th><th>Description</th></tr>
+								<tr class="tab_odd"><td class="high">x</td><td>Horizontal Position</td></tr>
+								<tr class="tab_even"><td class="high">y</td><td>Vertical Position</td></tr>
+							</table>						
+						</td></tr>
+						<tr class="tab_even"><td class="high">draggable</td><td>Boolean / String</td><td>Optional</td><td>Makes the panel draggable
+							<table cellpadding="0" cellspacing="0" >
+								<tr class="tab_head"><th>Valye</th><th>Description</th></tr>
+								<tr class="tab_odd"><td class="high">true</td><td>Makes the panel draggable anywhere</td></tr>
+								<tr class="tab_even"><td class="high">"parent"</td><td>Makes the panel draggable within the parent</td></tr>
+								<tr class="tab_odd"><td class="high">"x"</td><td>Only Horizontal drag</td></tr>
+								<tr class="tab_even"><td class="high">""y""</td><td>Only Vertical drag</td></tr>
+							</table>
+						</td></tr>
+						<tr class="tab_odd"><td class="high">handle</td><td>Nedil.Objs</td><td>Optional</td><td>A Child element which acts as the handle for panel drag movement</td></tr>
+						<tr class="tab_even"><td class="high">dragRangeX</td><td>JSON</td><td>Optional</td><td>"x" axis drag movement can be restricted
+						<table cellpadding="0" cellspacing="0" >
+								<tr class="tab_head"><th>Name</th><th>Description</th></tr>
+								<tr class="tab_odd"><td class="high">min</td><td>Minimum X value</td></tr>
+								<tr class="tab_even"><td class="high">max</td><td>Maximum X value</td></tr>
+							</table>								
+						</td></tr>
+						<tr class="tab_odd"><td class="high">dragRangeY</td><td>JSON</td><td>Optional</td><td>"y" axis drag movement can be restricted
+						<table cellpadding="0" cellspacing="0" >
+								<tr class="tab_head"><th>Name</th><th>Description</th></tr>
+								<tr class="tab_odd"><td class="high">min</td><td>Minimum Y value</td></tr>
+								<tr class="tab_even"><td class="high">max</td><td>Maximum Y value</td></tr>
+							</table>							
+						</td></tr>
+						<tr class="tab_even"><td class="high">nostyle</td><td>Boolean</td><td>Optional</td><td>Removes the default styling of a panel by Nedil</td></tr>
+						<tr class="tab_odd"><td class="high">resizable</td><td>String</td><td>Optional</td><td>Makes a panel resizable</td></tr>
+						<tr class="tab_even"><td class="high">minSize</td><td>JSON</td><td>Optional</td><td>Panel cannot be resized smaller than the specified values
+							<table cellpadding="0" cellspacing="0" >
+								<tr class="tab_head"><th>Name</th><th>Description</th></tr>
+								<tr class="tab_odd"><td class="high">wid</td><td>Min Width of the panel</td></tr>
+								<tr class="tab_even"><td class="high">ht</td><td>Min Height of the panel</td></tr>
+							</table>							
+						</td></tr>
+						<tr class="tab_odd"><td class="high">maxSize</td><td>JSON</td><td>Optional</td><td>Panel cannot be resized bigger than the specified values
+							<table cellpadding="0" cellspacing="0" >
+								<tr class="tab_head"><th>Name</th><th>Description</th></tr>
+								<tr class="tab_odd"><td class="high">wid</td><td>Max Width of the panel</td></tr>
+								<tr class="tab_even"><td class="high">ht</td><td>Max Height of the panel</td></tr>
+							</table>	
+						</td></tr>
+					</table>			
+				</div>	
+				<br/>
+
+
+
+				<br/>				
+				<span class="oth_head">Panel Widget Examples</span>				
+				<span class="oth_head">Example 1</span><div class="codeblock" id="code_1">
+					<span class="tabtitle" id="code_1_js">JS</span>
+					<span class="tabtitle" id="code_1_html">HTML</span>
+					<div class="nedil_code" id="code_1_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {			
+				
+				$.get("#pan1").widget("panel", {
+					layout : "vertical",
+					dim : { wid : 380, ht : 150},
+				});	
+
+				$.get("#pan2").widget("panel", {
+					layout: "horizontal",
+					dim : { wid : 380, ht : 150}
+				});	
+								
+				$.get(".uname").widget("textbox", {
+					watermark : "Username",
+					validation : "alphanumeric"
+				});
+				
+				$.get(".email").widget("textbox", {
+					watermark : "Email",
+					validation : "email"
+				});
+					
+				$.get(".btn").widget("button", {
+					text : "Log In"
+				});				
+				
+			});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_1_html_pre">
+						<pre class="brush: html;">	&lt;body&gt;
+	
+		&lt;div id="pan2"&gt;
+			&lt;h3&gt;Horizontal Layout&lt;/h3&gt;
+			&lt;input type="text" class="uname"/&gt;
+			&lt;input type="text" class="email"/&gt;
+			&lt;div class="btn" &gt;&lt;/div&gt; 
+		&lt;/div&gt;
+		&lt;br/&gt;
+		&lt;div id="pan1" &gt;
+			&lt;h3&gt;Vertical Layout&lt;/h3&gt;
+			&lt;input type="text" class="uname"/&gt;
+			&lt;input type="text" class="email"/&gt;
+			&lt;div class="btn" &gt;&lt;/div&gt; 
+		&lt;/div&gt;
+
+	&lt;/body&gt;	
+</pre>
+					</div>
+				
+				</div>
+					
+
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/panel_ex1.html" style="height: 340px">
+						</iframe>
+					</div>
+				</div>	
+
+				<span class="oth_head">Example 2</span><div class="codeblock" id="code_2">
+					<span class="tabtitle" id="code_2_js">JS</span>
+					<span class="tabtitle" id="code_2_html">HTML</span>
+					<div class="nedil_code" id="code_2_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {			
+				
+				$.get("#pan1").widget("panel", {
+					layout : "vertical",
+					dim : { wid : 200, ht : 200},
+					pos : { x : 0 , y : 100 }
+				});	
+
+				$.get("#pan2").widget("panel", {
+					layout: "horizontal",
+					dim : { wid : 200, ht : 200},
+					pos : { x : 300 , y : 0 }
+				});	
+								
+			});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_2_html_pre">
+						<pre class="brush: html;">	&lt;body&gt;
+			
+		&lt;div id="pan1"&gt;Panel1&lt;/div&gt;
+		&lt;div id="pan2"&gt;Panel2&lt;/div&gt;
+		
+	&lt;/body&gt;	</pre>
+					</div>
+				
+				</div>				
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/panel_ex2.html" style="height: 320px">
+						</iframe>
+					</div>
+				</div>	
+
+				<span class="oth_head">Example 3</span><div class="codeblock" id="code_3">
+					<span class="tabtitle" id="code_3_js">JS</span>
+					<span class="tabtitle" id="code_3_html">HTML</span>
+					<div class="nedil_code" id="code_3_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {			
+				
+				$.get("#pan1").widget("panel", {
+					draggable : true,
+					dim : { wid : 100, ht : 100}					
+				});		
+				
+				$.get("#pan4").widget("panel", {
+					draggable : "parent",
+					dim : { wid : 100, ht : 100}					
+				});								
+				
+			});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_3_html_pre">
+						<pre class="brush: html;">	&lt;body&gt;
+		
+		&lt;div id="pan1"&gt;&lt;/div&gt;
+		
+		&lt;div id="parent"&gt;
+			&lt;div id="pan4"&gt;&lt;/div&gt;
+		&lt;/div&gt;		
+		
+	&lt;/body&gt;	</pre>
+					</div>
+				
+				</div>					
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/panel_ex3.html" style="height: 500px">
+						</iframe>
+					</div>
+				</div>		
+
+				<span class="oth_head">Example 4</span><div class="codeblock" id="code_4">
+					<span class="tabtitle" id="code_4_js">JS</span>
+					<span class="tabtitle" id="code_4_html">HTML</span>
+					<div class="nedil_code" id="code_4_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {			
+							
+				$.get("#pan2").widget("panel", {
+					draggable : "x",
+					dim : { wid : 100, ht : 100}					
+				});				
+				
+				$.get("#pan3").widget("panel", {
+					draggable : "y",
+					dim : { wid : 100, ht : 100}					
+				});							
+				
+			});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_4_html_pre">
+						<pre class="brush: html;">	&lt;body&gt;
+			
+		&lt;div id="pan3"&gt;&lt;/div&gt;
+		
+		&lt;div id="pan2"&gt;&lt;/div&gt;
+		
+	&lt;/body&gt;	</pre>
+					</div>
+				</div>		
+				
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/panel_ex4.html" style="height: 340px">
+						</iframe>
+					</div>
+				</div>						
+		
+				<span class="oth_head">Example 5</span><div class="codeblock" id="code_5">
+					<span class="tabtitle" id="code_5_js">JS</span>
+					<span class="tabtitle" id="code_5_html">HTML</span>
+					<div class="nedil_code" id="code_5_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {							
+				
+				$.get("#pan3").widget("panel", {
+					draggable : true,
+					dim : { wid : 150, ht : 150},
+					handle : $.get("#pan3 h3")
+				});							
+				
+			});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_5_html_pre">
+						<pre class="brush: html;">	&lt;body&gt;
+			
+		&lt;div id="pan3"&gt;
+			&lt;h3&gt; &lt;/h3&gt;
+		&lt;/div&gt;
+		
+	&lt;/body&gt;	</pre>
+					</div>
+				</div>	
+				
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/panel_ex5.html" style="height: 240px">
+						</iframe>
+					</div>
+				</div>						
+
+				<span class="oth_head">Example 6</span><div class="codeblock" id="code_6">
+					<span class="tabtitle" id="code_6_js">JS</span>
+					<span class="tabtitle" id="code_6_html">HTML</span>
+					<div class="nedil_code" id="code_6_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {							
+				
+				$.get("#pan3").widget("panel", {
+					draggable : true,
+					dim : { wid : 100, ht : 100},
+					dragRangeX : { min : 10 , max : 400},
+					dragRangeY : { min : 50 , max : 200}					
+				});							
+				
+			});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_6_html_pre">
+						<pre class="brush: html;">	&lt;body&gt;
+			
+		&lt;div id="pan3"&gt;&lt;/div&gt;
+		
+	&lt;/body&gt;	</pre>
+					</div>
+				</div>	
+				
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/panel_ex6.html" style="height: 240px">
+						</iframe>
+					</div>
+				</div>						
+
+				<span class="oth_head">Example 7</span><div class="codeblock" id="code_7">
+					<span class="tabtitle" id="code_7_js">JS</span>
+					<span class="tabtitle" id="code_7_html">HTML</span>
+					<div class="nedil_code" id="code_7_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {			
+				
+				$.get("#pan1").widget("panel", {
+					nostyle : true,
+					draggable : true,
+					dim : { wid : 200, ht : 150}					
+				});				
+				
+			});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_7_html_pre">
+						<pre class="brush: html;">	&lt;body&gt;
+		
+		&lt;div id="pan1" style="border: 1px solid red"&gt;&lt;/div&gt;
+		
+	&lt;/body&gt;	</pre>
+					</div>
+				</div>	
+				
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/panel_ex7.html" style="height: 240px">
+						</iframe>
+					</div>
+				</div>						
+
+				<span class="oth_head">Example 8</span><div class="codeblock" id="code_8">
+					<span class="tabtitle" id="code_8_js">JS</span>
+					<span class="tabtitle" id="code_8_html">HTML</span>
+					<div class="nedil_code" id="code_8_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {							
+				
+				$.get("#pan3").widget("panel", {
+					resizable : true,
+					dim : { wid : 100, ht : 100}				
+				});							
+				
+			});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_8_html_pre">
+						<pre class="brush: html;">	&lt;body&gt;
+			
+		&lt;div id="pan3"&gt;&lt;/div&gt;
+		
+	&lt;/body&gt;	</pre>
+					</div>
+				</div>	
+				
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/panel_ex8.html" style="height: 240px">
+						</iframe>
+					</div>
+				</div>						
+		
+				<span class="oth_head">Example 9</span><div class="codeblock" id="code_9">
+					<span class="tabtitle" id="code_9_js">JS</span>
+					<span class="tabtitle" id="code_9_html">HTML</span>
+					<div class="nedil_code" id="code_9_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {							
+				
+				$.get("#pan3").widget("panel", {
+					resizable : true,
+					dim : { wid : 100, ht : 100},
+					minSize : { wid : 50 , ht : 50},
+					maxSize : { wid : 200, ht : 200}
+				});							
+				
+			});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_9_html_pre">
+						<pre class="brush: html;">	&lt;body&gt;
+			
+		&lt;div id="pan3"&gt;&lt;/div&gt;
+		
+	&lt;/body&gt;</pre>
+					</div>
+				</div>	
+				
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/panel_ex9.html" style="height: 280px">
+						</iframe>
+					</div>
+				</div>						
+		
+		
+	
+			</div>
+		</td></tr>	
+		<tr><td style="height:100px;">
+		<div id="extra_panel" style="display:inline-block; margin:0px; margin-left:4px; margin-bottom:4px; padding : 2px; width: 260px;">
+		<span>
+			<a id="fbshare" href="" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/fb.png" alt="Facebook Share"/>
+			</a>
+			<a id="twshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/twit.png" alt="Twitter Share"/>
+			</a>
+			<a id="gpshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/gp.png" alt="Google Plus Share" />
+			</a>	
+			<a id="linshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/lin.png" alt="LinkedIn Share"/>
+			</a>
+		</span>		
+		</div>	
+		</td></tr>
+		</table>
+	</div>
+	
+	<div id="footer">
+		<a href="../../index.html">Home</a> | 
+		<a href="installation.html">Documentation</a> | 
+		<a href="../../download.html">Download</a> | 
+		<a href="aboutdefaultwidgets1.html">Demo</a> | 
+		<a href="../../about.html">About</a> | 
+		<a href="../../contact.php">Contact Me</a> | 
+		<a href="../../contact.php">Report a Bug</a> 
+		<br/>
+		<span>NedilJS has been released under <a id="op_license" class="highlight">MIT license</a></span>
+	</div>
+</div>
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52388639-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

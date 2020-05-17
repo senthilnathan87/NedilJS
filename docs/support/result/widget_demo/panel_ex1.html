@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Panel | Ex1 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+			$.domLoaded( function() {			
+				
+				$.get("#pan1").widget("panel", {
+					layout : "vertical",
+					dim : { wid : 380, ht : 150},
+				});	
+
+				$.get("#pan2").widget("panel", {
+					layout: "horizontal",
+					dim : { wid : 380, ht : 150}
+				});	
+								
+				$.get(".uname").widget("textbox", {
+					watermark : "Username",
+					validation : "alphanumeric"
+				});
+				
+				$.get(".email").widget("textbox", {
+					watermark : "Email",
+					validation : "email"
+				});
+					
+				$.get(".btn").widget("button", {
+					text : "Log In"
+				});				
+				
+			});
+			
+		</script>		
+
+		<style type="text/css">
+
+		</style>
+
+	</head>
+
+	<body>
+	
+		<div id="pan2">
+			<h3>Horizontal Layout</h3>
+			<input type="text" class="uname"/>
+			<input type="text" class="email"/>
+			<div class="btn" ></div> 
+		</div>
+		<br/>
+		<div id="pan1" >
+			<h3>Vertical Layout</h3>
+			<input type="text" class="uname"/>
+			<input type="text" class="email"/>
+			<div class="btn" ></div> 
+		</div>
+
+	</body>	
+</html>

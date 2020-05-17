@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>posabs  - Example 2 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	div {
+		display : inline-block;
+		padding : 10px;
+		margin : 5px;
+	}
+	
+	#box {
+		width : 100px;
+		height : 100px;
+		border : 2px solid red;
+	}
+	
+	#cont {
+		width : 200px;
+		height : 200px;
+		border : 2px solid #000;
+	}
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+			
+			$.get("#btn1").on("click", function() {			
+				// Set Absolute position
+				var po = $.get("#box").posAbs({x : 0, y : 0});			
+			});
+			
+			$.get("#btn2").on("click", function() {			
+				// Set Relative position
+				var po = $.get("#box").pos({x : 0, y : 0});			
+			});			
+			
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	<br/>
+	
+	<div id="cont"> 
+		<div id="box">Click</div>
+	</div>
+	
+	<br/>
+	
+	<input type="button" id="btn1" value="Set Absolute 0,0" /> 
+	<input type="button" id="btn2" value="Set Relative 0,0" /> 
+
+</body>
+
+
+</html>

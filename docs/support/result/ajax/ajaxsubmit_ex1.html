@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX Form Submission  - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+		#result {
+			width : 400px;
+			border : 2px solid #000;
+			padding : 10px;
+		}
+		
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+
+			$.get("#ajax1").on("click", function() {
+			
+				$.get("#details").ajaxSubmit(function(res) {
+					$.get("#result").html(res);
+				});
+				
+			});
+			
+		});	
+	</script>
+</head>
+
+<body>
+<form id="details" name="details" method="GET" action="../../ajax/AjaxServer.php">
+	Enter your Name : <input type="text" name="uname" id="uname" /> <br/>
+	<input type="hidden" name="example" id="uname" value="5"/>
+	<input type="button" id="ajax1" value="Ajax Submit" /><br/>
+</form>
+<br/><br/>
+Message from Server
+<div id="result">
+</div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title>Number Roller | Ex 1 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+			$.domLoaded( function() {
+
+				$.get("#roll1").widget("roll", {
+					range : { 
+						from : -10, 
+						to : 10
+					},
+					unit : 5,
+					def : 0,
+					dim : { wid : 100 }
+				});		
+
+				$.get("#roll2").widget("roll", {
+					unit : 3,
+					def : -10,
+					dim : { wid : 60 }
+				});	
+
+				$.get("#roll3").widget("roll", {
+					range : { 
+						from : 0, 
+						to : 2.3
+					},
+					unit : 0.1,
+					def : 0,
+					dim : { wid : 80 }
+				});	
+
+				$.get("#roll4").widget("roll", {
+					range : {
+						from : 0
+					},
+					dim : { wid : 70 }
+				});		
+
+				
+				$.get("#roll5").widget("roll", {
+					range : {
+					    to : 1,
+						from : -1
+					},
+					unit : 0.001,
+					dim : { wid : 100 }
+				});					
+				
+				var rol = $.get("#roll6").widget("roll", {
+					dim : { wid : 70 },
+					enabled : false
+				});		
+
+				$.get("#enab").on("click", function() {
+					rol.enable();
+				});
+				
+				$.get("#disb").on("click", function() {
+					rol.disable();
+				});				
+								
+					
+			});
+			
+
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+			
+			h4 span {
+				font-size:10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+	
+		<h4>Range -10 to 10 with unit change of 5</h4>
+		<input type="text" id="roll1"></input>
+		<h4>Default is -10 and no range limit with unit change of 3</h4>		
+		<input type="text" id="roll2"></input>
+		<h4>Range 0 to 2.3 with unit change of 0.1 (Decimal)</h4>		
+		<input type="text" id="roll3"></input>
+		<h4>Only Starting Range 0</h4>		
+		<input type="text" id="roll4"></input>
+		<h4>Decimal Unit 0.001 and Range is -1 to 1</h4>		
+		<input type="text" id="roll5"></input>		
+		<h4>Enable / Disable</h4>		
+		<input type="text" id="roll6"></input>
+		<br/>
+		<br/>
+		<input type="button" value="Enable" id="enab" />
+		<input type="button" value="Disable" id="disb" />
+
+		
+	</body>	
+</html>

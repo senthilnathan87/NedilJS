@@ -1,0 +1,76 @@
+<!DOCTYPE html><html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Radio Button | Nedil Widget </title>
+
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+
+		<script type="text/javascript">
+			$.domLoaded( function()  {
+				
+				// create radio group
+				$.get("#cbox1").widget("radio",[
+					{id: "cin", name : "rad1", value: "cinema", text : "Cinema", enabled: true},
+					{id: "dan", name : "rad1", text : "Dance", enabled: true},
+					{id: "mus", name : "rad1", text : "Music", enabled: true}
+				]);
+				
+				$.get("#cbox2").widget("radio",[
+					{id: "cin", name : "rad2", value: "cinema", text : "Cinema", enabled: true},
+					{id: "dan", name : "rad2", text : "Dance", enabled: true},
+					{id: "mus", name : "rad2", text : "Music", enabled: true}
+				], "horizontal");	
+
+				$.get("#cbox3").widget("radio",[
+					{id: "cin", name : "rad3", value: "cinema", text : "Cinema", enabled: false},
+					{id: "dan", name : "rad3", text : "Dance", enabled: false, select: true},
+					{id: "mus", name : "rad3", text : "Music", enabled: true}
+				], "horizontal");	
+
+				var cb = $.get("#cbox4").widget("radio",[
+					{id: "cin", name : "rad4", value: "cinema", text : "Cinema"},
+					{id: "dan", name : "rad4", text : "Dance"},
+					{id: "mus", name : "rad4", text : "Music"}
+				], "horizontal");
+				
+				// enable / disable
+				$.get("#toggle").on("click", function() {
+					if(cb.chklist[0].enabled) {
+						cb.disable(0);
+					} else {
+						cb.enable(0);
+					}
+				});
+				
+				// select / unselect
+				$.get("#select").on("click", function() {
+					cb.select(1);
+				});
+			});
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+		
+			table td {
+				padding : 10px;	
+			}		</style>
+
+	</head>
+
+	<body>
+
+		<table>
+			<tr><td>Horizontal Layout</td><td><div id="cbox2"></div></td></tr>	
+			<tr><td>Disabled Checkboxes</td><td><div id="cbox3"></div></td></tr>			
+			<tr><td>Enable/Disable and Select/UnSelect</td><td><div id="cbox4"></div><input type="button" id="toggle" value="Enable/Disable" /><input type="button" id="select" value="Select/Unselect"></td></tr>
+			<tr><td>Vertical Layout</td><td><div id="cbox1"></div></td></tr>
+			
+		</table>
+	</body>	
+</html>

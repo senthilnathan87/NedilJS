@@ -1,0 +1,70 @@
+
+.contact_tab {
+	height : 70px;
+}
+
+.content form  input{
+	padding : 5px;
+	margin : 5px;
+	border : 1px solid #999;
+	background-color: #444;
+	color : #eee;
+	width : 300px;
+	border-radius : 6px;
+	outline : none;
+}
+
+.content form  select{
+	padding : 5px;
+	margin : 5px;
+	border : 1px solid #999;
+	background-color: #444;
+	color : #eee;
+	width : 300px;
+	border-radius : 6px;
+	outline : none;
+}
+
+.content form  input[type=submit]{
+	width : 150px;
+	background-color: #5c5;
+	border-color: #444;
+	color : #444;
+	outline : none;
+}
+
+.content form  input[type=submit]:hover{
+	background-color: #6f6;
+}
+
+.content form  textarea{
+	padding : 5px;
+	margin : 5px;
+	border : 1px solid #999;
+	background-color: #444;
+	color : #eee;
+	resize : none;
+	overflow : auto;
+	width : 400px;
+	height : 200px;
+	border-radius : 6px;
+	outline : none;
+}
+
+#msg_info {
+	padding : 5px;
+	padding-left : 15px;
+	text-shadow : none;
+	margin-top : -5px;
+	border-radius : 5px;
+}
+
+.suc_msg_info {
+	background-color: #6d6;
+	color: #222;
+}
+
+.err_msg_info{
+	background-color : #c55;
+	color: #eee;
+}

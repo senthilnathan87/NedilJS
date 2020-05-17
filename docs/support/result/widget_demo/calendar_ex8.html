@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Calendar | Ex 8 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+
+			$.domLoaded( function() {		
+
+				var cal1;
+					
+				cal1 = $.get("#cal1").widget("calendar",{
+					display : false
+				});		
+
+				$.get("#sel1").on("click", function() {
+					cal1.show();
+				});				
+				
+				$.get("#sel2").on("click", function() {
+					cal1.hide();
+				});
+		
+			});
+			
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+			
+			h4 span {
+				font-size:10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<h4>Show and Hide Functions</h4>
+		<input type="button" value="Show" id="sel1" />
+		<input type="button" value="Hide" id="sel2" />
+		
+		<h4>Calendar</h4>
+		<div id="cal1"></div>
+		
+				
+	</body>
+</html>

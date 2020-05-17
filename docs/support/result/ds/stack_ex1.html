@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stack  - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	div {
+		display : inline-block;
+	}
+	#inp {
+		width : 30px;
+	}
+	
+	#stack {
+		border : 1px solid #555;
+		padding : 5px;
+	}
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+		
+			// create $.Data.Stack Object
+			var st = new $.Data.Stack();
+			
+			// push few elements
+			st.push(12);
+			st.push(57);
+			st.push(23);
+			
+			function showContent() {
+				var cont = "";
+				
+				// iterate over the stack elements
+				st.iterate(function(el) {
+					cont += el + ", ";
+				});
+				
+				// show stack
+				$.get("#stack").text(cont);
+			}
+			
+			showContent();			
+			
+			$.get("#btn1").on("click", function() {		
+				var va = $.get("#inp").element().value.trim();
+				
+				// push new element
+				st.push(va);		
+				
+				showContent();
+			});		
+			
+			
+			$.get("#btn2").on("click", function() {		
+			
+				// pop the top element
+				var top = st.pop();
+				
+				$.get("#pop").html("Removed Element : " + top);
+				showContent();
+			});
+
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	Stack
+	<div id="stack"></div>
+	<br/><br/>
+	<input type="text" id="inp" value="" />
+	<input type="button" id="btn1" value="Push" />
+	<br/><br/>
+	<input type="button" id="btn2" value="Pop" />
+	<div id="pop"></div>
+	
+</body>
+
+
+</html>

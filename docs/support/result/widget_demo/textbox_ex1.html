@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> TextBox | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+			$.domLoaded(function() {
+			
+				//without watermark
+				$.get("#tbox1").widget("textbox");
+				
+				//with default value
+				$.get("#tbox12").widget("textbox", {
+					value: "Senthil"
+				});					
+				
+				//with watermark
+				$.get("#tbox2").widget("textbox", {
+					watermark: "Username"
+				});	
+				
+				//diabled
+				$.get("#tbox3").widget("textbox", {
+					watermark: "Disabled",
+					enabled: false
+				});		
+
+				//limit
+				$.get("#tbox4").widget("textbox", {
+					watermark: "With 10 Chars limit",
+					limit: 10
+				});						
+				
+				//validation
+				$.get("#tbox5").widget("textbox", {
+					watermark: "Only Numbers",
+					validation : "numeric"
+				});		
+				
+				$.get("#tbox6").widget("textbox", {
+					watermark: "Decimals",
+					validation: "decimal"
+				});		
+
+				$.get("#tbox7").widget("textbox", {
+					watermark: "Only Alphabets",
+					validation: "alpha"
+				});		
+
+				$.get("#tbox8").widget("textbox", {
+					watermark: "Alpha Numeric",
+					validation: "alphanumeric"
+				});	
+				
+				$.get("#tbox9").widget("textbox", {
+					watermark: "Email",
+					validation: "email"
+				});	
+
+				$.get("#tbox10").widget("textbox", {
+					watermark: "'a'",
+					validation: "^a*$"
+				});	
+				
+				var tb = $.get("#tbox11").widget("textbox", {
+					watermark: "Username"
+				});	
+				
+				$.get("#toggle").on("click", function() {
+					if(tb.enabled) {
+						tb.disable();
+					} else {
+						tb.enable();
+					}
+				});
+				
+				$.get("#sText").on("click", function() {
+					tb.setText("Welcome");					
+				});
+				
+				$.get("#gText").on("click", function() {
+					alert(tb.getText());					
+				});				
+			});
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+
+			table td {
+				padding : 10px;	
+			}		
+		</style>
+
+	</head>
+
+	<body>
+
+		<table>
+			<tr><td>Default Text Box</td><td><input type="text" id="tbox1" /></td></tr>
+			<tr><td>Default Value</td><td><input type="text" id="tbox12" /></td></tr>
+			<tr><td>With Watermark</td><td><input type="text" id="tbox2" /></td></tr>	
+			<tr><td>Disabled TextBox (CHECK CSS)</td><td><input type="text" id="tbox3" /></td></tr>			
+			<tr><td>Limit 10 Chars</td><td><input type="text" id="tbox4" /></td></tr>	
+			<tr><td>Only Numeric</td><td><input type="text" id="tbox5" /></td></tr>	
+			<tr><td>Decimal</td><td><input type="text" id="tbox6" /></td></tr>	
+			<tr><td>Only Alphabets</td><td><input type="text" id="tbox7" /></td></tr>	
+			<tr><td>Alpha Numeric</td><td><input type="text" id="tbox8" /></td></tr>	
+			<tr><td>Email</td><td><input type="text" id="tbox9" /></td></tr>	
+			<tr><td>User Defined RegX</td><td><input type="text" id="tbox10" /></td></tr>	
+			<tr><td>External Methods</td><td><input type="text" id="tbox11" /> <input type="button" id="toggle" value="Enable/Disable"/> <input type="button" id="sText" value="setText 'Welcome'"/> <input type="button" id="gText" value="getText"/></td></tr>	
+		</table>
+	</body>	
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Slider | Ex 1 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+			$.domLoaded( function() {
+
+				sli1 = $.get("#slider1").widget("slider", {
+					range : { 
+						from : -10, 
+						to : 10
+					},
+					unit : 5,
+					def : 0,
+					pos : { x : 10, y : 100},
+					dim : { wid : 100 },
+					enabled : true
+				});	
+
+				sli2 = $.get("#slider2").widget("slider", {
+					range : { 
+						from : 0, 
+						to : 255
+					},
+					def : 120,
+					dim : { ht : 150 },
+					layout : "vertical",
+					onmove : function(val) {
+						$.get("#val").element().value = val;
+					},					
+					enabled : true
+				});	
+
+				var slid = $.get("#slider3").widget("slider", {
+					enabled : false,
+					unit : 2
+				});	
+				
+				$.get("#enab").on("click", function() {
+					slid.enable();
+				});
+				
+				$.get("#disb").on("click", function() {
+					slid.disable();
+				});
+				
+				$.get("#val1").on("click", function() {
+					alert(slid.getValue());
+				});
+						
+			});
+			
+
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+			
+			h4 span {
+				font-size:10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+	
+		<h4> Horizontal Layout - Range -10 to 10 - Unit 5 </h4>
+		<div id="slider1"></div>
+		
+		<h4> Vertical Layout - Range 0 to 255 - Unit 1 - with onmove event</h4>
+		<div id="slider2"></div>
+		<input type="text" id="val" style="margin-left: 40px"/>
+		
+		<h4> Get Value and Enable / Disable Functions</h4>
+		<div id="slider3"></div>
+		<br/><br/><br/>
+		<input type="button" id="enab" value="Enable"/>
+		<input type="button" id="disb" value="Disable"/>
+		<input type="button" id="val1" value="Get Value"/>
+		
+	</body>	
+</html>

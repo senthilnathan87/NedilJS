@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> ColorPicker | Ex 3 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+			$.domLoaded( function() {
+
+				$.get("#pick1").widget("colorpicker", {
+					type : "max",
+					fulldisplay : true,
+					def : "#0000ff",
+					onselect : function(col) {
+						alert("Selected Color is " + col);
+					},
+					onchange : function(col) {
+						$.get("body > div").style("background-color", col);
+					}
+				});
+
+				$.get("#dial").widget("dialog" ,{
+					head : {
+						title : "Color Picker Changes background color of Dialog"
+					},
+					dim : { wid : 500, ht : 300},
+					close : true,
+					draggable : true
+				});
+				
+			});
+			
+
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+			
+			h4 span {
+				font-size:10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div id="dial">
+			<div id="pick1"></div>
+		</div>
+	</body>	
+</html>

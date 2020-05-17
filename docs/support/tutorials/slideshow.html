@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<title>How to create slideshow widgets in Nedil JS - Nedil JS</title>
+	<meta name="description" content="Nedil JS - How to create slideshow widgets in Nedil JS" />
+	<meta name="keywords" content="NedilJS,Nedil,Nedil JS, JavaScript Framework,APIs,AJAX,CSS Selectors,DOM Manipulation,Data Structures,Animation,Animate,CSS,Style,Widgets,Web Applications,"slideshow" />
+	<meta property="og:title" content="Nedil JS - How to create slideshow widgets in Nedil JS" />
+	<meta property="og:description" content="Nedil JS - How to create slideshow widgets in Nedil JS" />
+
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<link rel="author" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>	
+	<link rel="publisher" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>		
+	<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />	
+	<meta property="og:image" content="http://nediljs.com/images/NedilJS-logo-small.png"/>
+	
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shCore.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shThemeRDark.css" />
+	
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shCore.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushXml.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushPhp.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushJScript.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushCss.js"></script>
+	
+	<script type="text/javascript" src="../../js/lib/Nedil.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-common.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-documentation.css" />
+
+	<script type="text/javascript" src="../../js/site/nedil-site-common.js"></script>	
+	<script type="text/javascript" src="../../js/site/nedil-site-documentation.js"></script>		
+	
+	<script type="text/javascript">
+		SyntaxHighlighter.defaults['toolbar'] = false;
+      	SyntaxHighlighter.all();	
+	</script>
+	<script type="text/javascript">
+</script>		
+</head>
+<body>
+
+<div id="site">
+	<div id="header">
+		<table cellpadding="0" cellspacing="0" width="100%">
+		<tr><td>
+		<div id="Nedil_JS_logo">
+			<a href="../../index.html"><img src="../../images/NedilJS-logo-small.png" alt="Nedil JS, A Simple and Complete JavaScript Framework" align="top"/></a>
+		</div>
+		</td><td>
+		<div id="menus">
+			<a href="installation.html"><span class="menu">Documentation</span></a>
+			<a href="../../download.html"><span class="menu">Download</span></a>
+			<a href="aboutdefaultwidgets1.html"><span class="menu">Demo</span></a>		
+			<a href="../../about.html"><span class="menu">About</span></a>
+			<a href="../../contact.php"><span class="menu">Contact</span></a>
+		</div>
+		
+		</td></tr></table>
+	</div>
+	<div id="content">
+		<table cellpadding="0" cellspacing="0" style="width:100%">
+		<tr>
+		<td style="width: 250px; min-width:250px; vertical-align: top">
+			<div class="side_menus">
+				<div class="head">
+					<span class="main" id="main_1">Widgets Creation<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_1">
+						<a href="aboutdefaultwidgets1.html">About Default Widgets</a>									
+						<a href="howtocreateawidget1.html">How to create a widget ? </a>				
+					</div>
+				</div>	
+				<div class="head" >
+					<span class="main" id="main_2">Widgets<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_2">
+						<a href="button.html">Button</a>				
+						<a href="checkbox.html">Check Box</a>				
+						<a href="radiobutton.html">Radio Button</a>				
+						<a href="textbox.html">Text Box</a>				
+						<a href="panel.html">Panel</a>				
+						<a href="dialog.html">Dialog</a>				
+						<a href="tabs.html">Tabs</a>				
+						<a href="accordion.html">Accordion</a>				
+						<a href="menu.html">Menu</a>				
+						<a href="calendar.html">Calendar</a>				
+						<a href="colorpicker.html">Color Picker</a>				
+						<a href="ajaxdatagrid.html">AJAX Data Grid</a>				
+						<a href="dropdown.html">Drop Down</a>				
+						<a href="autocomplete.html">Auto Complete</a>				
+						<a href="numberroller.html">Number Roller</a>				
+						<a href="slider.html">Slider</a>				
+						<a href="progressbar.html">Progress Bar</a>				
+						<a href="slideshow.html" class="selected">Slide Show</a>				
+						<a href="tree.html">Tree</a>
+					</div>
+				</div>							
+			</div>
+		</td>
+		<td style="vertical-align: top; " rowspan="2">
+			<div class="main_doc">
+		
+				<div class="head_doc">Slide Show Widget</div>		
+				<div class="explanation">
+					Slide Shows are often part of modern UI. Various images can be shown randomly or in order. In Nedil Widget, we have different options for animations, arrows, play and pause options
+					<br/>
+					<br/>
+				<span class="oth_head" style="margin:0px">Basic Usage</span>						
+					<pre class="brush: js;">$.domLoaded(function() {
+	
+	$.get("#prog").widget("slideshow", CONFIG_JSON );	
+	
+}</pre>			
+
+				<span class="oth_head" style="margin:0px">HTML Template</span>						
+					<pre class="brush: html;">		&lt;div id="slideshow"&gt;
+			&lt;img src="image URL" title="Title text" &gt;
+			&lt;img src="image URL" title="Title text"  &gt;
+		&lt;/div&gt;</pre>			
+				</div>	
+
+				<div class="field_explain">
+					<span class="field_head">Configuring Options</span>
+					<div class="explanation">				
+						It contains array of JSON objects. The properties are mentioned below.
+					</div>						
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Name</th><th>Type</th><th>Must/Optional</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">pauseTime</td><td>Number</td><td>Optional</td><td>In Milliseconds. Timegap between each slide</td></tr>
+						<tr class="tab_even"><td class="high">animTime</td><td>Number</td><td>Optional</td><td>In Milliseconds. Animation time during slide changes</td></tr>
+						<tr class="tab_odd"><td class="high">titlePos</td><td>String</td><td>Optional</td><td>Title positon. Allowed values "top" / "bottom". Default is "bottom"</td></tr>
+						<tr class="tab_even"><td class="high">autoPlay</td><td>Boolean</td><td>Optional</td><td>Plays the slides automatically if set true, default is true</td></tr>
+						<tr class="tab_odd"><td class="high">arrow</td><td>Boolean</td><td>Optional</td><td>If set true, arrows to move the slides will be shown. Default is true</td></tr>
+						<tr class="tab_even"><td class="high">animType</td><td>String</td><td>Optional</td><td>Animation Types. There are several animation options during the slide movement. Default is "random".
+							<table cellpadding="0" cellspacing="0" >
+								<tr class="tab_head"><th>String</th><th>Description</th></tr>
+								<tr class="tab_odd"><td class="high">"smoothLeft"</td><td>Smooth transition from left side</td></tr>
+								<tr class="tab_even"><td class="high">"smoothRight"</td><td>Smooth transition from right side</td></tr>
+								<tr class="tab_odd"><td class="high">"smoothTop"</td><td>Smooth transition from top side</td></tr>
+								<tr class="tab_even"><td class="high">"smoothBottom"</td><td>Smooth transition from bottom side</td></tr>
+								<tr class="tab_odd"><td class="high">"bounceLeft"</td><td>Bouncy transition from left side</td></tr>
+								<tr class="tab_even"><td class="high">"bounceRight"</td><td>Bouncy transition from right side</td></tr>
+								<tr class="tab_odd"><td class="high">"bounceTop"</td><td>Bouncy transition from top side</td></tr>
+								<tr class="tab_even"><td class="high">"bounceBottom"</td><td>Bouncy transition from bottom side</td></tr>
+								<tr class="tab_odd"><td class="high">"blur"</td><td>Blurs out the slide</td></tr>
+								<tr class="tab_even"><td class="high">"random"</td><td>Randomly chooses from the above list</td></tr>
+							</table>								
+						</td></tr>
+						<tr class="tab_odd"><td class="high">dim</td><td>JSON</td><td>Optional</td><td>Sets dimension of the slideshow
+							<table cellpadding="0" cellspacing="0" >
+								<tr class="tab_head"><th>Name</th><th>Description</th></tr>
+								<tr class="tab_odd"><td class="high">wid</td><td>Width of the slideshow</td></tr>
+								<tr class="tab_even"><td class="high">ht</td><td>Height of the slideshow</td></tr>
+							</table>								
+						</td></tr>
+						<tr class="tab_even"><td class="high">pos</td><td>JSON</td><td>Optional</td><td>Sets position of the slideshow
+							<table cellpadding="0" cellspacing="0" >
+								<tr class="tab_head"><th>Name</th><th>Description</th></tr>
+								<tr class="tab_odd"><td class="high">x</td><td>Horizontal Position</td></tr>
+								<tr class="tab_even"><td class="high">y</td><td>Vertical Position</td></tr>
+							</table>						
+						</td></tr>
+						
+					</table>			
+				</div>	
+				<br/>
+
+				<div class="field_explain">
+					<span class="field_head">Methods</span>
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Name</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">play()</td><td>Plays the slideshow</td></tr>
+						<tr class="tab_even"><td class="high">pause()</td><td>Pauses the slideshow</td></tr>
+					</table>			
+				</div>	
+
+				<br/>				
+				<span class="oth_head">Progress Bar Widget Examples</span>				
+				<span class="oth_head">Example 1</span><div class="codeblock" id="code_1">
+					<span class="tabtitle" id="code_1_js">JS</span>
+					<span class="tabtitle" id="code_1_html">HTML</span>
+					<div class="nedil_code" id="code_1_js_pre">
+						<pre class="brush: js;">			$.domLoaded(function() {
+			
+				var te1, te2;
+				
+				te1 = $.get("#slideshow").widget("slideshow", {
+					dim : { wid : 400, ht : 300},
+					pauseTime : 2000,
+					animTime : 1000,
+					titlePos : "top", 
+					autoPlay : true,
+					arrow : true
+				});	
+				
+				te2 = $.get("#slideshowl").widget("slideshow", {
+					dim : { wid : 600, ht : 450},
+					pauseTime : 3000,
+					animTime : 1000,
+					titlePos : "bottom", //"bottom" - Default, top
+					arrow : true,
+					autoPlay : false,
+					animType : "bounceLeft"
+				});	
+				
+				$.get("#play").on("click", function() {
+					te2.play();
+				});
+				
+				$.get("#pause").on("click", function() {
+					te2.pause();
+				});		
+
+			});
+</pre>
+					</div>
+					<div class="nedil_code hide" id="code_1_html_pre">
+						<pre class="brush: html;">	&lt;body&gt;
+
+		&lt;h4&gt;SlideShow - Top title, Random Animation Types, Arrows, AutoPlay, Fast&lt;/h4&gt;
+		&lt;div id="slideshow"&gt;
+			&lt;img src="../images/flower1.jpg" title="Lorem ipsum dolor sit amet, consectetur" &gt;
+			&lt;img src="../images/flower2.jpg" title="Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"  &gt;
+			&lt;img src="../images/flower3.jpg" title="Quis nostrud exercitation ullamco laboris..." &gt;
+			&lt;img src="../images/flower4.jpg" title="Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident" &gt;
+		&lt;/div&gt;
+
+		&lt;h4&gt;SlideShow - Bottom title, bounceLeft Animation Type, Arrows, Slower, Play and Pause functions&lt;/h4&gt;		
+		&lt;div id="slideshowl"&gt;
+			&lt;img src="../images/flower1.jpg" title="Lorem ipsum dolor sit amet, consectetur" &gt;
+			&lt;img src="../images/flower2.jpg" title="Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"  &gt;
+			&lt;img src="../images/flower3.jpg" title="Quis nostrud exercitation ullamco laboris..." &gt;
+			&lt;img src="../images/flower4.jpg" title="Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident" &gt;
+		&lt;/div&gt;
+		&lt;br/&gt;
+		&lt;input type="button" value="Play" id="play" /&gt;
+		&lt;input type="button" value="Pause" id="pause" /&gt;				
+			
+	&lt;/body&gt;	</pre>
+					</div>
+				
+				</div>
+					
+
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/slideshow_ex1.html" style="height: 950px">
+						</iframe>
+					</div>
+				</div>	
+
+			</div>
+		</td></tr>	
+		<tr><td style="height:100px;">
+		<div id="extra_panel" style="display:inline-block; margin:0px; margin-left:4px; margin-bottom:4px; padding : 2px; width: 260px;">
+		<span>
+			<a id="fbshare" href="" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/fb.png" alt="Facebook Share"/>
+			</a>
+			<a id="twshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/twit.png" alt="Twitter Share"/>
+			</a>
+			<a id="gpshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/gp.png" alt="Google Plus Share" />
+			</a>	
+			<a id="linshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/lin.png" alt="LinkedIn Share"/>
+			</a>
+		</span>		
+		</div>	
+		</td></tr>
+		</table>
+	</div>
+	
+	<div id="footer">
+		<a href="../../index.html">Home</a> | 
+		<a href="installation.html">Documentation</a> | 
+		<a href="../../download.html">Download</a> | 
+		<a href="aboutdefaultwidgets1.html">Demo</a> | 
+		<a href="../../about.html">About</a> | 
+		<a href="../../contact.php">Contact Me</a> | 
+		<a href="../../contact.php">Report a Bug</a> 
+		<br/>
+		<span>NedilJS has been released under <a id="op_license" class="highlight">MIT license</a></span>
+	</div>
+</div>
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52388639-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

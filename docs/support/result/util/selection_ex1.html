@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>selection  - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	#inp {
+		width : 300px;
+	}
+	
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+			
+			$.get("#btn1").on("click", function() {		
+			
+				//Get selection from text field
+				var res = $.get("#inp").selection();
+				
+				alert("Selected Text : " + res.text 
+					+ "\nStart : " + res.start
+					+ "\nEnd : " + res.end);
+			});		
+
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	Select some text <br/>
+	<input type="text" id="inp" value="Welcome to NedilJS. Have a nice day!!" />
+		
+	<br/><br/>
+	<input type="button" id="btn1" value="Show Selection" /> 
+	
+</body>
+
+
+</html>

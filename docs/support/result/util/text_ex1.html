@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>text  - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+		
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+			
+			$.get("#get").on("click", function() {
+			
+				// get the innerText of #cont
+				var co = $.get("#cont").text();
+				alert(co);
+				
+			});
+			
+		});							
+			
+	</script>
+</head>
+
+<body>
+
+<div id="cont"> 
+	Welcome To NedilJS
+</div>
+<br/>
+<input type="button" id="get" value="Get innerHTML" />
+
+</body>
+
+
+</html>

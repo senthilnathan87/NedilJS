@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<title>How to create ajaxdatagrid widgets in Nedil JS - Nedil JS</title>
+	<meta name="description" content="Nedil JS - How to create ajaxdatagrid widgets in Nedil JS" />
+	<meta name="keywords" content="NedilJS,Nedil,Nedil JS, JavaScript Framework,APIs,AJAX,CSS Selectors,DOM Manipulation,Data Structures,Animation,Animate,CSS,Style,Widgets,Web Applications,"ajaxdatagrid" />
+	<meta property="og:title" content="Nedil JS - How to create ajaxdatagrid widgets in Nedil JS" />
+	<meta property="og:description" content="Nedil JS - How to create ajaxdatagrid widgets in Nedil JS" />
+
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<link rel="author" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>	
+	<link rel="publisher" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>		
+	<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />	
+	<meta property="og:image" content="http://nediljs.com/images/NedilJS-logo-small.png"/>
+	
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shCore.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shThemeRDark.css" />
+	
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shCore.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushXml.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushPhp.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushJScript.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushCss.js"></script>
+	
+	<script type="text/javascript" src="../../js/lib/Nedil.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-common.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-documentation.css" />
+
+	<script type="text/javascript" src="../../js/site/nedil-site-common.js"></script>	
+	<script type="text/javascript" src="../../js/site/nedil-site-documentation.js"></script>		
+	
+	<script type="text/javascript">
+		SyntaxHighlighter.defaults['toolbar'] = false;
+      	SyntaxHighlighter.all();	
+	</script>
+	<script type="text/javascript">
+</script>		
+</head>
+<body>
+
+<div id="site">
+	<div id="header">
+		<table cellpadding="0" cellspacing="0" width="100%">
+		<tr><td>
+		<div id="Nedil_JS_logo">
+			<a href="../../index.html"><img src="../../images/NedilJS-logo-small.png" alt="Nedil JS, A Simple and Complete JavaScript Framework" align="top"/></a>
+		</div>
+		</td><td>
+		<div id="menus">
+			<a href="installation.html"><span class="menu">Documentation</span></a>
+			<a href="../../download.html"><span class="menu">Download</span></a>
+			<a href="aboutdefaultwidgets1.html"><span class="menu">Demo</span></a>		
+			<a href="../../about.html"><span class="menu">About</span></a>
+			<a href="../../contact.php"><span class="menu">Contact</span></a>
+		</div>
+		
+		</td></tr></table>
+	</div>
+	<div id="content">
+		<table cellpadding="0" cellspacing="0" style="width:100%">
+		<tr>
+		<td style="width: 250px; min-width:250px; vertical-align: top">
+			<div class="side_menus">
+				<div class="head">
+					<span class="main" id="main_1">Widgets Creation<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_1">
+						<a href="aboutdefaultwidgets1.html">About Default Widgets</a>									
+						<a href="howtocreateawidget1.html">How to create a widget ? </a>				
+					</div>
+				</div>	
+				<div class="head" >
+					<span class="main" id="main_2">Widgets<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_2">
+						<a href="button.html">Button</a>				
+						<a href="checkbox.html">Check Box</a>				
+						<a href="radiobutton.html">Radio Button</a>				
+						<a href="textbox.html">Text Box</a>				
+						<a href="panel.html">Panel</a>				
+						<a href="dialog.html">Dialog</a>				
+						<a href="tabs.html">Tabs</a>				
+						<a href="accordion.html">Accordion</a>				
+						<a href="menu.html">Menu</a>				
+						<a href="calendar.html">Calendar</a>				
+						<a href="colorpicker.html">Color Picker</a>				
+						<a href="ajaxdatagrid.html" class="selected">AJAX Data Grid</a>				
+						<a href="dropdown.html">Drop Down</a>				
+						<a href="autocomplete.html">Auto Complete</a>				
+						<a href="numberroller.html">Number Roller</a>				
+						<a href="slider.html">Slider</a>				
+						<a href="progressbar.html">Progress Bar</a>				
+						<a href="slideshow.html">Slide Show</a>				
+						<a href="tree.html">Tree</a>
+					</div>
+				</div>							
+			</div>
+		</td>
+		<td style="vertical-align: top; " rowspan="2">
+			<div class="main_doc">
+		
+				<div class="head_doc">AJAX Data Grid</div>		
+				<div class="explanation">
+					AJAX Data Grid is available with Nedil Widgets. But it's documentation with examples are yet to be added here. Watch out this space to get complete API explanation for AJAX Data Grids
+					<br/>
+					<br/>
+				</div>
+				
+				<div  class="explanation" style="text-align:center">					
+					This is just an image of the example. Complete example will be available soon
+					<br/><br/>
+					<img src="../result/images/Grid.png" alt="AJAX Data Grid"/>
+					<br/>
+				</div>
+				<br/>
+			</div>
+		</td></tr>	
+		<tr><td style="height:100px;">
+		<div id="extra_panel" style="display:inline-block; margin:0px; margin-left:4px; margin-bottom:4px; padding : 2px; width: 260px;">
+		<span>
+			<a id="fbshare" href="" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/fb.png" alt="Facebook Share"/>
+			</a>
+			<a id="twshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/twit.png" alt="Twitter Share"/>
+			</a>
+			<a id="gpshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/gp.png" alt="Google Plus Share" />
+			</a>	
+			<a id="linshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/lin.png" alt="LinkedIn Share"/>
+			</a>
+		</span>		
+		</div>	
+		</td></tr>
+		</table>
+	</div>
+	
+	<div id="footer">
+		<a href="../../index.html">Home</a> | 
+		<a href="installation.html">Documentation</a> | 
+		<a href="../../download.html">Download</a> | 
+		<a href="aboutdefaultwidgets1.html">Demo</a> | 
+		<a href="../../about.html">About</a> | 
+		<a href="../../contact.php">Contact Me</a> | 
+		<a href="../../contact.php">Report a Bug</a> 
+		<br/>
+		<span>NedilJS has been released under <a id="op_license" class="highlight">MIT license</a></span>
+	</div>
+</div>
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52388639-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

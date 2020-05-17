@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>convertHexRgb  - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+			
+			$.get("#btn1").on("click", function() {		
+			
+				//Get hex color from input text field
+				var hexcol = $.get("#inp").element().value;
+				
+				// convert hex color code to RGB and return as an array
+				alert($.Util.convertHexRGB(hexcol));
+	
+			});		
+
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	Provide valid hex color code with #(6 or 3 char representation) <br/>
+	<input type="text" id="inp" value="#DDDDDD" />
+		
+	<br/><br/>
+	<input type="button" id="btn1" value="Convert To RGB Array" /> 
+	
+</body>
+
+
+</html>

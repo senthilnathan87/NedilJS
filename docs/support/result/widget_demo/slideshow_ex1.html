@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> SlideShow | Ex 1 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+
+		<script type="text/javascript">
+			
+			$.domLoaded(function() {
+			
+				var te1, te2;
+				
+				te1 = $.get("#slideshow").widget("slideshow", {
+					dim : { wid : 400, ht : 300},
+					pauseTime : 2000,
+					animTime : 1000,
+					titlePos : "top", 
+					autoPlay : true,
+					arrow : true
+				});	
+				
+				te2 = $.get("#slideshowl").widget("slideshow", {
+					dim : { wid : 600, ht : 450},
+					pauseTime : 3000,
+					animTime : 1000,
+					titlePos : "bottom",
+					arrow : true,
+					autoPlay : false,
+					animType : "bounceLeft"
+				});	
+				
+				$.get("#play").on("click", function() {
+					te2.play();
+				});
+				
+				$.get("#pause").on("click", function() {
+					te2.pause();
+				});		
+
+			});
+			
+
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+			
+			h4 span {
+				font-size:10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<h4>SlideShow - Top title, Random Animation Types, Arrows, AutoPlay, Fast</h4>
+		<div id="slideshow">
+			<img src="../images/flower1.jpg" title="Lorem ipsum dolor sit amet, consectetur" >
+			<img src="../images/flower2.jpg" title="Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"  >
+			<img src="../images/flower3.jpg" title="Quis nostrud exercitation ullamco laboris..." >
+			<img src="../images/flower4.jpg" title="Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident" >
+		</div>
+
+		<br/><br/>
+		<h4>SlideShow - Bottom title, bounceLeft Animation Type, Arrows, Slower, Play and Pause functions</h4>		
+		<div id="slideshowl">
+			<img src="../images/flower1.jpg" title="Lorem ipsum dolor sit amet, consectetur" >
+			<img src="../images/flower2.jpg" title="Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"  >
+			<img src="../images/flower3.jpg" title="Quis nostrud exercitation ullamco laboris..." >
+			<img src="../images/flower4.jpg" title="Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident" >
+		</div>
+		<br/>
+		<input type="button" value="Play" id="play" />
+		<input type="button" value="Pause" id="pause" />				
+			
+	</body>	
+</html>

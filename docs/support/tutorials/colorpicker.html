@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<title>How to create colorpicker widgets in Nedil JS - Nedil JS</title>
+	<meta name="description" content="Nedil JS - How to create colorpicker widgets in Nedil JS" />
+	<meta name="keywords" content="NedilJS,Nedil,Nedil JS, JavaScript Framework,APIs,AJAX,CSS Selectors,DOM Manipulation,Data Structures,Animation,Animate,CSS,Style,Widgets,Web Applications,"colorpicker" />
+	<meta property="og:title" content="Nedil JS - How to create colorpicker widgets in Nedil JS" />
+	<meta property="og:description" content="Nedil JS - How to create colorpicker widgets in Nedil JS" />
+
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<link rel="author" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>	
+	<link rel="publisher" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>		
+	<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />	
+	<meta property="og:image" content="http://nediljs.com/images/NedilJS-logo-small.png"/>
+	
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shCore.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shThemeRDark.css" />
+	
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shCore.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushXml.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushPhp.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushJScript.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushCss.js"></script>
+	
+	<script type="text/javascript" src="../../js/lib/Nedil.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-common.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-documentation.css" />
+
+	<script type="text/javascript" src="../../js/site/nedil-site-common.js"></script>	
+	<script type="text/javascript" src="../../js/site/nedil-site-documentation.js"></script>		
+	
+	<script type="text/javascript">
+		SyntaxHighlighter.defaults['toolbar'] = false;
+      	SyntaxHighlighter.all();	
+	</script>
+	<script type="text/javascript">
+</script>		
+</head>
+<body>
+
+<div id="site">
+	<div id="header">
+		<table cellpadding="0" cellspacing="0" width="100%">
+		<tr><td>
+		<div id="Nedil_JS_logo">
+			<a href="../../index.html"><img src="../../images/NedilJS-logo-small.png" alt="Nedil JS, A Simple and Complete JavaScript Framework" align="top"/></a>
+		</div>
+		</td><td>
+		<div id="menus">
+			<a href="installation.html"><span class="menu">Documentation</span></a>
+			<a href="../../download.html"><span class="menu">Download</span></a>
+			<a href="aboutdefaultwidgets1.html"><span class="menu">Demo</span></a>		
+			<a href="../../about.html"><span class="menu">About</span></a>
+			<a href="../../contact.php"><span class="menu">Contact</span></a>
+		</div>
+		
+		</td></tr></table>
+	</div>
+	<div id="content">
+		<table cellpadding="0" cellspacing="0" style="width:100%">
+		<tr>
+		<td style="width: 250px; min-width:250px; vertical-align: top">
+			<div class="side_menus">
+				<div class="head">
+					<span class="main" id="main_1">Widgets Creation<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_1">
+						<a href="aboutdefaultwidgets1.html">About Default Widgets</a>									
+						<a href="howtocreateawidget1.html">How to create a widget ? </a>				
+					</div>
+				</div>	
+				<div class="head" >
+					<span class="main" id="main_2">Widgets<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_2">
+						<a href="button.html">Button</a>				
+						<a href="checkbox.html">Check Box</a>				
+						<a href="radiobutton.html">Radio Button</a>				
+						<a href="textbox.html">Text Box</a>				
+						<a href="panel.html">Panel</a>				
+						<a href="dialog.html">Dialog</a>				
+						<a href="tabs.html">Tabs</a>				
+						<a href="accordion.html">Accordion</a>				
+						<a href="menu.html">Menu</a>				
+						<a href="calendar.html">Calendar</a>				
+						<a href="colorpicker.html" class="selected">Color Picker</a>				
+						<a href="ajaxdatagrid.html">AJAX Data Grid</a>				
+						<a href="dropdown.html">Drop Down</a>				
+						<a href="autocomplete.html">Auto Complete</a>				
+						<a href="numberroller.html">Number Roller</a>				
+						<a href="slider.html">Slider</a>				
+						<a href="progressbar.html">Progress Bar</a>				
+						<a href="slideshow.html">Slide Show</a>				
+						<a href="tree.html">Tree</a>
+					</div>
+				</div>							
+			</div>
+		</td>
+		<td style="vertical-align: top; " rowspan="2">
+			<div class="main_doc">
+		
+				<div class="head_doc">Color Picker Widget</div>		
+				<div class="explanation">
+					Color picker helps to select a RGB color. Color picker widget comes in Max and Mini types
+					<br/>
+					<br/>
+				<span class="oth_head" style="margin:0px">Basic Usage</span>						
+					<pre class="brush: js;">$.domLoaded(function() {
+	
+	$.get("#call").widget("colorpicker", CONFIG_JSON );	
+	
+}</pre>					
+				</div>	
+
+				<div class="field_explain">
+					<span class="field_head">Configuring Options</span>
+					<div class="explanation">				
+						It contains array of JSON objects. The properties are mentioned below.
+					</div>						
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Name</th><th>Type</th><th>Must/Optional</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">def</td><td>String</td><td>Optional</td><td>Sets the default color. String format should be 6 04 4 char hexdecimal preceeded by #. Eg . "#FFFFFF"</td></tr>
+						<tr class="tab_even"><td class="high">fulldisplay</td><td>Boolean</td><td>Optional</td><td>This makes the color picker to be displayed completely; if set to false, a small color picker box will be shown and clicking on it will open the color picker</td></tr>
+						<tr class="tab_odd"><td class="high">type</td><td>String</td><td>Optional</td><td>Mentions the type of color picker
+							<table cellpadding="0" cellspacing="0" >
+								<tr class="tab_head"><th>String</th><th>Description</th></tr>
+								<tr class="tab_odd"><td class="high">"max"</td><td>Complete color picker</td></tr>
+								<tr class="tab_even"><td class="high">"mini"</td><td>Mini color picker</td></tr>
+							</table>						
+						</td></tr>
+						<tr class="tab_even"><td class="high">input</td><td>Boolean</td><td>Optional</td><td>if true, user can select a date range							
+						</td></tr>
+						<tr class="tab_odd"><td class="high">onselect</td><td>function</td><td>Optional</td><td>onselect event. This function is called when color is selected. color value is passed as parameter</td></tr>
+						<tr class="tab_even"><td class="high">onchange</td><td>function</td><td>Optional</td><td>onchange event. This function is called when color is picker changes it's current color by user action. on movement. color value is passed as parameter</td></tr>
+						<tr class="tab_odd"><td class="high">hide</td><td>Boolean</td><td>Optional</td><td>If true, hides the colorpicker while launching</td></tr>
+					</table>			
+				</div>	
+				<br/>
+
+				<div class="field_explain">
+					<span class="field_head">Methods</span>
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Name</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">show()</td><td>Shows the hidden color picker</td></tr>
+						<tr class="tab_even"><td class="high">hide()</td><td>Hides the color picker</td></tr>
+						<tr class="tab_odd"><td class="high">getColor()</td><td>Gets selected color</td></tr>
+					</table>			
+				</div>	
+
+				<br/>				
+				<span class="oth_head">Color Picker Widget Examples</span>				
+				<span class="oth_head">Example 1</span><div class="codeblock" id="code_1">
+					<span class="tabtitle" id="code_1_js">JS</span>
+					<span class="tabtitle" id="code_1_html">HTML</span>
+					<div class="nedil_code" id="code_1_js_pre">
+						<pre class="brush: js;">
+						$.domLoaded( function() {
+
+				$.get("#pick1").widget("colorpicker", {
+					type : "max",
+					fulldisplay : true,
+					def : "#0000ff"
+				});
+
+				$.get("#pick2").widget("colorpicker", {
+					type : "mini",
+					fulldisplay : true,
+					def : "#0000ff"
+				});		
+				
+			});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_1_html_pre">
+						<pre class="brush: html;">		&lt;h4&gt;Max Type with FullDisplay&lt;/h4&gt;
+		&lt;div id="pick1"&gt;&lt;/div&gt;
+		&lt;h4&gt;Min Type with FullDisplay&lt;/h4&gt;		
+		&lt;div id="pick2"&gt;&lt;/div&gt;</pre>
+					</div>
+				
+				</div>
+					
+
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/colorpicker_ex1.html" style="height: 400px">
+						</iframe>
+					</div>
+				</div>	
+
+				<span class="oth_head">Example 2</span><div class="codeblock" id="code_2">
+					<span class="tabtitle" id="code_2_js">JS</span>
+					<span class="tabtitle" id="code_2_html">HTML</span>
+					<div class="nedil_code" id="code_2_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {
+
+				$.get("#pick1").widget("colorpicker", {
+					type : "mini",
+					fulldisplay : false,
+					def : "#0000ff"
+				});
+
+				$.get("#pick2").widget("colorpicker", {
+					type : "max",
+					def : "#0000ff",
+					input : true
+				});		
+				
+			});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_2_html_pre">
+						<pre class="brush: html;">		&lt;h4&gt;Default&lt;/h4&gt;
+		&lt;div id="pick1"&gt;&lt;/div&gt;
+		&lt;h4&gt;Input&lt;/h4&gt;		
+		&lt;input type="text" id="pick2"&gt;&lt;/div&gt;</pre>
+					</div>
+				
+				</div>				
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/colorpicker_ex2.html" style="height: 300px">
+						</iframe>
+					</div>
+				</div>	
+
+				<span class="oth_head">Example 3</span><div class="codeblock" id="code_3">
+					<span class="tabtitle" id="code_3_js">JS</span>
+					<span class="tabtitle" id="code_3_html">HTML</span>
+					<div class="nedil_code" id="code_3_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {
+
+				$.get("#pick1").widget("colorpicker", {
+					type : "max",
+					fulldisplay : true,
+					def : "#0000ff",
+					onselect : function(col) {
+						alert("Selected Color is " + col);
+					},
+					onchange : function(col) {
+						$.get("body > div").style("background-color", col);
+					}
+				});
+
+				$.get("#dial").widget("dialog" ,{
+					head : {
+						title : "Color Picker Changes background color of Dialog"
+					},
+					dim : { wid : 500, ht : 300},
+					close : true,
+					draggable : true
+				});
+				
+			});
+</pre>
+					</div>
+					<div class="nedil_code hide" id="code_3_html_pre">
+						<pre class="brush: html;">		&lt;div id="dial"&gt;
+			&lt;div id="pick1"&gt;&lt;/div&gt;
+		&lt;/div&gt;</pre>
+					</div>
+				
+				</div>					
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/colorpicker_ex3.html" style="height: 400px">
+						</iframe>
+					</div>
+				</div>		
+
+				<span class="oth_head">Example 4</span><div class="codeblock" id="code_4">
+					<span class="tabtitle" id="code_4_js">JS</span>
+					<span class="tabtitle" id="code_4_html">HTML</span>
+					<div class="nedil_code" id="code_4_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {		
+
+				var pick1;
+					
+				pick1 = $.get("#pick1").widget("colorpicker", {
+					type : "max",
+					fulldisplay : true,
+					hide : true,
+					def : "#0000ff"
+				});		
+
+				$.get("#sel1").on("click", function() {
+					pick1.show();
+				});				
+				
+				$.get("#sel2").on("click", function() {
+					pick1.hide();
+				});
+				
+				$.get("#sel3").on("click", function() {
+					alert(pick1.getColor());
+				});				
+		
+			});
+			</pre>
+					</div>
+					<div class="nedil_code hide" id="code_4_html_pre">
+						<pre class="brush: html;">		&lt;h4&gt;Show and Hide Functions&lt;/h4&gt;
+		&lt;input type="button" value="Show" id="sel1" /&gt;
+		&lt;input type="button" value="Hide" id="sel2" /&gt;
+		&lt;input type="button" value="Get Color" id="sel3" /&gt;
+		
+		&lt;h4&gt;Color Picker&lt;/h4&gt;
+		&lt;div id="pick1"&gt;&lt;/div&gt;		</div>
+				</div>		
+				
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/colorpicker_ex4.html" style="height: 300px">
+						</iframe>
+					</div>
+				</div>						
+		
+			</div>
+		</td></tr>	
+		<tr><td style="height:100px;">
+		<div id="extra_panel" style="display:inline-block; margin:0px; margin-left:4px; margin-bottom:4px; padding : 2px; width: 260px;">
+		<span>
+			<a id="fbshare" href="" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/fb.png" alt="Facebook Share"/>
+			</a>
+			<a id="twshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/twit.png" alt="Twitter Share"/>
+			</a>
+			<a id="gpshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/gp.png" alt="Google Plus Share" />
+			</a>	
+			<a id="linshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/lin.png" alt="LinkedIn Share"/>
+			</a>
+		</span>		
+		</div>	
+		</td></tr>
+		</table>
+	</div>
+	
+	<div id="footer">
+		<a href="../../index.html">Home</a> | 
+		<a href="installation.html">Documentation</a> | 
+		<a href="../../download.html">Download</a> | 
+		<a href="aboutdefaultwidgets1.html">Demo</a> | 
+		<a href="../../about.html">About</a> | 
+		<a href="../../contact.php">Contact Me</a> | 
+		<a href="../../contact.php">Report a Bug</a> 
+		<br/>
+		<span>NedilJS has been released under <a id="op_license" class="highlight">MIT license</a></span>
+	</div>
+</div>
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52388639-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

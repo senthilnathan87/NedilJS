@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<title>Table like Data Storage - Nedil JS</title>
+	<meta name="description" content="Nedil JS - How to use Table like data storage method in NedilJS" />
+	<meta name="keywords" content="NedilJS,Nedil,Nedil JS, JavaScript Framework,APIs,AJAX,CSS Selectors,DOM Manipulation,Data Structures,Animation,Animate,CSS,Style,Widgets,Web Applications,"table" />
+	<meta property="og:title" content="Nedil JS - Table like Data Storage" />
+	<meta property="og:description" content="Nedil JS - How to use Table like data storage method in NedilJS" />
+
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<link rel="author" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>	
+	<link rel="publisher" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>		
+	<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />	
+	<meta property="og:image" content="http://nediljs.com/images/NedilJS-logo-small.png"/>
+	
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shCore.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shThemeRDark.css" />
+	
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shCore.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushXml.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushPhp.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushJScript.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushCss.js"></script>
+	
+	<script type="text/javascript" src="../../js/lib/Nedil.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-common.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-documentation.css" />
+
+	<script type="text/javascript" src="../../js/site/nedil-site-common.js"></script>	
+	<script type="text/javascript" src="../../js/site/nedil-site-documentation.js"></script>		
+	
+	<script type="text/javascript">
+		SyntaxHighlighter.defaults['toolbar'] = false;
+      	SyntaxHighlighter.all();	
+	</script>
+	<script type="text/javascript">
+</script>		
+</head>
+<body>
+
+<div id="site">
+	<div id="header">
+		<table cellpadding="0" cellspacing="0" width="100%">
+		<tr><td>
+		<div id="Nedil_JS_logo">
+			<a href="../../index.html"><img src="../../images/NedilJS-logo-small.png" alt="Nedil JS, A Simple and Complete JavaScript Framework" align="top"/></a>
+		</div>
+		</td><td>
+		<div id="menus">
+			<a href="installation.html"><span class="menu">Documentation</span></a>
+			<a href="../../download.html"><span class="menu">Download</span></a>
+			<a href="aboutdefaultwidgets1.html"><span class="menu">Demo</span></a>		
+			<a href="../../about.html"><span class="menu">About</span></a>
+			<a href="../../contact.php"><span class="menu">Contact</span></a>
+		</div>
+		
+		</td></tr></table>
+	</div>
+	<div id="content">
+		<table cellpadding="0" cellspacing="0" style="width:100%">
+		<tr>
+		<td style="width: 250px; min-width:250px; vertical-align: top">
+			<div class="side_menus">
+				<div class="head">
+					<span  class="main" id="main_1">Installation<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_1">
+						<a href="installation.html">Installation</a>
+						<a href="domloaded.html">$.domLoaded()</a>	
+					</div>
+				</div>
+				<div class="head" >
+					<span class="main" id="main_2">CSS Selectors<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_2">
+						<a href="get.html">$.get()</a>
+						<a href="nedilobjects.html">Nedil Objects ($.Objs)</a>
+						<a href="generalselector.html">General Selectors</a>
+						<a href="attributeselector.html">Attribute Selectors</a>
+						<a href="childselector.html">Child Selectors</a>
+						<a href="siblingselector.html">Sibling Selectors</a>
+					</div>
+				</div>		
+				<div class="head">
+					<span class="main" id="main_3">Event Handling<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_3">
+						<a href="onevent.html">on()</a>
+						<a href="offevent.html">off()</a>
+						<a href="triggerevent.html">trigger()</a>
+						<a href="self.html">$.self()</a>
+						<a href="currentevent.html">$.currentEvent</a>
+						<a href="commonevents.html">Events</a>
+					</div>
+				</div>
+				<div class="head">
+					<span class="main" id="main_4">DOM Manipulation<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_4">
+						<a href="twowaydom.html">Common - Two ways of Usage</a>	
+						<a href="addchild.html">addChild()</a>	
+						<a href="addparent.html">addParent()</a>	
+						<a href="wrapchildren.html">wrapChildren()</a>	
+						<a href="removechild.html">removeChild()</a>	
+						<a href="getchildren.html">getChildren()</a>	
+						<a href="ischild.html">isChild()</a>	
+						<a href="isparent.html">isParent()</a>							
+						<a href="nextsibling.html">nextSibling()</a>	
+						<a href="previoussibling.html">previousSibling()</a>	
+						<a href="issibling.html">isSibling()</a>	
+						<a href="childindex.html">childIndex()</a>	
+					</div>
+				</div>	
+				<div class="head">
+					<span class="main" id="main_5">Utilities<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_5">
+						<a href="foreach.html">forEach()</a>	
+						<a href="html.html">html()</a>
+						<a href="text.html">text()</a>	
+						<a href="pos.html">pos()</a>	
+						<a href="posabs.html">posAbs()</a>
+						<a href="dim.html">dim()</a>	
+						<a href="mouse.html">mouse()</a>	
+						<a href="mouseabs.html">mouseAbs()</a>	
+						<a href="style.html">style()</a>	
+						<a href="css.html">css()</a>							
+						<a href="hascssclass.html">hasCSSClass()</a>	
+						<a href="selection.html">selection()</a>
+						<a href="converhexrgb.html">convertHexRGB()</a>	
+						<a href="clonejson.html">cloneJSON()</a>	
+					</div>
+				</div>					
+				<div class="head">
+					<span class="main" id="main_6">Data Structures<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_6">
+						<a href="stack.html">Stack</a>	
+						<a href="queue.html">Queue</a>	
+						<a href="table.html" class="selected">Table</a>							
+					</div>
+				</div>	
+				<div class="head">
+					<span class="main" id="main_7">AJAX APIs<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_7">
+						<a href="ajaxrequest.html">AJAX Request</a>				
+						<a href="load.html">load()</a>				
+						<a href="ajaxsubmit.html">ajaxSubmit()</a>				
+						<a href="tojson.html">toJSON()</a>						
+					</div>
+				</div>	
+				<div class="head">
+					<span class="main" id="main_8">Animation APIs<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_8">
+						<a href="animationparams.html">Animation Parameters</a>				
+						<a href="locationanimation.html">Location Animation</a>				
+						<a href="dimensionanimation.html">Dimension Animation</a>				
+						<a href="coloranimation.html">Color Animation</a>				
+						<a href="cssanimation.html">CSS Animation</a>				
+						<a href="pathsandeasing.html">Paths and Easing</a>				
+					</div>
+				</div>	
+				<div class="head">
+					<span class="main" id="main_9">Widgets Creation<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_9">
+						<a href="howtocreateawidget.html">How to create a widget ? </a>				
+						<a href="aboutdefaultwidgets.html">About Default Widgets</a>				
+					</div>
+				</div>					
+			</div>
+		</td>
+		<td style="vertical-align: top; " rowspan="2">
+			<div class="main_doc">
+		
+				<div class="head_doc">$.Data.Table( table_structure_json ) - Class </div>		
+				<div class="explanation">
+					$.Data.Table() allows a Database Table like storage in client (browser) side and it's benefits. This Table functionality has APIs like insert, update, select and remove which are similar to a database table operations. It brings few important features of a Database Table. <br/><br/>
+					$.Data.Table() uses Arrays and JSON formats for data storage. NedilJS internally uses $.Data.Table() for event handling. All Nedil Tables will have and "id" column which will be auto incremented for every insert. This data structure is not suitable for heavy data management and is temporary which will be lost once the page is closed.<br/>
+				</div>	
+
+				<div class="field_explain">
+					<span class="field_head">Parameters</span>
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Name</th><th>Type</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">table_structure_json</td><td>JSON</td><td>This JSON lists the fields / columns in $.Data.Table(). All field name should be empty arrays<br/>
+						Eg: var tab = new $.Data.Table( {name:[], age:[], salary:[]} );</td></tr>
+					</table>			
+				</div>		
+
+				<div class="field_explain">
+					<span class="field_head">Returns</span>
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Type</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">Object of $.Data.Table()</td><td>Returns the $.Data.Table() object's reference, methods can be invoked using this reference.</td></tr>
+					</table>			
+				</div>					
+								
+				<span class="oth_head">Example</span>		
+				<div class="explanation">
+					Create a Table with fields 'name', 'age' and 'salary'
+				</div>				
+				<div class="codeblock" id="code_1">
+					<span class="tabtitle" id="code_1_js">JS</span>
+					<div class="nedil_code" id="code_1_js_pre">
+						<pre class="brush: js; highlight: [4]">
+		$.domLoaded(function() {
+		
+			//Create a Table object with name, age and Salary columns
+			var tab =  new Nedil.Data.Table({name:[], age:[], salary:[]});
+			
+		});						
+						</pre>
+					</div>
+				</div>
+					
+					
+				<div class="head_doc">.insert( insert_values_json ) </div>		
+				<div class="explanation">
+					insert() is similar to Database tables insert statement. It inserts new record into Nedil Table structure and returns id of new inserted record.
+				</div>	
+
+				<div class="field_explain">
+					<span class="field_head">Parameters</span>
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Name</th><th>Type</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">insert_values_json</td><td>JSON</td><td>This JSON lists the columns and corresponding values which need to be inserted<br/>
+						Eg: tab.insert({name : "Senthil" , age : 24, salary : 2000});</td></tr>
+					</table>			
+				</div>		
+
+				<div class="field_explain">
+					<span class="field_head">Returns</span>
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Type</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">New Record ID - Number</td><td>Returns "id" of newly inserted record.</td></tr>
+					</table>			
+				</div>					
+								
+				<span class="oth_head">Example</span>		
+				<div class="explanation">
+					Insert two records in Nedil Table.
+				</div>				
+				<div class="codeblock" id="code_2">
+					<span class="tabtitle" id="code_2_js">JS</span>
+					<div class="nedil_code" id="code_2_js_pre">
+						<pre class="brush: js; highlight: [7,8]">
+		$.domLoaded(function() {
+		
+			//Create a Table object with name, age and Salary columns
+			var tab =  new Nedil.Data.Table({name:[], age:[], salary:[]});
+			
+			//Insert records into the table
+			tab.insert({name : "Senthil" , age : 24, salary : 2000});
+			tab.insert({name : "Ganesh" , age : 27, salary : 3000});
+			
+		});						
+						</pre>
+					</div>
+				</div>
+					
+
+				<div class="head_doc">.update( set_values_json , where_cond_json ) </div>		
+				<div class="explanation">
+					update() is similar to Database tables update statement. It sets values provided by first parameter to all records which match the where condition provided as second parameter. It returns number of records updated.
+				</div>	
+
+				<div class="field_explain">
+					<span class="field_head">Parameters</span>
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Name</th><th>Type</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">set_values_json</td><td>JSON</td><td>This JSON lists the columns which need to be updated with new update values</td></tr>
+						<tr class="tab_even"><td class="high">where_cond_json</td><td>JSON</td><td>This JSON lists the columns and matching values to select matching records, use "*" for all records</td></tr>
+						
+					</table>			
+				</div>		
+
+				<div class="field_explain">
+					<span class="field_head">Returns</span>
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Type</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">Number</td><td>Returns number of records updated</td></tr>
+					</table>			
+				</div>					
+								
+				<span class="oth_head">Example</span>		
+				<div class="explanation">
+					Update few records with condtions.
+				</div>				
+				<div class="codeblock" id="code_3">
+					<span class="tabtitle" id="code_3_js">JS</span>
+					<div class="nedil_code" id="code_3_js_pre">
+						<pre class="brush: js; highlight: [11, 14, 17, 20, 23]">
+		$.domLoaded(function() {
+		
+			//Create a Table object with name, age and Salary columns
+			var tab =  new Nedil.Data.Table({name:[], age:[], salary:[]});
+			
+			//Insert records into the table
+			tab.insert({name : "Senthil" , age : 24, salary : 2000});
+			tab.insert({name : "Ganesh" , age : 27, salary : 3000});
+			
+			//To update all reocords with salary 3000, use condition as "*"
+			var rec = tab.update({salary : 3000}, "*");
+
+			//To update reocords with salary 3000 only for name = "Senthil" condition
+			var rec = tab.update({salary : 3000}, {name : "Senthil"});
+			
+			//Multiple Cond - Set salary=3000 for records with name="Senthil" & age=24
+			var rec = tab.update({salary : 3000}, {name : "Senthil", age : 24});
+			
+			//Multiple values - Set age=24 & salary=3000 for records with name="Senthil"
+			var rec = tab.update({age : 24, salary : 3000}, {name : "Senthil"});
+
+			//Multiple values & Multiple Conditions
+			var rec = tab.update({age : 25, salary : 3000}, {name : "Senthil", age : 24});
+			
+		});						
+						</pre>
+					</div>
+				</div>
+		
+
+				<div class="head_doc">.remove( where_cond_json ) </div>		
+				<div class="explanation">
+					remove() is similar to Database tables delete statement. It deletes records from Nedil Table and returns number of records deleted. Where condition can be provided as parameter.
+				</div>	
+
+				<div class="field_explain">
+					<span class="field_head">Parameters</span>
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Name</th><th>Type</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">where_cond_json</td><td>JSON</td><td>This JSON lists the columns and matching values to select matching records, use "*" for all records</td></tr>
+						
+					</table>			
+				</div>		
+
+				<div class="field_explain">
+					<span class="field_head">Returns</span>
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Type</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">Number</td><td>Returns number of records deleted</td></tr>
+					</table>			
+				</div>					
+								
+				<span class="oth_head">Example</span>		
+				<div class="explanation">
+					Delete few records with condtions.
+				</div>				
+				<div class="codeblock" id="code_4">
+					<span class="tabtitle" id="code_4_js">JS</span>
+					<div class="nedil_code" id="code_4_js_pre">
+						<pre class="brush: js; highlight: [11, 14, 17]">
+		$.domLoaded(function() {
+		
+			//Create a Table object with name, age and Salary columns
+			var tab =  new Nedil.Data.Table({name:[], age:[], salary:[]});
+			
+			//Insert records into the table
+			tab.insert({name : "Senthil" , age : 24, salary : 2000});
+			tab.insert({name : "Ganesh" , age : 27, salary : 3000});
+
+			//To delete record with name = "Senthil" condition
+			var rec = tab.remove({name : "Senthil"});
+			
+			//Multiple Conditions
+			var rec = tab.remove({name : "Senthil", age : 24});
+
+			//To delete all reocords, use condition as "*"
+			var rec = tab.remove("*");
+
+		});						
+						</pre>
+					</div>
+				</div>		
+					
+					
+				<div class="head_doc">.select( column_name_array, where_cond_json ) </div>		
+				<div class="explanation">
+					select() is similar to Database tables select statement. It fetches records from Nedil Table and returns result set as an Array of Rows object. Selection can be limited using where condition.
+				</div>	
+
+				<div class="field_explain">
+					<span class="field_head">Parameters</span>
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Name</th><th>Type</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">column_name_array</td><td>Array</td><td>Array of column names which should be selected</td></tr>						
+						<tr class="tab_even"><td class="high">where_cond_json</td><td>JSON</td><td>This JSON lists the columns and matching values to select matching records, use "*" for all records</td></tr>
+						
+					</table>			
+				</div>		
+
+				<div class="field_explain">
+					<span class="field_head">Returns</span>
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Type</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">Record Set - Array of Rows</td><td>Returns array of Rows object through which individual values can be retrieved.</td></tr>
+					</table>			
+				</div>	
+
+				<div class="field_explain">
+					<span class="field_head">Rows - Methods</span>
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>method</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">getValue( column_name )</td><td>This function is applied to Rows object. It takes column name as input parameter and returns the value of corresponding column for a particular record.</td></tr>
+					</table>			
+				</div>					
+								
+				<span class="oth_head">Example</span>		
+				<div class="explanation">
+					Select records using .select() function and iterate over the result set to get individual records and values.
+				</div>				
+				<div class="codeblock" id="code_5">
+					<span class="tabtitle" id="code_5_js">JS</span>
+					<div class="nedil_code" id="code_5_js_pre">
+						<pre class="brush: js; highlight: [11, 14, 17, 23, 25]">
+		$.domLoaded(function() {
+		
+			//Create a Table object with name, age and Salary columns
+			var tab =  new Nedil.Data.Table({name:[], age:[], salary:[]});
+			
+			//Insert records into the table
+			tab.insert({name : "Senthil" , age : 24, salary : 2000});
+			tab.insert({name : "Ganesh" , age : 27, salary : 3000});
+
+			//To select all records
+			var rs = tab.select("*", "*");
+			
+			//With conditions
+			var rs = tab.select("*", {name : "Senthil", age : 24});
+			
+			//Restrict columns - Fetch only 'name' and 'age'
+			var rs = tab.select(["name", "age"], "*");
+			
+			//Iterate result set and get values
+			for(var i = 0, len = rs.length; i < len; i++) {
+				
+				//Get name, rs[] is array of Rows object
+				var n = rs[0].getValue("name");
+				//Get age
+				var a = rs[0].getValue("age");
+				
+			}
+
+		});						
+						</pre>
+					</div>
+				</div>
+				
+				
+				<span class="oth_head">Example</span>		
+				<div class="explanation">
+					Let's put all together and try few opertations like insert, remove, update and select in Nedil.Data.Table()
+				</div>				
+				<div class="codeblock" id="code_6">
+					<span class="tabtitle" id="code_6_js">JS</span>
+					<span class="tabtitle" id="code_6_html">HTML</span>
+					<span class="tabtitle" id="code_6_css">CSS</span>
+					<div class="nedil_code" id="code_6_js_pre">
+						<pre class="brush: js;">
+		$.domLoaded(function() {
+		
+			// create table structure
+			var tab =  new Nedil.Data.Table({name:[], age:[], salary:[]});
+			
+			// insert few records
+			tab.insert({name : "Senthil" , age : 24, salary : 2000});
+			tab.insert({name : "Ganesh" , age : 27, salary : 3000});
+			tab.insert({name : "Shane" , age : 24, salary : 1000});
+			
+			
+			
+			function showView () {
+			
+				// get all records 
+				var rs = tab.select("*", "*");
+				$.get("#emp").html("");
+				
+				for(var i = 0, len = rs.length; i < len; i++ ) {
+					var tr = $.get("#emp").addChild("tr");
+					
+					// individual value and display
+					tr.addChild("td", { "text" : rs[i].getValue("id")});
+					tr.addChild("td", { "text" : rs[i].getValue("name")});
+					tr.addChild("td", { "text" : rs[i].getValue("age")});
+					tr.addChild("td", { "text" : rs[i].getValue("salary")});
+					
+					// individual delete button
+					var del = tr.addChild("td").addChild("input", { "type" : "button", "value" : "Delete" });
+					(function() {
+						var id = rs[i].getValue("id");
+						del.on("click", function() {
+							var rec = tab.remove({id : id});
+							showView();
+							alert("Deleted " + rec + " records");
+						});
+					})();
+					
+				}
+			}
+			
+			$.get("#add").on("click", function() {
+				var nam = $.get("#nam").element().value;
+				var ag = parseInt($.get("#ag").element().value);
+				var sal = parseInt($.get("#sal").element().value);
+				
+				// insert new values
+				tab.insert({ name : nam, age : ag, salary : sal});
+				showView();
+				
+				$.get("#nam").element().value = "";
+				$.get("#ag").element().value = "";
+				$.get("#sal").element().value = "";		
+
+				alert("New record is inserted");				
+			});
+			
+			$.get("#upd1").on("click", function() {
+			
+				// update a record
+				var rec = tab.update({ name : "Senthilnathan" }, { name : "Senthil"});
+				showView();
+				alert("Updated " + rec + " records");
+			});
+			
+			$.get("#upd2").on("click", function() {
+			
+				// update a record
+				var rec = tab.update({ salary : 3000 }, { age : 24 });
+				showView();
+				alert("Updated " + rec + " records");
+			});			
+			
+			$.get("#del").on("click", function() {
+			
+				// remove a record
+				var rec = tab.remove({age : 24});
+				showView();
+				alert("Deleted " + rec + " records");
+			})
+			
+			showView();
+
+		});									</pre>
+					</div>
+					
+					<div class="nedil_code hide" id="code_6_html_pre">
+					<pre class="brush: html;">&lt;body&gt;
+	
+	Insert&lt;br/&gt;
+	Name : &lt;input type="text" id="nam" /&gt; 
+	Age : &lt;input type="text" id="ag" style="width : 50px" /&gt; 
+	Salary : &lt;input type="text" id="sal" /&gt; 
+	&lt;input type="button" id="add" value="Add" /&gt; 
+	
+	Update&lt;br/&gt;
+	&lt;input type="button" id="upd1" value="Set name to 'Senthilnathan' for record with name 'Senthil'" /&gt; 
+	&lt;input type="button" id="upd2" value="Set salary to 3000 for record with age '24'" /&gt; 
+
+	Remove&lt;br/&gt;
+	&lt;input type="button" id="del" value="Delete records with age = 24" /&gt; 
+	
+	Table&lt;br /&gt;
+	&lt;table id="emp"&gt;
+	&lt;/table&gt;
+	
+&lt;/body&gt;					
+					</pre>
+					</div>		
+
+
+					<div class="nedil_code hide" id="code_6_css_pre">
+					<pre class="brush: css;">	table {
+		border-collapse: collapse;
+	}
+	
+	table td {
+		padding : 5px;
+		border : 1px solid #000;
+	}
+	
+	#queue {
+		border : 1px solid #555;
+		padding : 5px;
+	}</pre>
+					</div>						
+				</div>	
+
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/ds/table_ex1.html" style="height: 430px">
+						</iframe>
+					</div>
+				</div>						
+				
+										
+			</div>
+		</td></tr>	
+		<tr><td style="height:100px;">
+		<div id="extra_panel" style="display:inline-block; margin:0px; margin-left:4px; margin-bottom:4px; padding : 2px; width: 260px;">
+		<span>
+			<a id="fbshare" href="" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/fb.png" alt="Facebook Share"/>
+			</a>
+			<a id="twshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/twit.png" alt="Twitter Share"/>
+			</a>
+			<a id="gpshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/gp.png" alt="Google Plus Share" />
+			</a>	
+			<a id="linshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/lin.png" alt="LinkedIn Share"/>
+			</a>
+		</span>		
+		</div>	
+		</td></tr>
+		</table>
+	</div>
+	
+	<div id="footer">
+		<a href="../../index.html">Home</a> | 
+		<a href="installation.html">Documentation</a> | 
+		<a href="../../download.html">Download</a> | 
+		<a href="aboutdefaultwidgets1.html">Demo</a> | 
+		<a href="../../about.html">About</a> | 
+		<a href="../../contact.php">Contact Me</a> | 
+		<a href="../../contact.php">Report a Bug</a> 
+		<br/>
+		<span>NedilJS has been released under <a id="op_license" class="highlight">MIT license</a></span>
+	</div>
+</div>
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52388639-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

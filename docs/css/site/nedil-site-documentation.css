@@ -1,0 +1,204 @@
+
+.side_menus div.head {
+	width : 100%;
+	height : 100%;
+	overflow : hidden;
+	margin : 10px;
+	font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+	border-radius: 6px;
+	box-shadow: 1px 1px 20px 2px rgba(0,0,0,1);
+}
+
+.side_menus .main {
+	display : inline-block;
+	width : 100%;
+	background: url('../../images/down_back.png') repeat-x #16789c;
+	color : #fff;
+	padding : 10px;
+	cursor : pointer;
+	text-shadow : black 0.1em 0.1em 0.1em;
+	font-size : 17px;
+}
+
+.sub {
+	height : 0px;
+}
+
+.side_menus .main:hover {
+	background-color: #045679;
+}
+
+.side_menus div a {
+	text-decoration : none;
+	display : inline-block;
+	width : 100%;
+	background-color: #ddd;
+	color : #555;
+	font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+	font-size : 13px;	
+	font-weight : bold;
+	padding : 5px;
+	padding-left: 20px;
+	cursor : pointer;
+	border-bottom : 1px solid #444;
+}
+
+.side_menus div a:hover {
+	background-color: #fff;
+}
+
+.side_menus div .selected {
+	background-color: #fff;
+}
+
+.arrow {
+	display : inline-block;
+	width : 20px;
+	height : 20px;
+	float : right;
+	margin-right : 20px;
+	background-image: url('../../images/arrow.png');
+	opacity : 0.7;
+}
+
+.down {
+	background-image: url('../../images/arrow_down.png');
+}
+
+.main_doc {
+	min-height : 300px;
+	background-color : #eee;
+	margin : 10px;
+	margin-left : 20px;
+	max-width : 860px;
+	border-radius : 10px;
+	border : 1px solid #000;
+	box-shadow: 1px 1px 20px 2px rgba(0,0,0,1);
+	font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+
+}
+
+.codeblock, .resultblock  {
+	padding : 10px;
+	max-width : 830px;
+	overflow-y : auto;
+}
+
+.tabtitle, .resulttitle{
+	display: inline-block;
+	padding : 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border : 1px solid #555;
+	border-bottom-width: 0px;
+	font-size: 12px;
+	cursor : pointer;
+	background-color:#fff;
+}
+
+.nedil_result {
+	min-height: 200px;
+	border: 1px solid #555;
+	background-color:#fff;
+}
+
+.nedil_result iframe {
+	border-width : 0px;
+	outline : none;
+	width : 100%;
+	height : 200px;
+}
+
+.tabtitle:hover {
+	background-color:#ddf;
+}
+
+.tabtitle_sel {
+	background-color:#ddf;
+	font-weight : bold;
+}
+
+.nedil_code {
+	margin-top : -18px;
+}
+
+.head_doc {
+	margin : 10px;
+	background: url('../../images/down_back.png') repeat-x #550;
+	/*background: url('../../images/down_back.png') repeat-x #234E9D;*/
+	padding : 10px;
+	color: #fff;
+	font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+	font-size: 15px;
+	letter-spacing : 1px;
+	border-radius : 5px;
+	text-shadow : black 0.1em 0.1em 0.1em;
+}
+
+.field_explain {
+	margin : 10px;
+}
+
+.field_explain .field_head, .oth_head {
+	display : inline-block;
+	margin-bottom : 10px;
+	color : #555;
+	font-weight : bold;
+	font-size : 14px;
+}
+
+.oth_head {
+	margin : 10px;
+}
+
+.field_explain table {
+	width : 100%;
+	border : 1px solid #999;
+}
+
+.field_explain tr.tab_head {
+	background: url('../../images/down_back.png') repeat-x #702A00;
+}
+
+.field_explain tr.tab_odd{
+	background-color : #fff;
+}
+
+.field_explain tr.tab_even{
+	background-color : #E4E3CD;
+}
+
+.field_explain th {
+	color : #fff;
+	font-weight : normal;
+	font-size : 12px;
+	padding : 5px;
+	text-align: left;
+}
+
+.field_explain td {
+	color : #555;
+	font-size : 12px;
+	padding : 5px;
+	vertical-align : top;
+}
+
+.field_explain td.high {
+	font-weight :bold;
+}
+
+.explanation {
+	color: #444;
+	font-size : 13px;
+	line-height : 20px;
+	margin : 15px;
+	margin-top : 5px;
+	text-align : justify;
+	/*margin-top : 20px;
+	margin-bottom : 20px;*/
+}
+
+.hide {
+	display : none;
+}
+

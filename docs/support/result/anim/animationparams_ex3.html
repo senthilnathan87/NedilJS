@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation Parameters  - Example 3 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	#box {
+		background-color : yellowgreen;
+		width : 50px;
+		height : 50px;
+	}
+	</style>
+	 
+	<script type="text/javascript">
+	
+		$.domLoaded(function() {
+		
+			$.get("#ani").on("click", function() {
+				$.get("#box").animate({
+					to : { x : 200 },
+					anim : "Location.smooth.return",
+					repeat : 3,
+					duration : 2000
+				});
+				
+				$.self().element().disabled = true;
+			});
+			
+			$.get("#reset").on("click", function() {							
+				window.location.reload();
+			});			
+
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	<div id="box"></div>
+	
+	<br/>
+	<input type="button" id="ani" value="Animate" /> 
+	<br/>
+	<input type="button" id="reset" value="Reset" /> 
+	
+</body>
+
+
+</html>

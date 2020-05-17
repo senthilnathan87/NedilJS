@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Menu | Ex 1 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+			var men;
+			$.domLoaded( function() {
+			
+				$.get("#dial").widget("dialog", {
+					head : {
+						title : "Dialog with Menus"
+					},
+					dim : { wid : 500, ht : 300},
+					draggable : true,
+					maximize : "document",
+					close : true
+				});			
+
+				men = $.get("#parent1").widget("menu");	
+				
+
+
+			});
+			
+
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+			
+			h4 span {
+				font-size:10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div id="dial">
+			<div id="parent1"> 
+				<div class="menubar">File
+					<div class="menu">Open</div>
+					<div class="menu">Secondary Menu 
+						<div class="menu">Sub Menu 1</div>
+						<div class="menu">Secondary Menu 
+							<div class="menu">Sub Menu 1</div>
+							<div class="menu">Sub Menu 2</div>
+						</div>
+					</div>
+					<div class="menu">Secondary Menu
+						<div class="menu">Sub Menu 1</div>
+						<div class="menu">Sub Menu 2</div>
+					</div>				
+					<div class="menu">Exit</div>
+				</div>
+				<div class="menubar" id="fail">Edit
+					<div class="menu">Open</div>
+					<div class="menu">Secondary Menu
+						<div class="menu">Sub Menu 1</div>
+						<div class="menu">Sub Menu 2</div>
+					</div>				
+					<div class="menu">Exit</div>
+				</div>			
+				<div class="menubar">Help</div>
+			</div>
+		</div>
+	</body>	
+</html>

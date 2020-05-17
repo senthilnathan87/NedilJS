@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Dialog | Ex 7 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+			$.domLoaded( function() {
+
+				
+				$.get("#dial1").widget("dialog", {
+					head : { 
+							title : "Modal Dialog"
+						},
+					dim : { wid : 300, ht : 200},
+					pos : { x : 250, y : 50},
+					resizable : true,
+					draggable : true,
+					close : true,
+					modal : true		
+				});			
+				
+				// NOT NEEDED		
+				$.get("#reset").on("click", function() {							
+					window.location.reload();
+				});				
+
+			});			
+		</script>		
+
+		<style type="text/css">
+
+		</style>
+
+	</head>
+
+	<body>
+	
+
+		<div id="dial1"></div>
+		
+		<input type="button" value="Reset" id="reset" />
+
+	</body>	
+</html>

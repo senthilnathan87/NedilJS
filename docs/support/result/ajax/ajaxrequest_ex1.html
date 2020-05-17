@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX Request  - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+		#result {
+			display : inline-block;
+			width : 200px;
+			height : 100px;
+			border : 2px solid #000;
+			padding : 10px;
+		}
+		
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+
+			$.get("#ajax1").on("click", function() {
+			
+				$.Ajax({ url : "../../ajax/AjaxServer.php"}).send({
+					data : { name : "Senthil", age : 24, example : "1" },
+					success : function(res) {
+						$.get("#result").html(res);
+					},
+					fail : function() {
+						$.get("#result").html("Some error has occured");
+					}
+				});
+				
+			});
+			
+		});	
+	</script>
+</head>
+
+<body>
+name = Senthil and age = 24 <input type="button" id="ajax1" value="Send Data" />
+
+<br/><br/>
+Text Response Message from Server<br/>
+<div id="result">
+</div>
+
+</body>
+
+
+</html>

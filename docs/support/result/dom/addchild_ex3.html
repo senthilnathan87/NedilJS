@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>addChild  - Example 3 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+		div {
+			width : 50px;
+			height : 30px;
+			margin : 5px;
+			padding : 10px;
+			background-color : yellowgreen;
+		}
+		
+		#parent {
+			display : inline-block;
+			width : 100px;
+			height : 300px;
+			background-color : #fff;
+			border : 2px solid red;
+			padding : 10px;
+		}
+		
+		.diff {
+			background-color : #aaf;
+		}
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+
+			$.get("#add1").on("click", function() {
+			
+				//add a div child to #parent at 2nd position
+				$.get("#parent").addChild("div", 1);
+				
+			});
+			
+			$.get("#add2").on("click", function() {
+			
+				//add a div child to #parent at 3rd position with properties
+				$.get("#parent").addChild("div", {
+					"text" : "New Child",
+					"class" : "diff"
+				}, 2);
+				
+			});			
+			
+		});	
+	</script>
+</head>
+
+<body>
+<div id="parent"> 
+	<div> child 1 </div>
+	<div> child 2 </div>
+	<div> child 3 </div>
+</div>
+<br/>
+<input type="button" id="add1" value="Add Child at 2nd Position" />
+<input type="button" id="add2" value="Add Child at 3rd Pos with Class & Text" />
+
+</body>
+
+
+</html>

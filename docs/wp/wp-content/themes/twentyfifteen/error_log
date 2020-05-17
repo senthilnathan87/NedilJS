@@ -1,0 +1,4 @@
+[10-Dec-2019 04:59:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/nediljsc/public_html/wp/wp-content/themes/twentyfifteen/functions.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/nediljsc/public_html/wp/wp-content/themes/twentyfifteen/functions.php on line 41

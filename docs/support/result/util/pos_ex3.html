@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pos  - Example 3 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	div {
+		display : inline-block;
+		padding : 10px;
+		margin : 5px;
+	}
+	
+	#box {
+		width : 50px;
+		height : 50px;
+		border : 2px solid red;
+	}
+	
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+			
+			$.get("#btn1").on("click", function() {
+				$.get("#box").pos({ x : "+50"});
+			});
+			
+		});						
+			
+	</script>
+</head>
+
+<body>
+
+	<div id="box">Box 1</div>
+	
+	<br/>
+	
+	<input type="button" id="btn1" value="Increase Horizontal position by 50" />
+
+</body>
+
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Panel | Ex2 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+			$.domLoaded( function() {			
+				
+				$.get("#pan1").widget("panel", {
+					layout : "vertical",
+					dim : { wid : 200, ht : 200},
+					pos : { x : 0 , y : 100 }
+				});	
+
+				$.get("#pan2").widget("panel", {
+					layout: "horizontal",
+					dim : { wid : 200, ht : 200},
+					pos : { x : 300 , y : 0 }
+				});	
+								
+			});
+			
+		</script>		
+
+		<style type="text/css">
+
+		</style>
+
+	</head>
+
+	<body>
+			
+		<div id="pan1">Panel1</div>
+		<div id="pan2">Panel2</div>
+		
+	</body>	
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Progress Bar | Ex 1 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+			var pr1;
+			$.domLoaded( function() {
+			
+				
+				$.get("#btn1").on("click", function() {
+					pr1.set(parseInt($.get("#val").element().value));
+				});				
+				
+				$.get("#btn2").on("click", function() {
+					pr1.incr(5);
+				});		
+				
+				$.get("#btn3").on("click",function() {
+					pr1.decr(5);				
+				});
+
+				pr1 = $.get("#progr").widget("progressbar", {
+					def : 22,
+					dim : { wid : 150 },
+					showPercent : true
+				});		
+													
+			});
+			
+
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+			
+			h4 span {
+				font-size:10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+	
+		<h4>Progress Bar with Set, Incr and Decr functions</h4>
+		Value 0 - 100 <input type="text" id="val"/>
+		<input type="button" id="btn1" value="Set"/><br/><br/>
+		<input type="button" id="btn2" value="Increase by 5"/>
+		<input type="button" id="btn3" value="Decrease by 5"/>
+		
+		<br/><br/>
+		<div id="progr"></div>
+		
+	</body>	
+</html>

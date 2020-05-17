@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dim  - Example 2 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	div {
+		display : inline-block;
+		padding : 10px;
+		margin : 5px;
+	}
+	
+	#box {
+		width : 100px;
+		height : 100px;
+		border : 2px solid red;
+	}
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+			
+			$.get("#btn1").on("click", function() {			
+				// Set Dimension
+				$.get("#box").dim({wid : 400, ht : 200});				
+			});
+			
+			$.get("#btn2").on("click", function() {			
+				// Set Dimension
+				$.get("#box").dim({wid : 50, ht : 50});			
+			});	
+
+			$.get("#btn3").on("click", function() {			
+				// Set Dimension
+				$.get("#box").dim({wid : 100, ht : 100});			
+			});				
+			
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	<div id="box">Box</div>
+		
+	<br/>
+	
+	<input type="button" id="btn1" value="Set Dimension 400, 200" /> 
+	<input type="button" id="btn2" value="Set Dimension 50,50" /> 
+	<input type="button" id="btn3" value="Reset to 100, 100" /> 
+
+</body>
+
+
+</html>

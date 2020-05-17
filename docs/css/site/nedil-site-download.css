@@ -1,0 +1,50 @@
+.more_pan {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #484;
+	border-radius: 10px;
+	border: 1px solid #242;
+	padding-bottom: 20px;
+	height : 100%;
+}
+
+.dev_pan {
+	background-color: #844;
+}
+
+.share_pan {
+	background-color: #000;
+	width: 50%;
+	height: 100%;
+	padding-bottom: 10px;
+}
+
+.down_btn_all {
+	width : 200px;
+}
+
+.down_sub {
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-size: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #fff;
+}
+
+.down_desc {
+	margin-top: 10px;
+	font-size: 12px;
+	font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+	line-height : 25px;	
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-align: justify;
+	padding: 10px;
+	letter-spacing : 1px;
+}
+
+.tab_head {
+	color: #111;
+	font-weight : bold;
+	text-shadow: none;
+	vertical-align: top;
+}

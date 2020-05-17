@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Calendar | Ex 7 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+
+			$.domLoaded( function() {		
+
+				var cal1, cal2;
+				
+				cal1 = $.get("#cal1").widget("calendar");		
+				
+				cal2 = $.get("#cal2").widget("calendar",{
+					range : true
+				});		
+
+				$.get("#sel1").on("click", function() {
+					alert(cal1.getDate());
+				});
+
+				$.get("#sel2").on("click", function() {
+					alert(cal2.rangeStart());
+				});
+
+				$.get("#sel3").on("click", function() {
+					alert(cal2.rangeEnd());
+				});
+
+				$.get("#sel4").on("click", function() {
+					alert(cal2.noOfSelectedDays());
+				});
+		
+			});
+			
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+			
+			h4 span {
+				font-size:10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<h4>External Functions</h4>
+		<h4>Select Date</h4>
+		<div id="cal1"></div>
+		
+		<input type="button" value="Get Selected Date" id="sel1" />
+		
+		<h4>Select Date Range</h4>
+		<div id="cal2"></div>
+		<input type="button" value="Get Range Begin Date" id="sel2" />
+		<input type="button" value="Get Range End Date" id="sel3" />
+		<input type="button" value="Get No. of days selected" id="sel4" />
+		
+		
+	</body>
+</html>

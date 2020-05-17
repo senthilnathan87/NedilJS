@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Tabs | Ex 2 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+			var tab;
+			$.domLoaded( function() {
+
+				tab = $.get("#parent1").widget("tabs", {
+					tabs : [{ title : "First Tab",  id : "#tab1"},
+							{ title : "Second Tab", id : "#tab2"},
+							{ title : "Third Tab",  id : "#tab3"}],		
+					position : "top",
+					align : "left",
+					dim : { wid : 300, ht : 200},
+					pos : { x : 10, y : 40}
+				});	
+				
+				tab = $.get("#parent2").widget("tabs", {
+					tabs : [{ title : "First Tab",  id : "#tab21"},
+							{ title : "Second Tab", id : "#tab22"},
+							{ title : "Third Tab",  id : "#tab23" }],		
+					position : "top",
+					align : "center",
+					dim : { wid : 300, ht : 200},
+					pos : { x : 350, y : 40}
+				});	
+				
+				tab = $.get("#parent3").widget("tabs", {
+					tabs : [{ title : "First Tab",  id : "#tab31"},
+							{ title : "Second Tab", id : "#tab32"},
+							{ title : "Third Tab",  id : "#tab33" }],		
+					position : "top",
+					align : "right",
+					dim : { wid : 300, ht : 200},
+					pos : { x : 10, y : 250}
+				});	
+
+			});
+			
+
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+				overflow : hidden;
+			}
+			
+			h4 span {
+				font-size:10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+	
+		<h4>Tabs with align "left", "center", "right"</h4>
+		<div id="parent1"> 
+			<div id="tab1">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				<br/><br/>
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			</div>
+			<div id="tab2">
+				Second Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			</div>
+			<div id="tab3">
+				Third Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			</div>
+		</div>
+		
+		<div id="parent2"> 
+			<div id="tab21">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				<br/><br/>
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			</div>
+			<div id="tab22">
+				Second Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			</div>
+			<div id="tab23">
+				Third Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			</div>
+		</div>
+		
+		<div id="parent3"> 
+			<div id="tab31">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				<br/><br/>
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			</div>
+			<div id="tab32">
+				Second Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			</div>
+			<div id="tab33">
+				Third Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			</div>
+		</div>
+		
+		
+	</body>	
+</html>

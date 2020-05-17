@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>style  - Example 2 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	div {
+		display : inline-block;
+		padding : 10px;
+		margin : 5px;
+	}
+	
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+			
+			var box = $.get("#box");
+			
+			$.get("#btn1").on("click", function() {							
+				// Get Background Color
+				box.style("background-color", "yellowgreen");	
+			});
+			
+			$.get("#btn2").on("click", function() {							
+				// Set width and Height
+				box.style("height", "100px");
+				box.style("width", "100px");						
+			});
+			
+			$.get("#btn3").on("click", function() {							
+				// Set Border and Color
+				box.style("border", "10px solid #000");
+				box.style("color", "#fff");	
+			});		
+
+			$.get("#reset").on("click", function() {							
+				window.location.reload();
+			});				
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	<div id="box">Box</div>
+		
+	<br />
+
+	<input type="button" id="btn1" value="Set Background Color" /> 
+	<input type="button" id="btn2" value="Set Width and Height" /> 
+	<input type="button" id="btn3" value="Set Border and Color" /> 
+	
+	<br/>
+	<input type="button" id="reset" value="Reset" /> 
+
+</body>
+
+
+</html>

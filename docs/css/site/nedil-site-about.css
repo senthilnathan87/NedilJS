@@ -1,0 +1,138 @@
+.about_tab {
+	width : 400px;
+}
+
+#roll td {
+	vertical-align: top;
+}
+
+.about_tab div{
+	padding : 20px;
+	-webkit-box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
+	-moz-box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
+	box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	color: #fff; 
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	text-align: center;
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	cursor : pointer;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.about_tab div:hover {
+	background : url('../../images/down_back.png') repeat-x;
+}
+
+.about_tab span{
+	display : inline-block;
+	padding : 20px;
+	background: rgb(0,0,20) url('../../images/down_back.png') repeat-x;
+	-webkit-box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
+	-moz-box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
+	box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
+	border-radius: 20px;
+	color: #fff; 
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	text-align: center;
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	cursor : pointer;
+}
+
+#tab_cont {
+	background: #389abe url('../../images/down_back.png') repeat-x;
+	-webkit-box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
+	-moz-box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
+	box-shadow: 1px 1px 65px 2px rgba(0,0,0,1);
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	color: #fff; 
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	text-align: center;
+	margin-right: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 500px;
+	z-index : 10;
+	position : relative;
+	overflow : hidden;
+}
+
+#tab_cont .content {
+	width : 708px;
+	height : 500px;
+	padding : 20px;
+	font-size: 15px;
+	font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+	line-height : 25px;	
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-align : justify;
+	border : 0px solid red;
+}
+
+#tab1 {
+	background-color: #389abe;
+}
+
+#tab2 {
+	background-color: #fa9300;
+}
+
+#tab3 {
+	background-color: #f87aa0;
+}
+
+#tab4 {
+	background-color: #a8b700;
+}
+
+#tab5 {
+	background-color: #D964FB;
+}
+
+.content ul {
+	list-style : none;
+}
+
+.content a {
+	color : #000;
+	font-weight : bold;
+	text-shadow : none;
+}
+
+.cont_head {
+	font-size : 20px;
+	font-weight : bold;
+	border-bottom : 2px solid #fff;
+	padding-bottom : 10px;
+	margin-bottom : 10px;
+}
+
+.content .highlight {
+	font-weight: bold;
+}
+	
+.tick {
+	background : url('../../images/download_icons/tick.png') no-repeat;
+	width : 24px;
+	height : 24px;
+	display : inline-block;
+	margin-top : 5px;
+	margin-right : 10px;
+}
+
+.about_image {
+	float: right;
+	margin-top : -150px;
+	margin-right : 100px;
+}

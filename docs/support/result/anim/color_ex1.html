@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Animation - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	div {
+		margin : 10px;
+		padding: 5px;
+		background-color : #f00;
+		width : 70px;
+		height : 70px;		
+	}
+	
+	</style>
+	 
+	<script type="text/javascript">
+	
+		$.domLoaded(function() {
+
+			$.get("#ani").on("click", function() {
+				$.get("#box1").animate({
+					to : "#0f0",
+					anim : "Color.smooth.return",
+					prop : "background-color",
+					duration : 3000
+				});	
+				
+				$.self().element().disabled = true;
+			});
+						
+			$.get("#reset").on("click", function() {							
+				window.location.reload();
+			});			
+
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	<input type="button" id="ani" value="Animate" /> 
+	<input type="button" id="reset" value="Reset" /> 
+	<br/>
+	
+	<div id="box1"></div>
+
+</body>
+
+
+</html>

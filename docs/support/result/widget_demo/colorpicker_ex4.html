@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Color Picker | Ex 4 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+
+			$.domLoaded( function() {		
+
+				var pick1;
+					
+				pick1 = $.get("#pick1").widget("colorpicker", {
+					type : "max",
+					fulldisplay : true,
+					hide : true,
+					def : "#0000ff"
+				});		
+
+				$.get("#sel1").on("click", function() {
+					pick1.show();
+				});				
+				
+				$.get("#sel2").on("click", function() {
+					pick1.hide();
+				});
+				
+				$.get("#sel3").on("click", function() {
+					alert(pick1.getColor());
+				});				
+		
+			});
+			
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+			
+			h4 span {
+				font-size:10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<h4>Show and Hide Functions</h4>
+		<input type="button" value="Show" id="sel1" />
+		<input type="button" value="Hide" id="sel2" />
+		<input type="button" value="Get Color" id="sel3" />
+		
+		<h4>Color Picker</h4>
+		<div id="pick1"></div>
+		
+				
+	</body>
+</html>

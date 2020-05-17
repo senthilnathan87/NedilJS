@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation Parameters  - Example 6 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	div {
+		margin : 10px;
+	}
+	
+	#box1 {
+		background-color : yellowgreen;
+		width : 50px;
+		height : 50px;
+	}
+	
+	#box2 {
+		background-color : #faa;
+		width : 70px;
+		height : 70px;
+	}
+	</style>
+	 
+	<script type="text/javascript">
+	
+		$.domLoaded(function() {
+			
+			var an1, an2;
+			$.get("#ani").on("click", function() {
+				an1 = $.get("#box1").animate({
+					to : { x : 200 },
+					anim : "Location.smooth.return",
+					repeat : -1,
+					duration : 2000
+				});
+				
+				an2 = $.get("#box2").animate({
+					to : { x : 400 },
+					anim : "Location.smooth.return",
+					repeat : -1,
+					duration : 5000
+				});				
+				
+				$.self().element().disabled = true;
+			});
+			
+			$.get("#stpall").on("click", function() {
+				$.Animator.stop(an1);
+			});
+			
+			$.get("#reset").on("click", function() {							
+				window.location.reload();
+			});			
+
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	<div id="box1"></div>
+	<div id="box2"></div>
+	
+	<br/>
+	<input type="button" id="ani" value="Animate" /> 
+	<input type="button" id="stpall" value="Stop Animation of Box1" /> 
+	<br/>
+	<input type="button" id="reset" value="Reset" /> 
+	
+</body>
+
+
+</html>

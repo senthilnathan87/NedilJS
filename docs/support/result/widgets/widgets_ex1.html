@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Widgets  - Example 1 - Nedil JS</title>
+	<style type="text/css">
+	.tooltip_box {
+		display : inline-block;
+		position : absolute;
+		padding : 10px;
+		margin : 5px;		
+		border : 1px solid #333;
+		background-color : #ccc;
+		max-width : 200px;
+	}
+	
+	.source {
+		cursor : default;
+		display : inline-block;
+		border: 1px solid red;
+		padding : 10px;
+		margin : 5px;
+	}
+	
+	</style>
+
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="widget_custom.js"></script>
+	
+	<script type="text/javascript">
+		$.domLoaded(function() {
+			
+			// create tooltips for elements with source class
+			var toolTips = $.get(".source").widget("tooltip", { color : "green"});
+			
+			$.get("#dis").on("click", function() {
+				if($.self().element().value == "Disable Tooltip for One") {
+					$.self().element().value = "Enable Tooltip for One";
+					
+					// disable tooltip [0] 
+					toolTips[0].disable();
+				} else {
+					$.self().element().value = "Disable Tooltip for One";
+					
+					// enable tooltip [0] 
+					toolTips[0].enable();
+				}
+			});
+			
+		});							
+	</script>
+</head>
+
+<body>
+
+	<div class="source" nedil-tooltip="A small tooltip">One</div>
+	<div class="source" nedil-tooltip="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">Two</div>
+	
+	<input type="button" id="dis" value="Disable Tooltip for One" />
+
+
+</body>
+
+
+</html>

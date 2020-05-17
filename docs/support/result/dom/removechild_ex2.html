@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>removeChild  - Example 2 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+		#parent {
+			display : inline-block;
+			background-color : #fff;
+			border : 2px solid red;
+			padding : 10px;
+		}
+		
+		.child {
+			width : 70px;
+			height : 50px;
+			margin : 5px;
+			background-color : #0af;
+		}
+		
+		#green {
+			background-color : yellowgreen;
+		}
+			
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+
+			$.get("#remove").on("click", function() {
+			
+				//remove green child
+				var del_el = $.get("#parent").removeChild($.get("#green"));
+				
+				$.get("#msg").html(del_el + " child elements are removed");
+				
+				
+			});
+			
+		});						
+			
+	</script>
+</head>
+
+<body>
+<div id="msg"> </div>
+<div id="parent"> 
+Parent
+	<div class="child">child</div>
+	<div class="child" id="green">child</div>
+	<div class="child">child</div>
+
+</div>
+<br/>
+<input type="button" id="remove" value="Remove Green Child" />
+
+</body>
+
+
+</html>

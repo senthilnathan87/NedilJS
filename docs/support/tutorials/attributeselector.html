@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<title>CSS selectors using Element Attributes - Nedil JS</title>
+	<meta name="description" content="Nedil JS - Using Attributes in CSS selectors in $.get()" />
+	<meta name="keywords" content="NedilJS,Nedil,Nedil JS, JavaScript Framework,APIs,AJAX,CSS Selectors,DOM Manipulation,Data Structures,Animation,Animate,CSS,Style,Widgets,Web Applications,"attributes" />
+	<meta property="og:title" content="Nedil JS - CSS selectors using Element Attributes" />
+	<meta property="og:description" content="Nedil JS - Using Attributes in CSS selectors in $.get()" />
+
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<link rel="author" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>	
+	<link rel="publisher" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>		
+	<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />	
+	<meta property="og:image" content="http://nediljs.com/images/NedilJS-logo-small.png"/>
+	
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shCore.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shThemeRDark.css" />
+	
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shCore.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushXml.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushPhp.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushJScript.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushCss.js"></script>
+	
+	<script type="text/javascript" src="../../js/lib/Nedil.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-common.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-documentation.css" />
+
+	<script type="text/javascript" src="../../js/site/nedil-site-common.js"></script>	
+	<script type="text/javascript" src="../../js/site/nedil-site-documentation.js"></script>		
+	
+	<script type="text/javascript">
+		SyntaxHighlighter.defaults['toolbar'] = false;
+      	SyntaxHighlighter.all();	
+	</script>
+	<script type="text/javascript">
+</script>		
+</head>
+<body>
+
+<div id="site">
+	<div id="header">
+		<table cellpadding="0" cellspacing="0" width="100%">
+		<tr><td>
+		<div id="Nedil_JS_logo">
+			<a href="../../index.html"><img src="../../images/NedilJS-logo-small.png" alt="Nedil JS, A Simple and Complete JavaScript Framework" align="top"/></a>
+		</div>
+		</td><td>
+		<div id="menus">
+			<a href="installation.html"><span class="menu">Documentation</span></a>
+			<a href="../../download.html"><span class="menu">Download</span></a>
+			<a href="aboutdefaultwidgets1.html"><span class="menu">Demo</span></a>		
+			<a href="../../about.html"><span class="menu">About</span></a>
+			<a href="../../contact.php"><span class="menu">Contact</span></a>
+		</div>
+		
+		</td></tr></table>
+	</div>
+	<div id="content">
+		<table cellpadding="0" cellspacing="0" style="width:100%">
+		<tr>
+		<td style="width: 250px; min-width:250px; vertical-align: top">
+			<div class="side_menus">
+				<div class="head">
+					<span  class="main" id="main_1">Installation<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_1">
+						<a href="installation.html">Installation</a>
+						<a href="domloaded.html">$.domLoaded()</a>	
+					</div>
+				</div>
+				<div class="head" >
+					<span class="main" id="main_2">CSS Selectors<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_2">
+						<a href="get.html">$.get()</a>
+						<a href="nedilobjects.html">Nedil Objects ($.Objs)</a>
+						<a href="generalselector.html">General Selectors</a>
+						<a href="attributeselector.html" class="selected">Attribute Selectors</a>
+						<a href="childselector.html">Child Selectors</a>
+						<a href="siblingselector.html">Sibling Selectors</a>
+					</div>
+				</div>		
+				<div class="head">
+					<span class="main" id="main_3">Event Handling<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_3">
+						<a href="onevent.html">on()</a>
+						<a href="offevent.html">off()</a>
+						<a href="triggerevent.html">trigger()</a>
+						<a href="self.html">$.self()</a>
+						<a href="currentevent.html">$.currentEvent</a>
+						<a href="commonevents.html">Events</a>
+					</div>
+				</div>
+				<div class="head">
+					<span class="main" id="main_4">DOM Manipulation<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_4">
+						<a href="twowaydom.html">Common - Two ways of Usage</a>	
+						<a href="addchild.html">addChild()</a>	
+						<a href="addparent.html">addParent()</a>	
+						<a href="wrapchildren.html">wrapChildren()</a>	
+						<a href="removechild.html">removeChild()</a>	
+						<a href="getchildren.html">getChildren()</a>	
+						<a href="ischild.html">isChild()</a>	
+						<a href="isparent.html">isParent()</a>							
+						<a href="nextsibling.html">nextSibling()</a>	
+						<a href="previoussibling.html">previousSibling()</a>	
+						<a href="issibling.html">isSibling()</a>	
+						<a href="childindex.html">childIndex()</a>	
+					</div>
+				</div>	
+				<div class="head">
+					<span class="main" id="main_5">Utilities<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_5">
+						<a href="foreach.html">forEach()</a>	
+						<a href="html.html">html()</a>
+						<a href="text.html">text()</a>	
+						<a href="pos.html">pos()</a>	
+						<a href="posabs.html">posAbs()</a>
+						<a href="dim.html">dim()</a>	
+						<a href="mouse.html">mouse()</a>	
+						<a href="mouseabs.html">mouseAbs()</a>	
+						<a href="style.html">style()</a>	
+						<a href="css.html">css()</a>							
+						<a href="hascssclass.html">hasCSSClass()</a>	
+						<a href="selection.html">selection()</a>
+						<a href="converhexrgb.html">convertHexRGB()</a>	
+						<a href="clonejson.html">cloneJSON()</a>	
+					</div>
+				</div>					
+				<div class="head">
+					<span class="main" id="main_6">Data Structures<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_6">
+						<a href="stack.html">Stack</a>	
+						<a href="queue.html">Queue</a>	
+						<a href="table.html">Table</a>							
+					</div>
+				</div>	
+				<div class="head">
+					<span class="main" id="main_7">AJAX APIs<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_7">
+						<a href="ajaxrequest.html">AJAX Request</a>				
+						<a href="load.html">load()</a>				
+						<a href="ajaxsubmit.html">ajaxSubmit()</a>				
+						<a href="tojson.html">toJSON()</a>						
+					</div>
+				</div>	
+				<div class="head">
+					<span class="main" id="main_8">Animation APIs<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_8">
+						<a href="animationparams.html">Animation Parameters</a>				
+						<a href="locationanimation.html">Location Animation</a>				
+						<a href="dimensionanimation.html">Dimension Animation</a>				
+						<a href="coloranimation.html">Color Animation</a>				
+						<a href="cssanimation.html">CSS Animation</a>				
+						<a href="pathsandeasing.html">Paths and Easing</a>				
+					</div>
+				</div>	
+				<div class="head">
+					<span class="main" id="main_9">Widgets Creation<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_9">
+						<a href="howtocreateawidget.html">How to create a widget ? </a>				
+						<a href="aboutdefaultwidgets.html">About Default Widgets</a>				
+					</div>
+				</div>					
+			</div>
+		</td>
+		<td style="vertical-align: top; " rowspan="2">
+			<div class="main_doc">
+		
+				<div class="head_doc">Attribute Selectors</div>		
+				<div class="explanation">
+					HTMLElements can selected using the attributes. Several ways of attribute matching is explained below
+				</div>		
+				<div class="head_doc">tag[ attribute ] <span style="font-size: 12px; color: #ddd;">- (has attribute) </span></div>				
+				<div class="explanation">
+					Fetch HTML elements those have a particular attribute irrespective of the values.
+				</div>
+				<span class="oth_head">Example</span>
+				<div class="explanation">
+					This example selects the first and second div, not the third one.
+				</div>				
+				<div class="codeblock" id="code_1">
+					<span class="tabtitle" id="code_1_js">JS</span>
+					<span class="tabtitle" id="code_1_html">HTML</span>
+					<div class="nedil_code" id="code_1_js_pre">
+						<pre class="brush: js;">
+						// get div elements those have class attribute
+						$.get("div[class]");
+						</pre>
+					</div>
+					<div class="nedil_code hide" id="code_1_html_pre">
+						<pre class="brush: html;">&lt;div class="top"&gt;&lt;/div&gt;
+
+&lt;div class&gt;&lt;/div&gt;
+
+&lt;div&gt;&lt;/div&gt;</pre>
+					</div>						
+				</div>
+				
+				<div class="head_doc">tag[ attribute = 'value' ] <span style="font-size: 12px; color: #ddd;">- (exactly equal to)</span></div>				
+				<div class="explanation">
+					Fetch HTML elements those have an attribute with a value exactly equal to the provided value.
+				</div>
+				<span class="oth_head">Example</span>
+				<div class="explanation">
+					This example selects the first div, and not the second and third one.
+				</div>				
+				<div class="codeblock" id="code_2">
+					<span class="tabtitle" id="code_2_js">JS</span>
+					<span class="tabtitle" id="code_2_html">HTML</span>
+					<div class="nedil_code" id="code_2_js_pre">
+						<pre class="brush: js;">
+						// get div elements those have class attribute exactly equal to "top" value
+						$.get("div[class='top']");
+						</pre>
+					</div>
+					<div class="nedil_code hide" id="code_2_html_pre">
+						<pre class="brush: html;">&lt;div class="top"&gt;&lt;/div&gt;
+
+&lt;div class&gt;&lt;/div&gt;
+
+&lt;div&gt;&lt;/div&gt;</pre>
+					</div>						
+				</div>
+
+				<div class="head_doc">tag[ attribute ~= 'value' ] <span style="font-size: 12px; color: #ddd;">- (value in space separated list)</span></div>				
+				<div class="explanation">
+					If the attribute has 'space' separated list of values, then '~=' can be used to match with any one of those values. In simple, HTML elements will be fetched if any of the value in 'space' separated list matches with provided value 
+				</div>
+				<span class="oth_head">Example</span>
+				<div class="explanation">
+					This example selects the first and third divs. First div is selected as it has "main" class in space separated list.
+				</div>				
+				<div class="codeblock" id="code_3">
+					<span class="tabtitle" id="code_3_js">JS</span>
+					<span class="tabtitle" id="code_3_html">HTML</span>
+					<div class="nedil_code" id="code_3_js_pre">
+						<pre class="brush: js;">
+						// get div elements those have class attribute exactly equal to "top" value
+						$.get("div[class~='main']");
+						</pre>
+					</div>
+					<div class="nedil_code hide" id="code_3_html_pre">
+						<pre class="brush: html;">&lt;div class="top main border"&gt;&lt;/div&gt;
+
+&lt;div class&gt;&lt;/div&gt;
+
+&lt;div class="main"&gt;&lt;/div&gt;</pre>
+					</div>						
+				</div>	
+				
+				<div class="head_doc">tag[ attribute |= 'value' ] <span style="font-size: 12px; color: #ddd;">- (value in hyphen separated list)</span></div>				
+				<div class="explanation">
+					This selector is similar to the above one except this selector deals with hyphen separated list. If the attribute has 'hyphen' separated list of values, then '|=' can be used to match with any one of the values. 
+				</div>
+				<span class="oth_head">Example</span>
+				<div class="explanation">
+					This example selects first, second and fourth span. These span tags have 'user' in their IDs separated by hyphen.
+				</div>				
+				<div class="codeblock" id="code_4">
+					<span class="tabtitle" id="code_4_js">JS</span>
+					<span class="tabtitle" id="code_4_html">HTML</span>
+					<div class="nedil_code" id="code_4_js_pre">
+						<pre class="brush: js;">
+						// get span elements which have 'user' in ID's 
+						$.get("span[id|='user']");
+						</pre>
+					</div>
+					<div class="nedil_code hide" id="code_4_html_pre">
+						<pre class="brush: html;">&lt;span id="red-correct-user'"&gt;&lt;/span&gt;
+
+&lt;span id="green-user"&gt;&lt;/span&gt;
+
+&lt;span id="blue"&gt;&lt;/span&gt;
+
+&lt;span id="user"&gt;&lt;/span&gt;</pre>
+					</div>						
+				</div>					
+
+				<div class="head_doc">tag[ attribute *= 'value' ] <span style="font-size: 12px; color: #ddd;">- (somewhere in the value)</span></div>				
+				<div class="explanation">
+					This selector will pick those elements which have attribute value contains the provided text.  
+				</div>
+				<span class="oth_head">Example</span>
+				<div class="explanation">
+					This example selects first and second span tags. These span tags ID's have the text 'user' somewhere in entire value. '<u>user</u>info' and 'no<u>user</u>info' both have 'user' text.
+				</div>				
+				<div class="codeblock" id="code_5">
+					<span class="tabtitle" id="code_5_js">JS</span>
+					<span class="tabtitle" id="code_5_html">HTML</span>
+					<div class="nedil_code" id="code_5_js_pre">
+						<pre class="brush: js;">
+						// get span elements which have 'user' in ID's 
+						$.get("span[id*='user']");
+						</pre>
+					</div>
+					<div class="nedil_code hide" id="code_5_html_pre">
+						<pre class="brush: html;">&lt;span id="userinfo'"&gt;&lt;/span&gt;
+
+&lt;span id="nouserinfo"&gt;&lt;/span&gt;
+
+&lt;span id="use"&gt;&lt;/span&gt;</pre>
+					</div>						
+				</div>	
+
+				<div class="head_doc">tag[ attribute ^= 'value' ] <span style="font-size: 12px; color: #ddd;">- (value starts with)</span></div>				
+				<div class="explanation">
+					This selector will match all elements whose attribute value starts with the provided value. 
+				</div>
+				<span class="oth_head">Example</span>
+				<div class="explanation">
+					This example selects first and second span. These span tags IDs start with 'contact' text.
+				</div>				
+				<div class="codeblock" id="code_6">
+					<span class="tabtitle" id="code_6_js">JS</span>
+					<span class="tabtitle" id="code_6_html">HTML</span>
+					<div class="nedil_code" id="code_6_js_pre">
+						<pre class="brush: js;">
+						// get span elements which have 'user' in ID's 
+						$.get("span[id^='contact']");
+						</pre>
+					</div>
+					<div class="nedil_code hide" id="code_6_html_pre">
+						<pre class="brush: html;">&lt;span id="contactnumber'"&gt;&lt;/span&gt;
+
+&lt;span id="contactemail"&gt;&lt;/span&gt;
+
+&lt;span id="usercontact"&gt;&lt;/span&gt;</pre>
+					</div>						
+				</div>		
+
+				<div class="head_doc">tag[ attribute $= 'value' ] <span style="font-size: 12px; color: #ddd;">- (value ends with)</span></div>				
+				<div class="explanation">
+					This selector will match all elements whose attribute value ends with the provided value. 
+				</div>
+				<span class="oth_head">Example</span>
+				<div class="explanation">
+					This example selects first and third span. These span tags IDs end with 'number' text.
+				</div>			
+				<div class="codeblock" id="code_7">
+					<span class="tabtitle" id="code_7_js">JS</span>
+					<span class="tabtitle" id="code_7_html">HTML</span>
+					<div class="nedil_code" id="code_7_js_pre">
+						<pre class="brush: js;">
+						// get span elements which have 'user' in ID's 
+						$.get("span[id$='number']");
+						</pre>
+					</div>
+					<div class="nedil_code hide" id="code_7_html_pre">
+						<pre class="brush: html;">&lt;span id="housenumber"&gt;&lt;/span&gt;
+
+&lt;span &gt;&lt;/span&gt;
+
+&lt;span id="mobilenumber"&gt;&lt;/span&gt;
+
+&lt;span id="emailaddress"&gt;&lt;/span&gt;</pre>
+					</div>						
+				</div>					
+				
+				<div class="head_doc">tag[ attribute1 = 'value1' ][attribute2 = 'value2'] <span style="font-size: 12px; color: #ddd;">- (multiple attribute selection)</span></div>				
+				<div class="explanation">
+					Attribute selectors can be combined to match multiple attributes of elements. Elements will be selected if given attributes satisfy the given conditions.
+				</div>
+				<span class="oth_head">Example</span>
+				<div class="explanation">
+					This example selects the third span. It looks for span tags which have both class and id attributes. class value must be exactly equal to 'red' and id value should end with 'number'
+				</div>			
+				<div class="codeblock" id="code_8">
+					<span class="tabtitle" id="code_8_js">JS</span>
+					<span class="tabtitle" id="code_8_html">HTML</span>
+					<div class="nedil_code" id="code_8_js_pre">
+						<pre class="brush: js;">
+						// get span elements which have 'user' in ID's 
+						$.get("span[id$='number'][class='red']");
+						</pre>
+					</div>
+					<div class="nedil_code hide" id="code_8_html_pre">
+						<pre class="brush: html;">&lt;span id="housenumber" class="red"&gt;&lt;/span&gt;
+
+&lt;span &gt;&lt;/span&gt;
+
+&lt;span id="mobilenumber" class="green"&gt;&lt;/span&gt;
+
+&lt;span id="phonenumber"&gt;&lt;/span&gt;</pre>
+					</div>						
+				</div>	
+			</div>
+		</td></tr>	
+		<tr><td style="height:100px;">
+		<div id="extra_panel" style="display:inline-block; margin:0px; margin-left:4px; margin-bottom:4px; padding : 2px; width: 260px;">
+		<span>
+			<a id="fbshare" href="" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/fb.png" alt="Facebook Share"/>
+			</a>
+			<a id="twshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/twit.png" alt="Twitter Share"/>
+			</a>
+			<a id="gpshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/gp.png" alt="Google Plus Share" />
+			</a>	
+			<a id="linshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/lin.png" alt="LinkedIn Share"/>
+			</a>
+		</span>		
+		</div>	
+		</td></tr>
+		</table>
+	</div>
+	
+	<div id="footer">
+		<a href="../../index.html">Home</a> | 
+		<a href="installation.html">Documentation</a> | 
+		<a href="../../download.html">Download</a> | 
+		<a href="aboutdefaultwidgets1.html">Demo</a> | 
+		<a href="../../about.html">About</a> | 
+		<a href="../../contact.php">Contact Me</a> | 
+		<a href="../../contact.php">Report a Bug</a> 
+		<br/>
+		<span>NedilJS has been released under <a id="op_license" class="highlight">MIT license</a></span>
+	</div>
+</div>
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52388639-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Queue  - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	div {
+		display : inline-block;
+	}
+	#inp {
+		width : 30px;
+	}
+	
+	#queue {
+		border : 1px solid #555;
+		padding : 5px;
+	}
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+		
+			// create $.Data.Queue Object
+			var q = new $.Data.Queue();
+			
+			// enqueue few elements
+			q.enqueue(12);
+			q.enqueue(57);
+			q.enqueue(23);
+			
+			function showContent() {
+				var cont = "";
+				
+				// iterate over the queue elements
+				q.iterate(function(el) {
+					cont += el + ", ";
+				});
+				
+				// show queue
+				$.get("#queue").text(cont);
+			}
+			
+			showContent();			
+			
+			$.get("#btn1").on("click", function() {		
+				var va = $.get("#inp").element().value.trim();
+				
+				// enqueue new element
+				q.enqueue(va);		
+				
+				showContent();
+			});		
+			
+			
+			$.get("#btn2").on("click", function() {		
+			
+				// dequeue 
+				var top = q.dequeue();
+				
+				$.get("#dequeue").html("Removed Element : " + top);
+				showContent();
+			});
+
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	Queue
+	<div id="queue"></div>
+	<br/><br/>
+	<input type="text" id="inp" value="" />
+	<input type="button" id="btn1" value="Enqueue" />
+	<br/><br/>
+	<input type="button" id="btn2" value="Dequeue" />
+	<div id="dequeue"></div>
+	
+</body>
+
+
+</html>

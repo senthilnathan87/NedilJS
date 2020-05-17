@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> DropDown | Ex 2 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+			
+			$.domLoaded( function() {
+				
+				var tab;
+				
+				tab = $.get("#parent2").widget("dropdown", {
+					source : "#sour",		
+					dim : { wid : 200},
+					enabled : false
+				});	
+				
+				$.get("#sel1").on("click", function() {
+					tab.enable();
+				});				
+				
+				$.get("#sel2").on("click", function() {
+					tab.disable();
+				});				
+
+			});
+			
+
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+			
+			h4 span {
+				font-size:10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		
+		<h4>Enable and Disable Functions</h4>
+		<input type="button" value="Enable" id="sel1" />
+		<input type="button" value="Disable" id="sel2" />
+		
+		<br/>
+		<br/>
+		<div id="parent2"> 
+			<select id="sour">
+				<option value="tn">TamilNadu</option>
+				<option value="py" selected="selected">Pondicherry</option>
+				<option value="kr">Kerala</option>
+				<option value="ap">Andhra Pradesh</option>
+				<option value="ka">Karnataka</option>
+			</select>
+		</div>
+		
+	</body>	
+</html>

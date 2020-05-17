@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<title>How to create tabs widgets in Nedil JS - Nedil JS</title>
+	<meta name="description" content="Nedil JS - How to create tabs widgets in Nedil JS" />
+	<meta name="keywords" content="NedilJS,Nedil,Nedil JS, JavaScript Framework,APIs,AJAX,CSS Selectors,DOM Manipulation,Data Structures,Animation,Animate,CSS,Style,Widgets,Web Applications,"tabs" />
+	<meta property="og:title" content="Nedil JS - How to create tabs widgets in Nedil JS" />
+	<meta property="og:description" content="Nedil JS - How to create tabs widgets in Nedil JS" />
+
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<link rel="author" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>	
+	<link rel="publisher" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>		
+	<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />	
+	<meta property="og:image" content="http://nediljs.com/images/NedilJS-logo-small.png"/>
+	
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shCore.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shThemeRDark.css" />
+	
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shCore.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushXml.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushPhp.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushJScript.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushCss.js"></script>
+	
+	<script type="text/javascript" src="../../js/lib/Nedil.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-common.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-documentation.css" />
+
+	<script type="text/javascript" src="../../js/site/nedil-site-common.js"></script>	
+	<script type="text/javascript" src="../../js/site/nedil-site-documentation.js"></script>		
+	
+	<script type="text/javascript">
+		SyntaxHighlighter.defaults['toolbar'] = false;
+      	SyntaxHighlighter.all();	
+	</script>
+	<script type="text/javascript">
+</script>		
+</head>
+<body>
+
+<div id="site">
+	<div id="header">
+		<table cellpadding="0" cellspacing="0" width="100%">
+		<tr><td>
+		<div id="Nedil_JS_logo">
+			<a href="../../index.html"><img src="../../images/NedilJS-logo-small.png" alt="Nedil JS, A Simple and Complete JavaScript Framework" align="top"/></a>
+		</div>
+		</td><td>
+		<div id="menus">
+			<a href="installation.html"><span class="menu">Documentation</span></a>
+			<a href="../../download.html"><span class="menu">Download</span></a>
+			<a href="aboutdefaultwidgets1.html"><span class="menu">Demo</span></a>		
+			<a href="../../about.html"><span class="menu">About</span></a>
+			<a href="../../contact.php"><span class="menu">Contact</span></a>
+		</div>
+		
+		</td></tr></table>
+	</div>
+	<div id="content">
+		<table cellpadding="0" cellspacing="0" style="width:100%">
+		<tr>
+		<td style="width: 250px; min-width:250px; vertical-align: top">
+			<div class="side_menus">
+				<div class="head">
+					<span class="main" id="main_1">Widgets Creation<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_1">
+						<a href="aboutdefaultwidgets1.html">About Default Widgets</a>									
+						<a href="howtocreateawidget1.html">How to create a widget ? </a>				
+					</div>
+				</div>	
+				<div class="head" >
+					<span class="main" id="main_2">Widgets<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_2">
+						<a href="button.html">Button</a>				
+						<a href="checkbox.html">Check Box</a>				
+						<a href="radiobutton.html">Radio Button</a>				
+						<a href="textbox.html">Text Box</a>				
+						<a href="panel.html">Panel</a>				
+						<a href="dialog.html">Dialog</a>				
+						<a href="tabs.html" class="selected">Tabs</a>				
+						<a href="accordion.html">Accordion</a>				
+						<a href="menu.html">Menu</a>				
+						<a href="calendar.html">Calendar</a>				
+						<a href="colorpicker.html">Color Picker</a>				
+						<a href="ajaxdatagrid.html">AJAX Data Grid</a>				
+						<a href="dropdown.html">Drop Down</a>				
+						<a href="autocomplete.html">Auto Complete</a>				
+						<a href="numberroller.html">Number Roller</a>				
+						<a href="slider.html">Slider</a>				
+						<a href="progressbar.html">Progress Bar</a>				
+						<a href="slideshow.html">Slide Show</a>				
+						<a href="tree.html">Tree</a>
+					</div>
+				</div>							
+			</div>
+		</td>
+		<td style="vertical-align: top; " rowspan="2">
+			<div class="main_doc">
+		
+				<div class="head_doc">Tabs Widget</div>		
+				<div class="explanation">
+					Tabbed containers are always handy to display more information less space. Tabs are inevitable in any UI design. tabs widget in Nedil JS  provides plenty of configuring options.
+					<br/>
+					<br/>
+				<span class="oth_head" style="margin:0px">Basic Usage</span>						
+					<pre class="brush: js;">$.domLoaded(function() {
+	
+	$.get("#pan").widget("tabs", {
+		tabs : [{ title : "Tab 1", id : "#tab1"},
+		        { title : "Tab 2", id : "#tab2"} ],
+		// Other Configurations
+	});	
+	
+}</pre>					
+				
+				
+				<span class="oth_head" style="margin:0px">HTML Template for Tabs</span>						
+					<pre class="brush: html;">		&lt;div id="parent1"&gt; 
+		
+			&lt;div id="tab1"&gt;&lt;/div&gt;
+			&lt;div id="tab2"&gt;&lt;/div&gt;
+			&lt;div id="tab3"&gt;&lt;/div&gt;
+			
+		&lt;/div&gt;</pre>					
+				</div>					
+
+				<div class="field_explain">
+					<span class="field_head">Configuring Options</span>
+					<div class="explanation">				
+						It contains array of JSON objects. The properties are mentioned below.
+					</div>						
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Name</th><th>Type</th><th>Must/Optional</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">tabs</td><td>JSON</td><td>Must</td><td>Sets the header section
+							<table cellpadding="0" cellspacing="0" >
+								<tr class="tab_head"><th>Name</th><th>Description</th></tr>
+								<tr class="tab_odd"><td class="high">title</td><td>Title of the tab</td></tr>
+								<tr class="tab_even"><td class="high">id</td><td>ID of the div tab element</td></tr>
+								<tr class="tab_odd"><td class="high">close</td><td>Creates a closeable tab</td></tr>
+								<tr class="tab_even"><td class="high">enabled</td><td>Keeps the tab disabled if set false, default is true</td></tr>
+								<tr class="tab_odd"><td class="high">def</td><td>Default tab to be shown while launching</td></tr>
+							</table>							
+						</td></tr>
+						<tr class="tab_even"><td class="high">position</td><td>String</td><td>Optional</td><td>Sets the tab head at top or bottom position. Default is top position. "bottom" / "top"</td></tr>
+						<tr class="tab_odd"><td class="high">align</td><td>String</td><td>Optional</td><td>Sets the alignment of tabs. "left" / "right" / "center"</td></tr>
+						<tr class="tab_even"><td class="high">trigger</td><td>String</td><td>Optional</td><td>Denotes which event should trigger tab content display. Default is "click" event.							
+						</td></tr>
+						<tr class="tab_odd"><td class="high">dim</td><td>JSON</td><td>Optional</td><td>Sets dimension of the tabs
+							<table cellpadding="0" cellspacing="0" >
+								<tr class="tab_head"><th>Name</th><th>Description</th></tr>
+								<tr class="tab_odd"><td class="high">wid</td><td>Width of the tabs</td></tr>
+								<tr class="tab_even"><td class="high">ht</td><td>Height of the tabs</td></tr>
+							</table>								
+						</td></tr>
+						<tr class="tab_even"><td class="high">pos</td><td>JSON</td><td>Optional</td><td>Sets position of the tabs
+							<table cellpadding="0" cellspacing="0" >
+								<tr class="tab_head"><th>Name</th><th>Description</th></tr>
+								<tr class="tab_odd"><td class="high">x</td><td>Horizontal Position</td></tr>
+								<tr class="tab_even"><td class="high">y</td><td>Vertical Position</td></tr>
+							</table>						
+						</td></tr>
+					</table>			
+				</div>	
+				<br/>
+
+				<div class="field_explain">
+					<span class="field_head">Methods</span>
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Name</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">show( tab_id )</td><td>Show the tab mentioned by tab_id. </td></tr>
+						<tr class="tab_even"><td class="high">close( tab_id )</td><td>Close / hides the tab mentioned by tab_id.</td></tr>
+						<tr class="tab_odd"><td class="high">enable( tab_id )</td><td>enables the tab mentioned by tab_id.</td></tr>
+						<tr class="tab_even"><td class="high">disable( tab_id)</td><td>Disables the tab mentioned by tab_id.</td></tr>
+					</table>			
+				</div>	
+
+				<br/>				
+				<span class="oth_head">Tabs Widget Examples</span>				
+				<span class="oth_head">Example 1</span><div class="codeblock" id="code_1">
+					<span class="tabtitle" id="code_1_js">JS</span>
+					<span class="tabtitle" id="code_1_html">HTML</span>
+					<div class="nedil_code" id="code_1_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {
+
+				$.get("#parent1").widget("tabs", {
+					tabs : [{ title : "First Tab",  id : "#tab1"},
+							{ title : "Second Tab", id : "#tab2", def : true },
+							{ title : "Third Tab",  id : "#tab3"}],		
+					position : "top",
+					dim : { wid : 300, ht : 200},
+					pos : { x : 10, y : 40}
+				});	
+				
+				$.get("#parent2").widget("tabs", {
+					tabs : [{ title : "First Tab",  id : "#tab21"},
+							{ title : "Second Tab", id : "#tab22"},
+							{ title : "Third Tab",  id : "#tab23" }],		
+					position : "bottom",
+					dim : { wid : 300, ht : 200},
+					pos : { x : 400, y : 40}
+				});	
+
+			});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_1_html_pre">
+						<pre class="brush: html;">		&lt;div id="parent1"&gt; 
+			&lt;div id="tab1"&gt;
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				&lt;br/&gt;&lt;br/&gt;
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab2"&gt;
+				Second Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab3"&gt;
+				Third Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+		&lt;/div&gt;
+		
+		&lt;div id="parent2"&gt; 
+			&lt;div id="tab21"&gt;
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				&lt;br/&gt;&lt;br/&gt;
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab22"&gt;
+				Second Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab23"&gt;
+				Third Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+		&lt;/div&gt;</pre>
+					</div>
+				
+				</div>
+					
+
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/tabs_ex1.html" style="height: 300px">
+						</iframe>
+					</div>
+				</div>	
+
+				<span class="oth_head">Example 2</span><div class="codeblock" id="code_2">
+					<span class="tabtitle" id="code_2_js">JS</span>
+					<span class="tabtitle" id="code_2_html">HTML</span>
+					<div class="nedil_code" id="code_2_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {
+
+				$.get("#parent1").widget("tabs", {
+					tabs : [{ title : "First Tab",  id : "#tab1"},
+							{ title : "Second Tab", id : "#tab2"},
+							{ title : "Third Tab",  id : "#tab3"}],		
+					position : "top",
+					align : "left",
+					dim : { wid : 300, ht : 200},
+					pos : { x : 10, y : 40}
+				});	
+				
+				$.get("#parent2").widget("tabs", {
+					tabs : [{ title : "First Tab",  id : "#tab21"},
+							{ title : "Second Tab", id : "#tab22"},
+							{ title : "Third Tab",  id : "#tab23" }],		
+					position : "top",
+					align : "center",
+					dim : { wid : 300, ht : 200},
+					pos : { x : 350, y : 40}
+				});	
+				
+				$.get("#parent3").widget("tabs", {
+					tabs : [{ title : "First Tab",  id : "#tab31"},
+							{ title : "Second Tab", id : "#tab32"},
+							{ title : "Third Tab",  id : "#tab33" }],		
+					position : "top",
+					align : "right",
+					dim : { wid : 300, ht : 200},
+					pos : { x : 10, y : 250}
+				});	
+
+			});	</pre>
+					</div>
+					<div class="nedil_code hide" id="code_2_html_pre">
+						<pre class="brush: html;">		&lt;div id="parent1"&gt; 
+			&lt;div id="tab1"&gt;
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				&lt;br/&gt;&lt;br/&gt;
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab2"&gt;
+				Second Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab3"&gt;
+				Third Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+		&lt;/div&gt;
+		
+		&lt;div id="parent2"&gt; 
+			&lt;div id="tab21"&gt;
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				&lt;br/&gt;&lt;br/&gt;
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab22"&gt;
+				Second Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab23"&gt;
+				Third Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+		&lt;/div&gt;
+		
+		&lt;div id="parent3"&gt; 
+			&lt;div id="tab31"&gt;
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				&lt;br/&gt;&lt;br/&gt;
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab32"&gt;
+				Second Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab33"&gt;
+				Third Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+		&lt;/div&gt;</pre>
+					</div>
+				
+				</div>				
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/tabs_ex2.html" style="height: 500px">
+						</iframe>
+					</div>
+				</div>	
+
+				<span class="oth_head">Example 3</span><div class="codeblock" id="code_3">
+					<span class="tabtitle" id="code_3_js">JS</span>
+					<span class="tabtitle" id="code_3_html">HTML</span>
+					<div class="nedil_code" id="code_3_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {
+
+				$.get("#parent1").widget("tabs", {
+					tabs : [{ title : "First Tab",  id : "#tab1"},
+							{ title : "Second Tab", id : "#tab2", close : true},
+							{ title : "Third Tab",  id : "#tab3", close : true},		
+							{ title : "Fourth Tab",  id : "#tab4", enabled : false}],		
+					position : "top",
+					align : "left",
+					dim : { wid : 500, ht : 200},
+					pos : { x : 10, y : 40}
+				});	
+				
+		});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_3_html_pre">
+						<pre class="brush: html;">		&lt;div id="parent1"&gt; 
+			&lt;div id="tab1"&gt;
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				&lt;br/&gt;&lt;br/&gt;
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab2"&gt;
+				Second Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab3"&gt;
+				Third Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab4"&gt;
+				Fourth Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+		&lt;/div&gt;</pre>
+					</div>
+				
+				</div>					
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/tabs_ex3.html" style="height: 300px">
+						</iframe>
+					</div>
+				</div>		
+
+				<span class="oth_head">Example 4</span><div class="codeblock" id="code_4">
+					<span class="tabtitle" id="code_4_js">JS</span>
+					<span class="tabtitle" id="code_4_html">HTML</span>
+					<div class="nedil_code" id="code_4_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {
+
+				$.get("#parent1").widget("tabs", {
+					tabs : [{ title : "First Tab",  id : "#tab1"},
+							{ title : "Second Tab", id : "#tab2"},
+							{ title : "Third Tab",  id : "#tab3"}],		
+					position : "top",
+					dim : { wid : 300, ht : 200},
+					pos : { x : 10, y : 40},
+					trigger : "click"
+				});	
+				
+				$.get("#parent2").widget("tabs", {
+					tabs : [{ title : "First Tab",  id : "#tab21"},
+							{ title : "Second Tab", id : "#tab22"},
+							{ title : "Third Tab",  id : "#tab23" }],		
+					position : "top",
+					dim : { wid : 300, ht : 200},
+					pos : { x : 400, y : 40},
+					trigger : "mouseover"
+				});	
+
+			});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_4_html_pre">
+						<pre class="brush: html;">		&lt;div id="parent1"&gt; 
+			&lt;div id="tab1"&gt;
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				&lt;br/&gt;&lt;br/&gt;
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab2"&gt;
+				Second Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab3"&gt;
+				Third Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+				&lt;br/&gt;&lt;br/&gt;
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			&lt;/div&gt;
+		&lt;/div&gt;
+		
+		&lt;div id="parent2"&gt; 
+			&lt;div id="tab21"&gt;
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				&lt;br/&gt;&lt;br/&gt;
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab22"&gt;
+				Second Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab23"&gt;
+				Third Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+				&lt;br/&gt;&lt;br/&gt;
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				&lt;/div&gt;
+		&lt;/div&gt;</pre>
+					</div>
+				</div>		
+				
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/tabs_ex4.html" style="height: 300px">
+						</iframe>
+					</div>
+				</div>						
+		
+				<span class="oth_head">Example 5</span><div class="codeblock" id="code_5">
+					<span class="tabtitle" id="code_5_js">JS</span>
+					<span class="tabtitle" id="code_5_html">HTML</span>
+					<div class="nedil_code" id="code_5_js_pre">
+						<pre class="brush: js;">			$.domLoaded( function() {
+
+				var tab = $.get("#parent1").widget("tabs", {
+					tabs : [{ title : "First Tab",  id : "#tab1"},
+							{ title : "Second Tab", id : "#tab2", close : true},
+							{ title : "Third Tab",  id : "#tab3", close : true},		
+							{ title : "Fourth Tab",  id : "#tab4", enabled : false}],		
+					position : "top",
+					align : "left",
+					dim : { wid : 500, ht : 200},
+					pos : { x : 10, y : 100}
+				});	
+				
+				$.get("#show").on("click", function() {
+					tab.show(1);
+				});
+				
+				$.get("#close").on("click", function() {
+					tab.close(2);
+				});
+				
+				$.get("#enab").on("click", function() {
+					tab.enable(3);
+				});
+				
+				$.get("#disb").on("click", function() {
+					tab.disable(3);
+				});
+				
+		});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_5_html_pre">
+						<pre class="brush: html;">		&lt;input type="button" id="show" value="Show Tab 2" /&gt;
+		&lt;input type="button" id="close" value="Close Tab 3" /&gt;
+		&lt;input type="button" id="enab" value="Enable Tab 4" /&gt;
+		&lt;input type="button" id="disb" value="Disable Tab 4" /&gt;
+		
+		&lt;div id="parent1"&gt; 
+			&lt;div id="tab1"&gt;
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				&lt;br/&gt;&lt;br/&gt;
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab2"&gt;
+				Second Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab3"&gt;
+				Third Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+			&lt;div id="tab4"&gt;
+				Fourth Tab Content - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			&lt;/div&gt;
+		&lt;/div&gt;</pre>
+					</div>
+				</div>	
+				
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/tabs_ex5.html" style="height: 340px">
+						</iframe>
+					</div>
+				</div>						
+
+			</div>
+		</td></tr>	
+		<tr><td style="height:100px;">
+		<div id="extra_panel" style="display:inline-block; margin:0px; margin-left:4px; margin-bottom:4px; padding : 2px; width: 260px;">
+		<span>
+			<a id="fbshare" href="" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/fb.png" alt="Facebook Share"/>
+			</a>
+			<a id="twshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/twit.png" alt="Twitter Share"/>
+			</a>
+			<a id="gpshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/gp.png" alt="Google Plus Share" />
+			</a>	
+			<a id="linshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/lin.png" alt="LinkedIn Share"/>
+			</a>
+		</span>		
+		</div>	
+		</td></tr>
+		</table>
+	</div>
+	
+	<div id="footer">
+		<a href="../../index.html">Home</a> | 
+		<a href="installation.html">Documentation</a> | 
+		<a href="../../download.html">Download</a> | 
+		<a href="aboutdefaultwidgets1.html">Demo</a> | 
+		<a href="../../about.html">About</a> | 
+		<a href="../../contact.php">Contact Me</a> | 
+		<a href="../../contact.php">Report a Bug</a> 
+		<br/>
+		<span>NedilJS has been released under <a id="op_license" class="highlight">MIT license</a></span>
+	</div>
+</div>
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52388639-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

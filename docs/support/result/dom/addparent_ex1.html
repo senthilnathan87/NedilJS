@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>addParent  - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+		.parent {
+			display : inline-block;
+
+			border : 2px solid red;
+			padding : 10px;
+		}
+		
+		#child {
+			width : 70px;
+			height : 50px;
+			border : 2px solid blue;
+		}
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+
+			$.get("#add").on("click", function() {
+			
+				//add a parent div to #child
+				$.get("#child").addParent("div", {
+					"class" : "parent",
+					"text" : "Parent"
+				});
+				
+			});
+			
+		});						
+			
+	</script>
+</head>
+
+<body>
+<div id="child"> 
+Child
+
+</div>
+<br/>
+<input type="button" id="add" value="Add Parent" />
+
+</body>
+
+
+</html>

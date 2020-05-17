@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Dialog | Ex 7 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+		
+			$.domLoaded( function() {
+
+				$.get("#par").widget("panel", {
+					dim : { wid : 400, ht : 400}
+				});	
+				
+				var dial1 = $.get("#dial1").widget("dialog", {
+					head : { 
+							title : "External Events"
+						},
+					dim : { wid : 200, ht : 200},
+					pos : { x : 40, y : 40},
+					resizable : true,
+					draggable : "parent",
+					maximize : "parent",
+					close : true,
+					show : false,		
+				});	
+
+				$.get("#show").on("click", function() {							
+					dial1.show();
+				});
+
+				$.get("#close").on("click", function() {							
+					dial1.close();
+				});		
+
+				$.get("#max").on("click", function() {							
+					dial1.maximize();
+				});						
+				
+				// NOT NEEDED		
+				$.get("#reset").on("click", function() {							
+					window.location.reload();
+				});				
+
+			});			
+		</script>		
+
+		<style type="text/css">
+
+		</style>
+
+	</head>
+
+	<body>
+		<input type="button" value="Reset" id="reset" />
+		<input type="button" value="Show" id="show" />
+		<input type="button" value="Maximize" id="max" />
+		<input type="button" value="Close" id="close" />
+	
+		<div id="par">
+
+			<div id="dial1"></div>
+		
+		</div>
+		
+
+	</body>	
+</html>

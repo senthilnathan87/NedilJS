@@ -1,0 +1,679 @@
+[21-Jan-2020 22:15:17 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[21-Jan-2020 22:15:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[21-Jan-2020 22:15:17 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[22-Jan-2020 05:09:27 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[22-Jan-2020 05:09:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[22-Jan-2020 05:09:27 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[22-Jan-2020 09:17:13 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[22-Jan-2020 09:17:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[22-Jan-2020 09:17:13 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[22-Jan-2020 11:03:57 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[22-Jan-2020 11:03:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[22-Jan-2020 11:03:58 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[22-Jan-2020 12:01:23 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[22-Jan-2020 12:01:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[22-Jan-2020 12:01:23 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[23-Jan-2020 00:15:18 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[23-Jan-2020 00:15:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[23-Jan-2020 00:15:18 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[23-Jan-2020 21:05:58 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[23-Jan-2020 21:05:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[23-Jan-2020 21:05:58 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[24-Jan-2020 10:56:54 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[24-Jan-2020 10:56:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[24-Jan-2020 10:56:55 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[24-Jan-2020 11:40:37 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[24-Jan-2020 11:40:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[24-Jan-2020 11:40:37 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[24-Jan-2020 12:12:29 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[24-Jan-2020 12:12:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[24-Jan-2020 12:12:29 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[25-Jan-2020 07:53:48 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[25-Jan-2020 07:53:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[25-Jan-2020 07:53:48 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[25-Jan-2020 12:17:21 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[25-Jan-2020 12:17:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[25-Jan-2020 12:17:21 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[25-Jan-2020 12:33:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[25-Jan-2020 12:33:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[25-Jan-2020 12:33:39 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[26-Jan-2020 11:55:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[26-Jan-2020 11:55:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[26-Jan-2020 11:55:07 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[26-Jan-2020 13:58:58 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[26-Jan-2020 13:58:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[26-Jan-2020 13:58:58 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[26-Jan-2020 19:23:59 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[26-Jan-2020 19:23:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[26-Jan-2020 19:23:59 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[26-Jan-2020 22:45:13 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[26-Jan-2020 22:45:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[26-Jan-2020 22:45:14 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[27-Jan-2020 05:17:07 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[27-Jan-2020 05:17:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[27-Jan-2020 05:17:08 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[27-Jan-2020 17:52:12 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[27-Jan-2020 17:52:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[27-Jan-2020 17:52:12 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[28-Jan-2020 07:18:15 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[28-Jan-2020 07:18:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[28-Jan-2020 07:18:16 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[28-Jan-2020 12:13:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[28-Jan-2020 12:13:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[28-Jan-2020 12:13:31 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[28-Jan-2020 21:34:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[28-Jan-2020 21:34:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[28-Jan-2020 21:34:40 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[29-Jan-2020 02:22:20 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[29-Jan-2020 02:22:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[29-Jan-2020 02:22:21 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[29-Jan-2020 12:53:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[29-Jan-2020 12:53:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[29-Jan-2020 12:53:32 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[29-Jan-2020 14:58:10 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[29-Jan-2020 14:58:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[29-Jan-2020 14:58:10 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[29-Jan-2020 16:48:37 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[29-Jan-2020 16:48:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[29-Jan-2020 16:48:37 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[30-Jan-2020 02:39:07 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[30-Jan-2020 02:39:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[30-Jan-2020 02:39:07 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[30-Jan-2020 04:10:28 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[30-Jan-2020 04:10:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[30-Jan-2020 04:10:28 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[30-Jan-2020 18:23:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[30-Jan-2020 18:23:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[30-Jan-2020 18:23:06 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[30-Jan-2020 23:00:47 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[30-Jan-2020 23:00:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[30-Jan-2020 23:00:47 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[31-Jan-2020 21:10:33 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[31-Jan-2020 21:10:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[31-Jan-2020 21:10:33 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[01-Feb-2020 01:50:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[01-Feb-2020 01:50:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[01-Feb-2020 01:50:51 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[01-Feb-2020 03:35:30 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[01-Feb-2020 03:35:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[01-Feb-2020 03:35:30 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[01-Feb-2020 07:21:37 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[01-Feb-2020 07:21:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[01-Feb-2020 07:21:38 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[01-Feb-2020 20:47:50 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[01-Feb-2020 20:47:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[01-Feb-2020 20:47:50 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[02-Feb-2020 11:13:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[02-Feb-2020 11:13:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[02-Feb-2020 11:13:06 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[02-Feb-2020 13:09:29 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[02-Feb-2020 13:09:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[02-Feb-2020 13:09:29 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[02-Feb-2020 22:59:56 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[02-Feb-2020 22:59:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[02-Feb-2020 22:59:56 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[03-Feb-2020 12:22:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[03-Feb-2020 12:22:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[03-Feb-2020 12:22:51 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[03-Feb-2020 12:47:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[03-Feb-2020 12:47:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[03-Feb-2020 12:47:39 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[04-Feb-2020 03:33:41 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[04-Feb-2020 03:33:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[04-Feb-2020 03:33:41 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[04-Feb-2020 04:28:55 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[04-Feb-2020 04:28:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[04-Feb-2020 04:28:55 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[04-Feb-2020 12:13:24 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[04-Feb-2020 12:13:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[04-Feb-2020 12:13:24 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[05-Feb-2020 07:57:25 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[05-Feb-2020 07:57:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[05-Feb-2020 07:57:25 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[05-Feb-2020 12:17:34 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[05-Feb-2020 12:17:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[05-Feb-2020 12:17:34 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[06-Feb-2020 08:34:20 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[06-Feb-2020 08:34:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[06-Feb-2020 08:34:20 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[06-Feb-2020 20:47:20 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[06-Feb-2020 20:47:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[06-Feb-2020 20:47:20 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[06-Feb-2020 20:49:24 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[06-Feb-2020 20:49:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[06-Feb-2020 20:49:24 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[06-Feb-2020 21:36:53 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[06-Feb-2020 21:36:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[06-Feb-2020 21:36:53 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[07-Feb-2020 13:39:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[07-Feb-2020 13:39:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[07-Feb-2020 13:39:11 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[07-Feb-2020 14:40:33 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[07-Feb-2020 14:40:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[07-Feb-2020 14:40:33 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[08-Feb-2020 02:31:32 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[08-Feb-2020 02:31:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[08-Feb-2020 02:31:32 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[08-Feb-2020 07:39:07 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[08-Feb-2020 07:39:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[08-Feb-2020 07:39:08 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[08-Feb-2020 20:43:43 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[08-Feb-2020 20:43:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[08-Feb-2020 20:43:43 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[08-Feb-2020 23:02:47 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[08-Feb-2020 23:02:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[08-Feb-2020 23:02:48 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[09-Feb-2020 10:11:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[09-Feb-2020 10:11:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[09-Feb-2020 10:11:19 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[10-Feb-2020 00:43:14 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[10-Feb-2020 00:43:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[10-Feb-2020 00:43:14 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[10-Feb-2020 06:26:30 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[10-Feb-2020 06:26:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[10-Feb-2020 06:26:30 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[10-Feb-2020 13:31:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[10-Feb-2020 13:31:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[10-Feb-2020 13:31:51 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[10-Feb-2020 23:12:21 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[10-Feb-2020 23:12:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[10-Feb-2020 23:12:21 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[10-Feb-2020 23:53:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[10-Feb-2020 23:53:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[10-Feb-2020 23:53:11 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[11-Feb-2020 01:26:00 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[11-Feb-2020 01:26:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[11-Feb-2020 01:26:00 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[11-Feb-2020 13:58:28 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[11-Feb-2020 13:58:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[11-Feb-2020 13:58:28 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[12-Feb-2020 11:25:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[12-Feb-2020 11:25:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[12-Feb-2020 11:25:06 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[12-Feb-2020 15:38:57 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[12-Feb-2020 15:38:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[12-Feb-2020 15:38:58 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[13-Feb-2020 08:37:03 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[13-Feb-2020 08:37:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[13-Feb-2020 08:37:03 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[13-Feb-2020 13:50:53 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[13-Feb-2020 13:50:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[13-Feb-2020 13:50:54 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[14-Feb-2020 03:09:27 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[14-Feb-2020 03:09:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[14-Feb-2020 03:09:27 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[14-Feb-2020 16:40:15 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[14-Feb-2020 16:40:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[14-Feb-2020 16:40:16 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[15-Feb-2020 06:40:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[15-Feb-2020 06:40:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[15-Feb-2020 06:40:12 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[15-Feb-2020 11:15:13 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[15-Feb-2020 11:15:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[15-Feb-2020 11:15:14 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[16-Feb-2020 00:39:27 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[16-Feb-2020 00:39:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[16-Feb-2020 00:39:27 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[16-Feb-2020 10:27:00 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[16-Feb-2020 10:27:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[16-Feb-2020 10:27:01 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[16-Feb-2020 10:27:03 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[16-Feb-2020 10:27:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[16-Feb-2020 10:27:03 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[16-Feb-2020 13:48:35 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[16-Feb-2020 13:48:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[16-Feb-2020 13:48:35 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[17-Feb-2020 02:59:53 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[17-Feb-2020 02:59:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[17-Feb-2020 02:59:53 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[17-Feb-2020 14:36:10 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[17-Feb-2020 14:36:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[17-Feb-2020 14:36:10 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[18-Feb-2020 02:07:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[18-Feb-2020 02:07:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[18-Feb-2020 02:07:19 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[18-Feb-2020 08:56:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[18-Feb-2020 08:56:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[18-Feb-2020 08:56:07 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[18-Feb-2020 17:33:33 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[18-Feb-2020 17:33:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[18-Feb-2020 17:33:33 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[18-Feb-2020 21:33:44 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[18-Feb-2020 21:33:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[18-Feb-2020 21:33:44 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[19-Feb-2020 18:33:58 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[19-Feb-2020 18:33:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[19-Feb-2020 18:33:58 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[20-Feb-2020 07:01:53 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[20-Feb-2020 07:01:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[20-Feb-2020 07:01:53 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[20-Feb-2020 11:30:00 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[20-Feb-2020 11:30:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[20-Feb-2020 11:30:00 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[20-Feb-2020 12:56:59 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[20-Feb-2020 12:56:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[20-Feb-2020 12:56:59 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[20-Feb-2020 20:52:27 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[20-Feb-2020 20:52:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[20-Feb-2020 20:52:27 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[21-Feb-2020 21:04:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[21-Feb-2020 21:04:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[21-Feb-2020 21:04:11 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[22-Feb-2020 14:22:27 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[22-Feb-2020 14:22:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[22-Feb-2020 14:22:27 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[22-Feb-2020 20:22:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[22-Feb-2020 20:22:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[22-Feb-2020 20:22:36 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[23-Feb-2020 09:31:46 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[23-Feb-2020 09:31:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[23-Feb-2020 09:31:46 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[23-Feb-2020 16:02:50 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[23-Feb-2020 16:02:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[23-Feb-2020 16:02:51 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[23-Feb-2020 21:48:28 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[23-Feb-2020 21:48:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[23-Feb-2020 21:48:28 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[24-Feb-2020 03:45:10 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[24-Feb-2020 03:45:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[24-Feb-2020 03:45:10 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[24-Feb-2020 14:00:13 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[24-Feb-2020 14:00:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[24-Feb-2020 14:00:13 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[25-Feb-2020 02:51:46 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[25-Feb-2020 02:51:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[25-Feb-2020 02:51:46 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[25-Feb-2020 06:29:17 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[25-Feb-2020 06:29:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[25-Feb-2020 06:29:17 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[25-Feb-2020 18:15:12 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[25-Feb-2020 18:15:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[25-Feb-2020 18:15:12 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[26-Feb-2020 03:20:35 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[26-Feb-2020 03:20:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[26-Feb-2020 03:20:35 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[26-Feb-2020 05:52:26 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[26-Feb-2020 05:52:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[26-Feb-2020 05:52:26 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[26-Feb-2020 09:12:43 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[26-Feb-2020 09:12:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[26-Feb-2020 09:12:44 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[26-Feb-2020 11:18:24 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[26-Feb-2020 11:18:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[26-Feb-2020 11:18:24 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[26-Feb-2020 12:52:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[26-Feb-2020 12:52:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[26-Feb-2020 12:52:39 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[27-Feb-2020 02:03:33 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[27-Feb-2020 02:03:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[27-Feb-2020 02:03:33 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[27-Feb-2020 23:24:04 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[27-Feb-2020 23:24:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[27-Feb-2020 23:24:04 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[28-Feb-2020 14:50:34 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[28-Feb-2020 14:50:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[28-Feb-2020 14:50:35 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[28-Feb-2020 15:25:09 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[28-Feb-2020 15:25:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[28-Feb-2020 15:25:09 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[29-Feb-2020 01:36:59 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[29-Feb-2020 01:36:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[29-Feb-2020 01:36:59 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[29-Feb-2020 11:58:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[29-Feb-2020 11:58:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[29-Feb-2020 11:58:31 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[01-Mar-2020 00:13:24 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[01-Mar-2020 00:13:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[01-Mar-2020 00:13:24 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[01-Mar-2020 14:56:03 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[01-Mar-2020 14:56:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[01-Mar-2020 14:56:03 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[02-Mar-2020 03:26:13 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[02-Mar-2020 03:26:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[02-Mar-2020 03:26:13 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[02-Mar-2020 04:40:21 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[02-Mar-2020 04:40:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[02-Mar-2020 04:40:21 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[02-Mar-2020 16:56:18 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[02-Mar-2020 16:56:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[02-Mar-2020 16:56:18 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[02-Mar-2020 22:04:56 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[02-Mar-2020 22:04:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[02-Mar-2020 22:04:56 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[03-Mar-2020 04:02:26 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[03-Mar-2020 04:02:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[03-Mar-2020 04:02:26 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[03-Mar-2020 07:59:24 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[03-Mar-2020 07:59:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[03-Mar-2020 07:59:24 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[03-Mar-2020 11:36:17 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[03-Mar-2020 11:36:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[03-Mar-2020 11:36:17 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[03-Mar-2020 19:02:05 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[03-Mar-2020 19:02:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[03-Mar-2020 19:02:05 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[04-Mar-2020 07:22:23 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[04-Mar-2020 07:22:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[04-Mar-2020 07:22:23 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[04-Mar-2020 09:51:59 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[04-Mar-2020 09:51:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[04-Mar-2020 09:51:59 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[04-Mar-2020 21:26:00 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[04-Mar-2020 21:26:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[04-Mar-2020 21:26:00 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[05-Mar-2020 02:52:53 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[05-Mar-2020 02:52:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[05-Mar-2020 02:52:54 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[05-Mar-2020 17:57:14 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[05-Mar-2020 17:57:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[05-Mar-2020 17:57:14 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[05-Mar-2020 19:43:01 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[05-Mar-2020 19:43:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[05-Mar-2020 19:43:01 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[06-Mar-2020 06:09:10 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[06-Mar-2020 06:09:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[06-Mar-2020 06:09:10 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[06-Mar-2020 07:19:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[06-Mar-2020 07:19:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[06-Mar-2020 07:19:06 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[06-Mar-2020 07:42:12 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[06-Mar-2020 07:42:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[06-Mar-2020 07:42:12 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[06-Mar-2020 10:21:57 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[06-Mar-2020 10:21:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[06-Mar-2020 10:21:57 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[07-Mar-2020 00:41:45 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[07-Mar-2020 00:41:45 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[07-Mar-2020 00:41:45 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[07-Mar-2020 05:48:56 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[07-Mar-2020 05:48:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[07-Mar-2020 05:48:57 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[07-Mar-2020 18:43:53 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[07-Mar-2020 18:43:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[07-Mar-2020 18:43:53 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[08-Mar-2020 23:07:09 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[08-Mar-2020 23:07:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[08-Mar-2020 23:07:10 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[09-Mar-2020 01:59:13 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[09-Mar-2020 01:59:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[09-Mar-2020 01:59:14 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[09-Mar-2020 20:25:24 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[09-Mar-2020 20:25:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[09-Mar-2020 20:25:24 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[09-Mar-2020 21:04:54 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[09-Mar-2020 21:04:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[09-Mar-2020 21:04:54 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[10-Mar-2020 17:39:09 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[10-Mar-2020 17:39:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[10-Mar-2020 17:39:09 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[10-Mar-2020 18:44:27 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[10-Mar-2020 18:44:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[10-Mar-2020 18:44:27 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[10-Mar-2020 20:03:12 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[10-Mar-2020 20:03:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[10-Mar-2020 20:03:12 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[11-Mar-2020 01:42:18 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[11-Mar-2020 01:42:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[11-Mar-2020 01:42:18 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[11-Mar-2020 14:21:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[11-Mar-2020 14:21:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[11-Mar-2020 14:21:39 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[13-Mar-2020 01:00:05 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[13-Mar-2020 01:00:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[13-Mar-2020 01:00:05 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[13-Mar-2020 01:10:55 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[13-Mar-2020 01:10:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[13-Mar-2020 01:10:55 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[14-Mar-2020 03:31:33 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[14-Mar-2020 03:31:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[14-Mar-2020 03:31:35 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[14-Mar-2020 17:24:25 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[14-Mar-2020 17:24:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[14-Mar-2020 17:24:25 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[14-Mar-2020 17:42:25 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[14-Mar-2020 17:42:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[14-Mar-2020 17:42:25 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[15-Mar-2020 13:08:09 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[15-Mar-2020 13:08:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[15-Mar-2020 13:08:09 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[15-Mar-2020 21:33:29 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[15-Mar-2020 21:33:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[15-Mar-2020 21:33:29 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[16-Mar-2020 06:07:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[16-Mar-2020 06:07:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[16-Mar-2020 06:07:52 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[16-Mar-2020 06:20:35 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[16-Mar-2020 06:20:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[16-Mar-2020 06:20:36 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[17-Mar-2020 01:46:41 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[17-Mar-2020 01:46:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[17-Mar-2020 01:46:41 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[17-Mar-2020 18:21:34 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[17-Mar-2020 18:21:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[17-Mar-2020 18:21:34 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[18-Mar-2020 11:13:58 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[18-Mar-2020 11:13:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[18-Mar-2020 11:13:58 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[18-Mar-2020 11:37:01 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[18-Mar-2020 11:37:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[18-Mar-2020 11:37:02 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[19-Mar-2020 00:52:03 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[19-Mar-2020 00:52:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[19-Mar-2020 00:52:04 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[19-Mar-2020 03:32:55 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[19-Mar-2020 03:32:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[19-Mar-2020 03:32:56 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[19-Mar-2020 04:02:47 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[19-Mar-2020 04:02:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[19-Mar-2020 04:02:48 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[20-Mar-2020 02:49:33 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[20-Mar-2020 02:49:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[20-Mar-2020 02:49:33 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[21-Mar-2020 00:10:41 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[21-Mar-2020 00:10:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[21-Mar-2020 00:10:42 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[21-Mar-2020 19:32:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[21-Mar-2020 19:32:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[21-Mar-2020 19:32:52 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[22-Mar-2020 08:16:27 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[22-Mar-2020 08:16:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[22-Mar-2020 08:16:27 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[22-Mar-2020 08:23:08 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[22-Mar-2020 08:23:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[22-Mar-2020 08:23:08 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[23-Mar-2020 03:33:43 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[23-Mar-2020 03:33:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[23-Mar-2020 03:33:43 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[23-Mar-2020 10:01:35 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[23-Mar-2020 10:01:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[23-Mar-2020 10:01:36 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[23-Mar-2020 16:10:01 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[23-Mar-2020 16:10:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[23-Mar-2020 16:10:02 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[23-Mar-2020 22:47:23 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[23-Mar-2020 22:47:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[23-Mar-2020 22:47:23 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[24-Mar-2020 09:36:27 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[24-Mar-2020 09:36:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[24-Mar-2020 09:36:27 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[25-Mar-2020 01:56:24 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[25-Mar-2020 01:56:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[25-Mar-2020 01:56:24 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[25-Mar-2020 22:29:30 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[25-Mar-2020 22:29:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[25-Mar-2020 22:29:30 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[26-Mar-2020 06:20:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[26-Mar-2020 06:20:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[26-Mar-2020 06:20:02 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[26-Mar-2020 12:14:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[26-Mar-2020 12:14:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[26-Mar-2020 12:14:02 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[26-Mar-2020 23:52:40 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[26-Mar-2020 23:52:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[26-Mar-2020 23:52:40 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[27-Mar-2020 22:34:08 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[27-Mar-2020 22:34:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[27-Mar-2020 22:34:08 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[28-Mar-2020 04:00:56 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[28-Mar-2020 04:00:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[28-Mar-2020 04:00:57 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[29-Mar-2020 17:30:48 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[29-Mar-2020 17:30:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[29-Mar-2020 17:30:48 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[30-Mar-2020 17:02:30 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[30-Mar-2020 17:02:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[30-Mar-2020 17:02:30 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[01-Apr-2020 04:02:41 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[01-Apr-2020 04:02:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[01-Apr-2020 04:02:41 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[01-Apr-2020 04:24:37 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[01-Apr-2020 04:24:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[01-Apr-2020 04:24:38 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[02-Apr-2020 01:01:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[02-Apr-2020 01:01:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[02-Apr-2020 01:01:19 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[03-Apr-2020 01:22:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[03-Apr-2020 01:22:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[03-Apr-2020 01:22:53 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[03-Apr-2020 06:22:53 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[03-Apr-2020 06:22:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[03-Apr-2020 06:22:53 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[03-Apr-2020 15:29:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[03-Apr-2020 15:29:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[03-Apr-2020 15:29:19 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[03-Apr-2020 15:59:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[03-Apr-2020 15:59:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[03-Apr-2020 15:59:51 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[03-Apr-2020 16:48:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[03-Apr-2020 16:48:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[03-Apr-2020 16:48:51 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[04-Apr-2020 07:35:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[04-Apr-2020 07:35:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[04-Apr-2020 07:35:19 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[04-Apr-2020 20:08:00 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[04-Apr-2020 20:08:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[04-Apr-2020 20:08:00 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[05-Apr-2020 03:00:44 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[05-Apr-2020 03:00:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[05-Apr-2020 03:00:44 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[05-Apr-2020 18:27:05 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[05-Apr-2020 18:27:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[05-Apr-2020 18:27:05 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[05-Apr-2020 21:56:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[05-Apr-2020 21:56:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[05-Apr-2020 21:56:52 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[05-Apr-2020 22:52:38 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[05-Apr-2020 22:52:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[05-Apr-2020 22:52:38 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[05-Apr-2020 23:33:04 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[05-Apr-2020 23:33:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[05-Apr-2020 23:33:04 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[06-Apr-2020 20:51:28 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[06-Apr-2020 20:51:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[06-Apr-2020 20:51:28 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[06-Apr-2020 21:59:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[06-Apr-2020 21:59:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[06-Apr-2020 21:59:39 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[06-Apr-2020 22:17:46 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[06-Apr-2020 22:17:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[06-Apr-2020 22:17:46 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[07-Apr-2020 13:53:38 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[07-Apr-2020 13:53:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[07-Apr-2020 13:53:38 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[09-Apr-2020 06:18:07 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[09-Apr-2020 06:18:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[09-Apr-2020 06:18:07 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[10-Apr-2020 05:52:10 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[10-Apr-2020 05:52:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[10-Apr-2020 05:52:10 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[11-Apr-2020 03:14:07 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[11-Apr-2020 03:14:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[11-Apr-2020 03:14:08 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[13-Apr-2020 07:01:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[13-Apr-2020 07:01:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[13-Apr-2020 07:01:11 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[13-Apr-2020 21:53:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[13-Apr-2020 21:53:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[13-Apr-2020 21:53:32 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[18-Apr-2020 11:46:22 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[18-Apr-2020 11:46:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[18-Apr-2020 11:46:22 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[18-Apr-2020 11:47:01 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[18-Apr-2020 11:47:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[18-Apr-2020 11:47:01 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[18-Apr-2020 17:43:18 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[18-Apr-2020 17:43:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[18-Apr-2020 17:43:18 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[18-Apr-2020 21:24:33 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[18-Apr-2020 21:24:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[18-Apr-2020 21:24:33 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[19-Apr-2020 15:27:53 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[19-Apr-2020 15:27:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[19-Apr-2020 15:27:53 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[19-Apr-2020 17:37:12 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[19-Apr-2020 17:37:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[19-Apr-2020 17:37:12 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[21-Apr-2020 00:07:17 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[21-Apr-2020 00:07:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[21-Apr-2020 00:07:18 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[22-Apr-2020 03:05:37 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[22-Apr-2020 03:05:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[22-Apr-2020 03:05:37 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[23-Apr-2020 09:05:49 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[23-Apr-2020 09:05:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[23-Apr-2020 09:05:49 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[23-Apr-2020 09:47:10 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[23-Apr-2020 09:47:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[23-Apr-2020 09:47:10 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[26-Apr-2020 08:40:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[26-Apr-2020 08:40:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[26-Apr-2020 08:40:14 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[27-Apr-2020 01:21:24 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[27-Apr-2020 01:21:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[27-Apr-2020 01:21:24 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[29-Apr-2020 11:15:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[29-Apr-2020 11:15:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[29-Apr-2020 11:15:19 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[30-Apr-2020 09:59:14 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[30-Apr-2020 09:59:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[30-Apr-2020 09:59:14 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[30-Apr-2020 13:52:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[30-Apr-2020 13:52:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[30-Apr-2020 13:52:31 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[02-May-2020 12:52:20 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[02-May-2020 12:52:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[02-May-2020 12:52:20 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[03-May-2020 01:49:55 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[03-May-2020 01:49:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[03-May-2020 01:49:56 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[04-May-2020 03:57:07 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[04-May-2020 03:57:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[04-May-2020 03:57:08 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[06-May-2020 07:26:37 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[06-May-2020 07:26:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[06-May-2020 07:26:38 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[06-May-2020 23:20:50 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[06-May-2020 23:20:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[06-May-2020 23:20:51 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[08-May-2020 15:41:46 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[08-May-2020 15:41:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[08-May-2020 15:41:47 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[09-May-2020 19:26:32 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[09-May-2020 19:26:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[09-May-2020 19:26:33 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[09-May-2020 21:48:21 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[09-May-2020 21:48:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[09-May-2020 21:48:22 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[12-May-2020 02:14:09 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[12-May-2020 02:14:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[12-May-2020 02:14:10 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[14-May-2020 23:18:37 UTC] PHP Notice:  Undefined index: msg in /home/nediljsc/public_html/backend/message.php on line 23
+[16-May-2020 01:13:23 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[16-May-2020 01:13:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[16-May-2020 01:13:24 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[17-May-2020 21:13:59 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[17-May-2020 21:13:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[17-May-2020 21:13:59 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23
+[17-May-2020 21:14:37 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nediljsc_senthil'@'localhost' (using password: YES) in /home/nediljsc/public_html/backend/db.php on line 15
+[17-May-2020 21:14:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/message.php on line 39
+[17-May-2020 21:14:37 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/nediljsc/public_html/backend/db.php on line 23

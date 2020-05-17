@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paths and Easing  - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	#plane {
+		width : 350px;
+		height : 350px;
+		border : 1px solid #000;
+	}
+	
+	#ball {
+		background-image: url('../../../images/ball.png');
+		width : 50px;
+		height : 50px;
+		position : relative;
+		z-Index: 50;
+	}
+
+	#msg {
+		padding : 5px;
+		height : 20px;
+	}	
+	
+	.track {
+		background-image: url('../../../images/ball.png');
+		width : 50px;
+		height : 50px;
+		opacity : 0.2;
+		filter : alpha(opacity=20);
+		z00m : 1;
+	}
+	</style>
+	 
+	<script type="text/javascript">
+	
+		$.domLoaded(function() {
+		
+			var animT = "Location";
+			var pat = "linear";
+			var eas = "";
+			var ret = false;
+			var hor = false;
+			var trEl = [];
+			
+			var animParam = {
+				from : { y : 0 },
+				to : { y : 300 },
+				anim : "Location.smooth",
+				duration : 3000, 
+				onframe : function() {
+					var tr = $.get("#plane").addChild("div", { "class" : "track"});
+					trEl.push(tr);
+					tr.pos($.get("#ball").pos());
+				},
+				oncomplete : function() {
+					$.get("#ani").element().disabled = false;
+				}
+			}
+		
+			$.get("#ani").on("click", function() {
+				$.self().element().disabled = true;
+				removeTrack();
+				animParam.anim = animT+"."+pat;
+				if(eas.trim() != "") {
+					animParam.anim += "."+eas;
+				}
+				if(ret) {
+					animParam.anim += ".return";
+				}
+
+				$.get("#msg").html(animParam.anim);
+				
+				if(hor) {
+					var horAnim = {
+						from : { x : 0 },
+						to : { x : 300 },
+						anim : "Location.linear",
+						duration : 3000	
+					};
+					if(ret) {
+						horAnim.anim += ".return";
+					}
+					$.get("#ball").animate(horAnim);
+				}
+				$.get("#ball").animate(animParam);
+			});	
+			
+			$.get("#path").on("change", function() {
+				var sel = $.self().element();
+				pat = sel.options[sel.selectedIndex].value
+			});
+			
+			$.get("#ease").on("change", function() {
+				var sel = $.self().element();
+				eas = sel.options[sel.selectedIndex].value
+			});
+
+			$.get("#ret").on("change", function() {
+				var sel = $.self().element();
+				ret = sel.checked;
+			});	
+
+			$.get("#hor").on("change", function() {
+				var sel = $.self().element();
+				hor = sel.checked;
+			});		
+
+			function removeTrack() {
+				var plane = $.get("#plane");
+				for(var i = 0, len = trEl.length; i < len; i++) {
+					plane.removeChild(trEl[i]);
+				}
+				trEl = [];
+			}
+			
+			
+
+		});						
+			
+	</script>
+</head>
+
+<body>
+
+	Animation Type : Location (3 secs)<br/><br/>
+	Path
+	<select id="path">
+		<option value="linear">linear</option>	
+		<option value="smooth">smooth</option>	
+		<option value="grow">grow</option>		
+		<option value="cubic">cubic</option>		
+		<option value="quad">quad</option>		
+		<option value="quint">quint</option>		
+		<option value="circ">circ</option>		
+		<option value="sine">sine</option>		
+		<option value="bounce">bounce</option>		
+		<option value="back">back</option>		
+		<option value="elastic">elastic</option>			
+	</select>
+	
+	Easing
+	<select id="ease">
+		<option value="">default</option>		
+		<option value="easeout">easeout</option>		
+		<option value="easeinout">easeinout</option>		
+		<option value="easeoutin">easeoutin</option>		
+	</select>
+	
+	<input type="checkbox" id="ret" value="ret" />	<label for="ret">Return</label>
+	
+	<input type="checkbox" id="hor" value="hor" />	<label for="hor">Horizontal</label>
+	
+	<input type="button" id="ani" value="Animate" />
+	<br/><br/>
+	<div id="msg">
+	</div>
+	<br/><br/>
+	<div id="plane">
+		<div id="ball"></div>
+	
+	
+	</div>
+	
+</body>
+
+
+</html>

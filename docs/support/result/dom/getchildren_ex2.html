@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>getChildren  - Example 2 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+		#parent {
+			display : inline-block;
+			background-color : #fff;
+			border : 2px solid red;
+			padding : 10px;
+		}
+		
+		.child {
+			padding : 10px;
+			margin : 5px;
+			background-color : #0af;
+			border : 2px solid #000;
+		}
+		
+			
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+
+			$.get("#change").on("click", function() {
+			
+				//get only immediate children
+				var chil = $.get("#parent").getChildren(true);
+				
+				chil.style("background-color", "red");
+				
+				
+			});
+			
+		});						
+			
+	</script>
+</head>
+
+<body>
+
+<div id="parent"> 
+Parent
+	<div class="child">child</div>
+	<div class="child">child
+		<div class="child"> Sub Child</div>
+		<div class="child"> Sub Child</div>
+	</div>
+	<div class="child">child</div>
+
+</div>
+<br/>
+<input type="button" id="change" value="Get #parent's immediate children and change color" />
+
+</body>
+
+
+</html>

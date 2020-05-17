@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table  - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	table {
+		border-collapse: collapse;
+	}
+	
+	table td {
+		padding : 5px;
+		border : 1px solid #000;
+	}
+	
+	#queue {
+		border : 1px solid #555;
+		padding : 5px;
+	}
+	</style>
+	 
+	<script type="text/javascript">
+	
+		$.domLoaded(function() {
+		
+			// create table structure
+			var tab =  new Nedil.Data.Table({name:[], age:[], salary:[]});
+			
+			// insert few records
+			tab.insert({name : "Senthil" , age : 24, salary : 2000});
+			tab.insert({name : "Ganesh" , age : 27, salary : 3000});
+			tab.insert({name : "Shane" , age : 24, salary : 1000});
+			
+			
+			
+			function showView () {
+			
+				// get all records 
+				var rs = tab.select("*", "*");
+				$.get("#emp").html("");
+				
+				for(var i = 0, len = rs.length; i < len; i++ ) {
+					var tr = $.get("#emp").addChild("tr");
+					
+					// individual value and display
+					tr.addChild("td", { "text" : rs[i].getValue("id")});
+					tr.addChild("td", { "text" : rs[i].getValue("name")});
+					tr.addChild("td", { "text" : rs[i].getValue("age")});
+					tr.addChild("td", { "text" : rs[i].getValue("salary")});
+					
+					// individual delete button
+					var del = tr.addChild("td").addChild("input", { "type" : "button", "value" : "Delete" });
+					(function() {
+						var id = rs[i].getValue("id");
+						del.on("click", function() {
+							var rec = tab.remove({id : id});
+							showView();
+							alert("Deleted " + rec + " records");
+						});
+					})();
+					
+				}
+			}
+			
+			$.get("#add").on("click", function() {
+				var nam = $.get("#nam").element().value;
+				var ag = parseInt($.get("#ag").element().value);
+				var sal = parseInt($.get("#sal").element().value);
+				
+				// insert new values
+				tab.insert({ name : nam, age : ag, salary : sal});
+				showView();
+				
+				$.get("#nam").element().value = "";
+				$.get("#ag").element().value = "";
+				$.get("#sal").element().value = "";		
+
+				alert("New record is inserted");				
+			});
+			
+			$.get("#upd1").on("click", function() {
+			
+				// update a record
+				var rec = tab.update({ name : "Senthilnathan" }, { name : "Senthil"});
+				showView();
+				alert("Updated " + rec + " records");
+			});
+			
+			$.get("#upd2").on("click", function() {
+			
+				// update a record
+				var rec = tab.update({ salary : 3000 }, { age : 24 });
+				showView();
+				alert("Updated " + rec + " records");
+			});			
+			
+			$.get("#del").on("click", function() {
+			
+				// remove a record
+				var rec = tab.remove({age : 24});
+				showView();
+				alert("Deleted " + rec + " records");
+			})
+			
+			showView();
+			
+			$.get("#reset").on("click", function() {							
+				window.location.reload();
+			});			
+
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	Insert<br/>
+	Name : <input type="text" id="nam" /> 
+	Age : <input type="text" id="ag" style="width : 50px" /> 
+	Salary : <input type="text" id="sal" /> 
+	<input type="button" id="add" value="Add" /> 
+	
+	<br/><br/>
+	Update<br/>
+	<input type="button" id="upd1" value="Set name to 'Senthilnathan' for record with name 'Senthil'" /> 
+	<input type="button" id="upd2" value="Set salary to 3000 for record with age '24'" /> 
+
+	<br/><br/>
+	Remove<br/>
+	<input type="button" id="del" value="Delete records with age = 24" /> 
+	
+	<br/><br/>
+	Table<br />
+	<table id="emp">
+	</table>
+	
+	<br/><br/>
+	<input type="button" id="reset" value="Reset" /> 
+	
+</body>
+
+
+</html>

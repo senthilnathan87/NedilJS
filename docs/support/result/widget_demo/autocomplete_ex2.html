@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Auto Complete | Ex 2 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+			$.domLoaded( function() {
+
+				$.get("#parent1").widget("autocomplete", {
+					source : $.Ajax({url: "../../ajax/AjaxServer.php", cache : false}),
+					param : { "example" : 5 },
+					dim : { wid : 200},
+					name : "Users",
+					strict : true,
+					watermark : "Ajax User Names"
+				});	
+
+				
+			});
+			
+
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+			
+			h4 span {
+				font-size:10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+	
+		<h4>AJAX Autocomplete <span>(Filtering should be done in Server side)</span></h4>
+		<div id="parent1"></div>
+		
+	</body>	
+</html>

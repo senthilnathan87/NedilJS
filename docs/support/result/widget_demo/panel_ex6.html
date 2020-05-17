@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Panel | Ex6 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+			$.domLoaded( function() {							
+				
+				$.get("#pan3").widget("panel", {
+					draggable : true,
+					dim : { wid : 100, ht : 100},
+					dragRangeX : { min : 10 , max : 400},
+					dragRangeY : { min : 50 , max : 200}					
+				});							
+				
+			});
+			
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+			
+			h4 span {
+				font-size:10px;
+			}
+			
+			div h3 {
+				width : 120px;
+				height : 30px;
+				background-color : #209600;
+				border : 1px solid #444;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+			
+		<h4><span>Min and Max Drag Range for x and y axis</span></h4>
+		<div id="pan3"></div>
+		
+	</body>	
+</html>

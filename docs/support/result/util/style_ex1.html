@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>style  - Example 1 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	div {
+		float: left;
+		padding : 10px;
+		margin : 5px;
+	}
+	
+	#box {
+		width : 100px;
+		height : 100px;
+		border : 10px solid #000;
+		background-color : yellowgreen;
+		color : white;
+	}
+	
+	#msg {
+		width : 250px;
+		height : 100px;
+	}
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+			
+			$.get("#btn1").on("click", function() {			
+			
+				var box = $.get("#box");
+				
+				// Get few styles
+				var backColor = box.style("background-color");
+				var borderWid = box.style("border-width");
+				var color = box.style("color");
+				var height = box.style("height");
+				
+				$.get("#msg").html("background-color : " + backColor
+				           + "<br/>border-width : " + borderWid
+				           + "<br/>color : " + color
+				           + "<br/>height : " + height);
+			});
+
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	<div id="box">Box</div>
+	
+	<div id="msg">Style Info</div>
+		
+	<br/>
+	<input type="button" id="btn1" value="Get Style Info" /> 
+
+</body>
+
+
+</html>

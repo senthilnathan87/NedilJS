@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css  - Example 2 - Nedil JS</title>
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+
+	<style type="text/css">
+	div {
+		display : inline-block;
+		padding : 10px;
+		margin : 5px;
+	}
+	
+	
+	</style>
+	 
+	<script type="text/javascript">
+		$.domLoaded(function() {
+			
+			$.get("#btn1").on("click", function() {			
+				// Attach multiple styles
+				$.get("#box1").css({
+					"background-color" : "red",
+					"border" : "10px solid #000",
+					"width" : "200px",
+					"height" : "100px"
+				});
+			});		
+
+			$.get("#reset").on("click", function() {							
+				window.location.reload();
+			});			
+
+		});						
+			
+	</script>
+</head>
+
+<body>
+	
+	<div id="box1" class="big_red">Div with "big_red" class</div>
+		
+	<br/>
+	<input type="button" id="btn1" value="Add Multiple Styles" /> 
+	
+	<br/>
+	<input type="button" id="reset" value="Reset" /> 
+
+
+</body>
+
+
+</html>

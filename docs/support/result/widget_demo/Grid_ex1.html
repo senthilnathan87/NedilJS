@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Grid | Ex 1 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+			var grid;
+			$.domLoaded( function() {
+
+				grid = $.get("#grid").widget("grid", {
+					title : "Data Grid",
+					
+					add : true,
+					select : true,
+					edit : true,
+					remove : true,
+					search : true,
+
+					dim : {
+						wid : 600,
+						ht : 300
+					},
+					
+					pages : {
+						limit : 10,
+						limit_option : [5,10,15,20],
+						total_records : 100
+					},
+					
+					serverURL : "../../ajax/GridDataServer.php",
+					
+					data : {
+						session : "Nothing",
+						test : "Test"
+					},
+					
+					onadd : function(req) {
+						var add = $.get("#addF").toJSON();
+						for (var prop in add) {
+							req[prop] = add[prop];
+						}
+						console.log(req);
+					},					
+					
+					ondelete : function(req) {
+						console.log(req);
+					},
+					
+					onedit : function(req) {
+						console.log(req);
+					},
+					
+					onsave : function(req) {
+						console.log(req);
+					},
+					
+					header : [
+						{	
+							text : "S.No",
+							wid : 30,
+							align : "center"
+						},
+						{	
+							text : "Name",
+							wid : 100,
+							sortable : true
+						},
+						{	
+							text : "Age",
+							wid : 30,
+							sortable : true,
+							align : "center"
+						},	
+						{	
+							text : "Phone Number",
+							align : "center"
+						}
+										
+					]
+					
+				});				
+			
+			/*var data = [
+				{ "key": 1, "S.No" : "1", "Name" : "Senthilnathan, A", "Phone Number" : "04412345678", "Age" : "25", "Address" : "T.Nagar,Chennaifasf asfasd fasdfasddddddddddddddddddddd", "City" : "Chennai" , "Remarks" : "No comments"},
+				{ "key": 2, "S.No" : "2", "Name" : "Senthilnathan, A", "Phone Number" : "04412345678", "Age" : "25", "Address" : "T.Nagar,Chennai", "City" : "Chennai" , "Remarks" : "No comments"},
+				{ "key": 3, "S.No" : "3", "Name" : "Senthilnathan, A", "Phone Number" : "04412345678", "Age" : "25", "Address" : "T.Nagar,Chennai", "City" : "Chennai" , "Remarks" : "No comments"},
+				{ "key": 4, "S.No" : "4", "Name" : "Senthilnathan, A", "Phone Number" : "04412345678", "Age" : "25", "Address" : "T.Nagar,Chennai", "City" : "Chennai" , "Remarks" : "No comments"}
+				];
+			
+			grid.load(data);*/
+			
+				$.get(".name").widget("textbox", {
+					watermark : "Name",
+					validation : "alpha"
+				});
+
+				$.get(".age").widget("textbox", {
+					watermark : "Age",
+					validation : "numeric"
+				});
+
+				$.get(".phoneno").widget("textbox", {
+					watermark : "Phone Number",
+					validation : "numeric"
+				});
+
+			});
+			
+
+		</script>		
+
+		<style type="text/css">
+			body {
+				font-family : "Open Sans", "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;
+				font-size : 12px;
+			}
+			
+			h4 span {
+				font-size:10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div id="grid">
+			<div class="addform"> 
+			<br/><br/>
+				<form name="addF" id="addF">
+				<input type="text" class="name" name="name" id="name" />
+				<input type="text" class="age" name="age" id="age" />
+				<input type="text" class="phoneno" name="phoneno" id="phoneno" />
+				</form>
+			<br/><br/>
+			</div>
+			<div class="editform"> A Form to get User Input for editing any existing records </div>
+		</div>
+	</body>	
+</html>

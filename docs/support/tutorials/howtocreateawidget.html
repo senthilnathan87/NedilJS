@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<title>How to create a widget in Nedil JS - Nedil JS</title>
+	<meta name="description" content="Nedil JS - How to create a widget in Nedil JS" />
+	<meta name="keywords" content="NedilJS,Nedil,Nedil JS, JavaScript Framework,APIs,AJAX,CSS Selectors,DOM Manipulation,Data Structures,Animation,Animate,CSS,Style,Widgets,Web Applications,"widget" />
+	<meta property="og:title" content="Nedil JS - How to create a widget in Nedil JS" />
+	<meta property="og:description" content="Nedil JS - How to create a widget in Nedil JS" />
+
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<link rel="author" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>	
+	<link rel="publisher" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>		
+	<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />	
+	<meta property="og:image" content="http://nediljs.com/images/NedilJS-logo-small.png"/>
+	
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shCore.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shThemeRDark.css" />
+	
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shCore.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushXml.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushPhp.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushJScript.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushCss.js"></script>
+	
+	<script type="text/javascript" src="../../js/lib/Nedil.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-common.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-documentation.css" />
+
+	<script type="text/javascript" src="../../js/site/nedil-site-common.js"></script>	
+	<script type="text/javascript" src="../../js/site/nedil-site-documentation.js"></script>		
+	
+	<script type="text/javascript">
+		SyntaxHighlighter.defaults['toolbar'] = false;
+      	SyntaxHighlighter.all();	
+	</script>
+	<script type="text/javascript">
+</script>		
+</head>
+<body>
+
+<div id="site">
+	<div id="header">
+		<table cellpadding="0" cellspacing="0" width="100%">
+		<tr><td>
+		<div id="Nedil_JS_logo">
+			<a href="../../index.html"><img src="../../images/NedilJS-logo-small.png" alt="Nedil JS, A Simple and Complete JavaScript Framework" align="top"/></a>
+		</div>
+		</td><td>
+		<div id="menus">
+			<a href="installation.html"><span class="menu">Documentation</span></a>
+			<a href="../../download.html"><span class="menu">Download</span></a>
+			<a href="aboutdefaultwidgets1.html"><span class="menu">Demo</span></a>		
+			<a href="../../about.html"><span class="menu">About</span></a>
+			<a href="../../contact.php"><span class="menu">Contact</span></a>
+		</div>
+		
+		</td></tr></table>
+	</div>
+	<div id="content">
+		<table cellpadding="0" cellspacing="0" style="width:100%">
+		<tr>
+		<td style="width: 250px; min-width:250px; vertical-align: top">
+			<div class="side_menus">
+				<div class="head">
+					<span  class="main" id="main_1">Installation<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_1">
+						<a href="installation.html">Installation</a>
+						<a href="domloaded.html">$.domLoaded()</a>	
+					</div>
+				</div>
+				<div class="head" >
+					<span class="main" id="main_2">CSS Selectors<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_2">
+						<a href="get.html">$.get()</a>
+						<a href="nedilobjects.html">Nedil Objects ($.Objs)</a>
+						<a href="generalselector.html">General Selectors</a>
+						<a href="attributeselector.html">Attribute Selectors</a>
+						<a href="childselector.html">Child Selectors</a>
+						<a href="siblingselector.html">Sibling Selectors</a>
+					</div>
+				</div>		
+				<div class="head">
+					<span class="main" id="main_3">Event Handling<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_3">
+						<a href="onevent.html">on()</a>
+						<a href="offevent.html">off()</a>
+						<a href="triggerevent.html">trigger()</a>
+						<a href="self.html">$.self()</a>
+						<a href="currentevent.html">$.currentEvent</a>
+						<a href="commonevents.html">Events</a>
+					</div>
+				</div>
+				<div class="head">
+					<span class="main" id="main_4">DOM Manipulation<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_4">
+						<a href="twowaydom.html">Common - Two ways of Usage</a>	
+						<a href="addchild.html">addChild()</a>	
+						<a href="addparent.html">addParent()</a>	
+						<a href="wrapchildren.html">wrapChildren()</a>	
+						<a href="removechild.html">removeChild()</a>	
+						<a href="getchildren.html">getChildren()</a>	
+						<a href="ischild.html">isChild()</a>	
+						<a href="isparent.html">isParent()</a>							
+						<a href="nextsibling.html">nextSibling()</a>	
+						<a href="previoussibling.html">previousSibling()</a>	
+						<a href="issibling.html">isSibling()</a>	
+						<a href="childindex.html">childIndex()</a>	
+					</div>
+				</div>	
+				<div class="head">
+					<span class="main" id="main_5">Utilities<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_5">
+						<a href="foreach.html">forEach()</a>	
+						<a href="html.html">html()</a>
+						<a href="text.html">text()</a>	
+						<a href="pos.html">pos()</a>	
+						<a href="posabs.html">posAbs()</a>
+						<a href="dim.html">dim()</a>	
+						<a href="mouse.html">mouse()</a>	
+						<a href="mouseabs.html">mouseAbs()</a>	
+						<a href="style.html">style()</a>	
+						<a href="css.html">css()</a>							
+						<a href="hascssclass.html">hasCSSClass()</a>	
+						<a href="selection.html">selection()</a>
+						<a href="converhexrgb.html">convertHexRGB()</a>	
+						<a href="clonejson.html">cloneJSON()</a>	
+					</div>
+				</div>					
+				<div class="head">
+					<span class="main" id="main_6">Data Structures<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_6">
+						<a href="stack.html">Stack</a>	
+						<a href="queue.html">Queue</a>	
+						<a href="table.html">Table</a>							
+					</div>
+				</div>	
+				<div class="head">
+					<span class="main" id="main_7">AJAX APIs<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_7">
+						<a href="ajaxrequest.html">AJAX Request</a>				
+						<a href="load.html">load()</a>				
+						<a href="ajaxsubmit.html">ajaxSubmit()</a>				
+						<a href="tojson.html">toJSON()</a>						
+					</div>
+				</div>	
+				<div class="head">
+					<span class="main" id="main_8">Animation APIs<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_8">
+						<a href="animationparams.html">Animation Parameters</a>				
+						<a href="locationanimation.html">Location Animation</a>				
+						<a href="dimensionanimation.html">Dimension Animation</a>				
+						<a href="coloranimation.html">Color Animation</a>				
+						<a href="cssanimation.html">CSS Animation</a>				
+						<a href="pathsandeasing.html">Paths and Easing</a>				
+					</div>
+				</div>	
+				<div class="head">
+					<span class="main" id="main_9">Widgets Creation<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_9">
+						<a href="howtocreateawidget.html" class="selected">How to create a widget ? </a>				
+						<a href="aboutdefaultwidgets.html">About Default Widgets</a>				
+					</div>
+				</div>					
+			</div>
+		</td>
+		<td style="vertical-align: top; " rowspan="2">
+			<div class="main_doc">
+		
+				<div class="head_doc">How to create a widget using Nedil JS? </div>		
+				<div class="explanation">
+					Widgets are UI components in a web application which are useful for a specific purpose. Nedil JS provides support for creating widgets which have full access to NedilJS apis. Nedil JS provides a default set of widgets which are quite handy to create user friendly interfaces. Few of those widgets are textbox, buttons, etc..
+				</div>	
+				<div class="head_doc">Step 1 : Load Nedil JS </div>	
+				<div class="codeblock" id="code_1">
+					<span class="tabtitle" id="code_1_html">HTML</span>
+					<div class="nedil_code" id="code_1_html_pre">
+						<pre class="brush: html;">
+						&lt;head&gt;
+						
+							<!-- Load Nedil JS -->
+							&lt;script type="text/javascript" src="PATH_TO/Nedil.js"&gt;&lt;/script&gt;
+							
+						&lt;/head&gt;</pre>
+					</div>
+				</div>				
+
+				<div class="head_doc">Step 2 : Create Widget "Nedil.Widget.WIDGET_NAME = function( HTML_ELEMENT, CONFIG ) {}" </div>	
+				<div class="explanation">
+					Nedil Widgets should be created using Nedil.Widget or $.Widget. It must be a function to define the properties and functionalities of a widget. It can return "this" reference to operate on those functionalities. It is advisable to keep widgets in a separate .js file and load it after Nedil.js. Widget can be created by inline javascipt also.
+				</div>	
+				<div class="codeblock" id="code_2">
+					<span class="tabtitle" id="code_2_js">JS</span>
+					<div class="nedil_code" id="code_2_js_pre">
+						<pre class="brush: js;">
+						Nedil.Widget.button = function(el,prop) {
+							
+							// widget functionality;
+							
+							return this;
+						}
+						</pre>
+					</div>
+				</div>	
+
+				<div class="head_doc">Static variable across all widgets of single widget type </div>	
+				<div class="explanation">
+					There may be a need to have a common static value across all widgets of a single widget type. For example, to have unique IDs for all widgets of a particular widget type or to keep a count on how many widgets are created. This can be achieved by using Nedil.Widget.constants["NAME"].
+				</div>	
+				<div class="codeblock" id="code_3">
+					<span class="tabtitle" id="code_3_js">JS</span>
+					<div class="nedil_code" id="code_3_js_pre">
+						<pre class="brush: js;">
+						Nedil.Widget.button = function(el,prop) {
+							
+							// all button widgets can access these variables
+							Nedil.Widget.constants["button"]
+							Nedil.Widget.constants["button_map"]
+							
+							return this;
+						}
+						</pre>
+					</div>
+				</div>	
+				
+				<div class="head_doc">To use the created widget</div>	
+				<div class="explanation">
+					Custom widgets are created using Nedil.Widget. It should be applied to HTML elements in Nedil Objects. All the matched HTML elements will be converted to Nedil Custom Widgets.
+				</div>	
+				<div class="codeblock" id="code_4">
+					<span class="tabtitle" id="code_4_js">JS</span>
+					<div class="nedil_code" id="code_4_js_pre">
+						<pre class="brush: js;">
+			$.domLoaded(function() {
+			
+				// Create #btn1 into WIDGET with configuration from CONFIG_JSON
+				$.get("#btn1").widget("WIDGET_NAME", CONFIG_JSON);
+				
+			}
+			</pre>
+					</div>
+				</div>		
+
+				<div class="head_doc">How to create a ToolTip Widget using NedilJS - A Case Study</div>	
+				<div class="explanation">
+					Create a tooltip widget which shows up when cursor moves over an element and hides when cursor moves out
+				</div>		
+				<span class="oth_head">Requirement</span>	
+				<div class="explanation">
+					1. Show text related to source element when mouse cursor moves over it in a tooltip box.<br/>
+					2. Hide the tooltip box when mouse moves out ot the source element.<br/>
+					3. Tooltip text should be fetched from element's "nedil-tooltip" attribute.<br/>
+					4. Use little animation while showing and hiding tooltip box<br/>
+					5. Provide a configuration setting to change the color of text in tooltip box<br/>
+					6. Provide functionalities to enable or disable tooltip<br/>
+				</div>	
+
+				<span class="oth_head">Step 1 - Create a base tooltip widget and base CSS class</span>	
+				<div class="explanation">
+					1. Create a base tooltip widget and save it in a separate .js file<br/>
+					2. Create a CSS class for tooltip_box.<br/>
+					3. Get specific tooltip text for element from "nedil-tooltip" attribute<br/>
+					4. Convert the HTML element to Nedil Object<br/>
+					5. Create a div child for body which is the tooltip box with css class"tooltip_box" and text from "nedil-tooltip" attribute<br/>
+					6. Return "this" object. It is advisable to store this to a local variable and return than local variable instead of returning "this" directly. In our case, "self" will be returned<br/>
+				</div>					
+				<div class="codeblock" id="code_5">
+					<span class="tabtitle" id="code_5_js">JS</span>
+					<span class="tabtitle" id="code_5_css">CSS</span>
+					<div class="nedil_code" id="code_5_js_pre">
+						<pre class="brush: js;">
+/*ToolTip widget*/
+Nedil.Widget.tooltip = function(el, prop) {
+
+	// widget reference variable
+	var self = this;
+
+	// get tooltip text from element attribute
+	var tooltip_text = el.getAttribute("nedil-tooltip");
+	
+	// convert el to Nedil Object
+	var ned_element = $.get(el);
+	
+	// create tooltip box with tooltip text and attach it to body
+	var tooltip = $.get("body").addChild("div", { 
+		"class" : "tooltip_box",
+		"text"  : tooltip_text
+	});
+	
+	// return self instead of this
+	return self;	
+}</pre>
+					</div>
+					<div class="nedil_code hide" id="code_5_css_pre">
+						<pre class="brush: css;">	.tooltip_box {
+		display : inline-block;
+		position : absolute;
+		padding : 10px;
+		margin : 5px;		
+		border : 1px solid #333;
+		background-color : #aaa;
+		max-width : 200px;
+	}</pre>
+					</div>					
+				</div>	
+				
+				<span class="oth_head">Step 2 - Show and Hide tooltip box</span>	
+				<div class="explanation">
+					1. When mouse hovers the source element, show tooltip box<br/>
+					2. When mouse moves out the element, hide tooltip box<br/>
+					3. Do some basic animation while showing and hiding tooltip box<br/>
+					4. Position the tooltip box exactly below the source element<br/>
+				</div>					
+				<div class="codeblock" id="code_6">
+					<span class="tabtitle" id="code_6_js">JS</span>
+					<div class="nedil_code" id="code_6_js_pre">
+						<pre class="brush: js;">
+	// hide tooltip
+	tooltip.style("opacity", 0.1);
+	tooltip.style("display","none");
+	
+	// on mouseover, show tooltip
+	ned_element.on("mouseover", function() {
+		showToolTip();
+	});
+	
+	// on mouseout, hide tooltip
+	ned_element.on("mouseout", function() {
+		hideToolTip();
+	});
+	
+	var showToolTip = function() {
+	
+		// show tooltip
+		tooltip.style("display","inline-block");
+		
+		// position the tooltip
+		el_pos = ned_element.posAbs();
+		tooltip.posAbs({ x : el_pos.x, y : el_pos.y + ned_element.dim().ht});	
+	
+		// animate tooltip's opacity to 1
+        tooltip.animate({
+            from : 0.1,
+            to : 1,
+            anim : "CSS.smooth",
+            prop : "opacity",
+            duration : 1000
+        });  
+	}
+	
+	var hideToolTip = function() {
+	
+		// animate tooltip's to blur out
+        tooltip.animate({
+            from : 1,
+            to : 0.1,
+            anim : "CSS.smooth",
+            prop : "opacity",
+            duration : 500,
+			oncomplete : function() {
+				// hide tooltip
+				tooltip.style("display","none");
+			}
+        });  
+	}	
+</pre>
+					</div>				
+				</div>	
+
+				<span class="oth_head">Step 3 - Set a configuring option to style text color of tooltip </span>	
+				<div class="explanation">
+					1. Configuring parameter is "color", if it is set use provided color, else default black color<br/>
+					2. Check "color" parameter is available, else use default color<br/>
+				</div>					
+				<div class="codeblock" id="code_7">
+					<span class="tabtitle" id="code_7_js">JS</span>
+					<div class="nedil_code" id="code_7_js_pre">
+						<pre class="brush: js;">
+	// config color
+	prop = prop ? prop : {};
+	var color = prop.color ? prop.color : "#000";
+	tooltip.style("color", color);						
+						</pre>
+					</div>				
+				</div>	
+
+				<span class="oth_head">Step 4 - Set Enable and Disable functionalities for ToolTip Widget </span>	
+				<div class="explanation">
+					1. Create functions to handle the tooltip widget and attach them to "self"<br/>
+					2. Set a property like "self.enabled" and make it true by default<br/>
+					3. ShowToolTip and HideToolTip will check this property and execute.<br/>
+					4. if disable function is called, set self.enabled to false.<br/>
+					5. if enable function is called, set self.enabled to true.<br/>
+				</div>					
+				<div class="codeblock" id="code_8">
+					<span class="tabtitle" id="code_8_js">JS</span>
+					<div class="nedil_code" id="code_8_js_pre">
+						<pre class="brush: js;">
+						
+	// set enabled property to true
+	self.enabled = true;
+	
+	// access apis
+	self.disable = function() {
+		self.enabled = false;
+	}
+	
+	self.enable = function() {
+		self.enabled = true;
+	}						
+						</pre>
+					</div>				
+				</div>					
+
+				
+				<span class="oth_head">Final Result</span>	
+				<div class="explanation">
+					If the Nedil.Objs is a collection of html elements, then widget function will return an Array of "self" object. If the Nedil.Objs match with single HTML Element, the widget will directly return "self" object, thru which we can access properties and functions of Widget<br/><br/>
+					Enhancement Tips:<br/>
+					1. Config parameters can be given for position of the tooltip box, CSS class of the tooltip box and even more<br/>
+					2. Accomodate images in tooltip<br/>
+					3. Use an image to have arrow mark with tooltip<br/>
+				</div>					
+				<div class="codeblock" id="code_9">
+					<span class="tabtitle" id="code_9_js">JS</span>
+					<span class="tabtitle" id="code_9_js1">ToolTip Widget JS</span>
+					<span class="tabtitle" id="code_9_html">HTML</span>
+					<span class="tabtitle" id="code_9_css">CSS</span>
+					<div class="nedil_code" id="code_9_js_pre">
+						<pre class="brush: js; highlight: [4,11,16]">		$.domLoaded(function() {
+			
+			// create tooltips for elements with source class
+			var toolTips = $.get(".source").widget("tooltip", { color : "green"});
+			
+			$.get("#dis").on("click", function() {
+				if($.self().element().value == "Disable Tooltip for One") {
+					$.self().element().value = "Enable Tooltip for One";
+					
+					// disable tooltip [0] 
+					toolTips[0].disable();
+				} else {
+					$.self().element().value = "Disable Tooltip for One";
+					
+					// enable tooltip [0] 
+					toolTips[0].enable();
+				}
+			});
+			
+		});	</pre>
+					</div>		
+					<div class="nedil_code hide" id="code_9_js1_pre">
+						<pre class="brush: js;">/*ToolTip widget*/
+Nedil.Widget.tooltip = function(el, prop) {
+
+	// widget reference variable
+	var self = this;
+	
+	// set enabled property to true
+	self.enabled = true;
+
+	// get tooltip text from element attribute
+	var tooltip_text = el.getAttribute("nedil-tooltip");
+	
+	// convert el to Nedil Object
+	var ned_element = $.get(el);
+	
+	// create tooltip box with tooltip text and attach it to body
+	var tooltip = $.get("body").addChild("div", { 
+		"class" : "tooltip_box",
+		"text"  : tooltip_text
+	});
+	
+	// position the tooltip
+	el_pos = ned_element.posAbs();
+	tooltip.posAbs({ x : el_pos.x, y : el_pos.y + ned_element.dim().ht});		
+	
+	// config color
+	prop = prop ? prop : {};
+	var color = prop.color ? prop.color : "#000";
+	tooltip.style("color", color);
+	
+	// hide tooltip
+	tooltip.style("opacity", 0.1);
+	tooltip.style("display","none");
+	
+	// on mouseover, show tooltip	
+	ned_element.on("mouseover", function() {
+		if(self.enabled) {
+			showToolTip();
+		}
+	});
+
+	// on mouseout, hide tooltip	
+	ned_element.on("mouseout", function() {
+		if(self.enabled) {
+			hideToolTip();
+		}
+	});
+	
+	var showToolTip = function() {
+	
+		// show tooltip
+		tooltip.style("display","inline-block");
+		
+		// position the tooltip
+		el_pos = ned_element.posAbs();
+		tooltip.posAbs({ x : el_pos.x, y : el_pos.y + ned_element.dim().ht});
+	
+		// animate tooltip's opacity to 1
+        tooltip.animate({
+            from : 0.1,
+            to : 1,
+            anim : "CSS.smooth",
+            prop : "opacity",
+            duration : 1000
+        });  
+	}
+	
+	var hideToolTip = function() {
+	
+		// animate tooltip's to blur out
+        tooltip.animate({
+            from : 1,
+            to : 0.1,
+            anim : "CSS.smooth",
+            prop : "opacity",
+            duration : 500,
+			oncomplete : function() {
+				// hide tooltip
+				tooltip.style("display","none");
+			}
+        });  
+	}	
+	
+	// access apis
+	self.disable = function() {
+		self.enabled = false;
+	}
+	
+	self.enable = function() {
+		self.enabled = true;
+	}	
+	
+	// return self instead of this	
+	return self;	
+}</pre>
+					</div>		
+					<div class="nedil_code hide" id="code_9_html_pre">
+						<pre class="brush: html;">&lt;head&gt;	
+
+	&lt;script type="text/javascript" src="Nedil.js"&gt;&lt;/script&gt;
+	&lt;script type="text/javascript" src="widget_custom.js"&gt;&lt;/script&gt;
+	
+&lt;/head&gt;
+
+&lt;body&gt;
+
+	&lt;div class="source" nedil-tooltip="A small tooltip"&gt;One&lt;/div&gt;
+	&lt;div class="source" nedil-tooltip="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."&gt;Two&lt;/div&gt;
+	
+	&lt;input type="button" id="dis" value="Disable Tooltip for One" /&gt;
+
+
+&lt;/body&gt;</pre>
+					</div>		
+					<div class="nedil_code hide" id="code_9_css_pre">
+						<pre class="brush: css;">	.tooltip_box {
+		display : inline-block;
+		position : absolute;
+		padding : 10px;
+		margin : 5px;		
+		border : 1px solid #333;
+		background-color : #ccc;
+		max-width : 200px;
+	}
+	
+	.source {
+		cursor : default;
+		display : inline-block;
+		border: 1px solid red;
+		padding : 10px;
+		margin : 5px;
+	}						
+						</pre>
+					</div>							
+				</div>					
+
+				
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widgets/widgets_ex1.html">
+						</iframe>
+					</div>
+				</div>							
+			</div>
+		</td></tr>	
+		<tr><td style="height:100px;">
+		<div id="extra_panel" style="display:inline-block; margin:0px; margin-left:4px; margin-bottom:4px; padding : 2px; width: 260px;">
+		<span>
+			<a id="fbshare" href="" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/fb.png" alt="Facebook Share"/>
+			</a>
+			<a id="twshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/twit.png" alt="Twitter Share"/>
+			</a>
+			<a id="gpshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/gp.png" alt="Google Plus Share" />
+			</a>	
+			<a id="linshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/lin.png" alt="LinkedIn Share"/>
+			</a>
+		</span>		
+		</div>	
+		</td></tr>
+		</table>
+	</div>
+	
+	<div id="footer">
+		<a href="../../index.html">Home</a> | 
+		<a href="installation.html">Documentation</a> | 
+		<a href="../../download.html">Download</a> | 
+		<a href="aboutdefaultwidgets1.html">Demo</a> | 
+		<a href="../../about.html">About</a> | 
+		<a href="../../contact.php">Contact Me</a> | 
+		<a href="../../contact.php">Report a Bug</a> 
+		<br/>
+		<span>NedilJS has been released under <a id="op_license" class="highlight">MIT license</a></span>
+	</div>
+</div>
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52388639-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

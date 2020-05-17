@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />		
+	<title> Dialog | Ex 1 | Nedil Widget </title>
+
+	<link rel="stylesheet" type="text/css" href="../../../js/lib/widget_lib/Nedil_Widget.css" />
+	<script type="text/javascript" src="../../../js/lib/Nedil.js"></script>
+	<script type="text/javascript" src="../../../js/lib/widget_lib/Nedil_Widget.js"></script>
+
+		<script type="text/javascript">
+			var dial1,dial2,dial3,dial4,dial5;
+			$.domLoaded( function() {
+
+				
+				dial1 = $.get("#dial1").widget("dialog", {
+					head : { 
+							title : "Simple Dialog"
+						},
+					dim : { wid : 300, ht : 200},
+					pos : { x : 20, y : 20},
+				});	
+
+			});			
+		</script>		
+
+		<style type="text/css">
+
+		</style>
+
+	</head>
+
+	<body>
+	
+		<div id="dial1"></div>
+		
+	</body>	
+</html>

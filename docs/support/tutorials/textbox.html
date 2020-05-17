@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<title>How to create textbox widgets in Nedil JS - Nedil JS</title>
+	<meta name="description" content="Nedil JS - How to create textbox widgets in Nedil JS" />
+	<meta name="keywords" content="NedilJS,Nedil,Nedil JS, JavaScript Framework,APIs,AJAX,CSS Selectors,DOM Manipulation,Data Structures,Animation,Animate,CSS,Style,Widgets,Web Applications,"textbox" />
+	<meta property="og:title" content="Nedil JS - How to create textbox widgets in Nedil JS" />
+	<meta property="og:description" content="Nedil JS - How to create textbox widgets in Nedil JS" />
+
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<link rel="author" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>	
+	<link rel="publisher" href="https://plus.google.com/+SenthilnathanAlakianambiyaPillai/"/>		
+	<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />	
+	<meta property="og:image" content="http://nediljs.com/images/NedilJS-logo-small.png"/>
+	
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shCore.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/syntaxhighlight/shThemeRDark.css" />
+	
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shCore.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushXml.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushPhp.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushJScript.js"></script>
+	<script type="text/javascript" src="../../js/lib/syntaxhighlight/shBrushCss.js"></script>
+	
+	<script type="text/javascript" src="../../js/lib/Nedil.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-common.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/site/nedil-site-documentation.css" />
+
+	<script type="text/javascript" src="../../js/site/nedil-site-common.js"></script>	
+	<script type="text/javascript" src="../../js/site/nedil-site-documentation.js"></script>		
+	
+	<script type="text/javascript">
+		SyntaxHighlighter.defaults['toolbar'] = false;
+      	SyntaxHighlighter.all();	
+	</script>
+	<script type="text/javascript">
+</script>		
+</head>
+<body>
+
+<div id="site">
+	<div id="header">
+		<table cellpadding="0" cellspacing="0" width="100%">
+		<tr><td>
+		<div id="Nedil_JS_logo">
+			<a href="../../index.html"><img src="../../images/NedilJS-logo-small.png" alt="Nedil JS, A Simple and Complete JavaScript Framework" align="top"/></a>
+		</div>
+		</td><td>
+		<div id="menus">
+			<a href="installation.html"><span class="menu">Documentation</span></a>
+			<a href="../../download.html"><span class="menu">Download</span></a>
+			<a href="aboutdefaultwidgets1.html"><span class="menu">Demo</span></a>		
+			<a href="../../about.html"><span class="menu">About</span></a>
+			<a href="../../contact.php"><span class="menu">Contact</span></a>
+		</div>
+		
+		</td></tr></table>
+	</div>
+	<div id="content">
+		<table cellpadding="0" cellspacing="0" style="width:100%">
+		<tr>
+		<td style="width: 250px; min-width:250px; vertical-align: top">
+			<div class="side_menus">
+				<div class="head">
+					<span class="main" id="main_1">Widgets Creation<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_1">
+						<a href="aboutdefaultwidgets1.html">About Default Widgets</a>									
+						<a href="howtocreateawidget1.html">How to create a widget ? </a>				
+					</div>
+				</div>	
+				<div class="head" >
+					<span class="main" id="main_2">Widgets<span class="arrow down"></span></span>
+					<div class="sub" id="sub_main_2">
+						<a href="button.html">Button</a>				
+						<a href="checkbox.html">Check Box</a>				
+						<a href="radiobutton.html">Radio Button</a>				
+						<a href="textbox.html" class="selected">Text Box</a>				
+						<a href="panel.html">Panel</a>				
+						<a href="dialog.html">Dialog</a>				
+						<a href="tabs.html">Tabs</a>				
+						<a href="accordion.html">Accordion</a>				
+						<a href="menu.html">Menu</a>				
+						<a href="calendar.html">Calendar</a>				
+						<a href="colorpicker.html">Color Picker</a>				
+						<a href="ajaxdatagrid.html">AJAX Data Grid</a>				
+						<a href="dropdown.html">Drop Down</a>				
+						<a href="autocomplete.html">Auto Complete</a>				
+						<a href="numberroller.html">Number Roller</a>				
+						<a href="slider.html">Slider</a>				
+						<a href="progressbar.html">Progress Bar</a>				
+						<a href="slideshow.html">Slide Show</a>				
+						<a href="tree.html">Tree</a>
+					</div>
+				</div>							
+			</div>
+		</td>
+		<td style="vertical-align: top; " rowspan="2">
+			<div class="main_doc">
+		
+				<div class="head_doc">Text Box Widget</div>		
+				<div class="explanation">
+					Textboxes are common user interface to receive user's inputs. Nedil JS textbox widget can be used to create textboxes with various customizations and validations.
+					<br/>
+					<br/>
+				<span class="oth_head" style="margin:0px">Basic Usage</span>						
+					<pre class="brush: js;">$.domLoaded(function() {
+	
+	$.get("#tbox1").widget("textbox", CONFIG_JSON );	
+	
+}</pre>					
+				</div>	
+
+				<div class="field_explain">
+					<span class="field_head">Configuring Options</span>
+					<div class="explanation">				
+						It contains array of JSON objects. The properties are mentioned below.
+					</div>						
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Name</th><th>Type</th><th>Must/Optional</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">value</td><td>String</td><td>Optional</td><td>Sets the default text value of the textbox</td></tr>
+						<tr class="tab_even"><td class="high">watermark</td><td>String</td><td>Optional</td><td>It is the watermark content behind the textbox. When user types, it will disappear</td></tr>
+						<tr class="tab_odd"><td class="high">enabled</td><td>Booleang</td><td>Optional</td><td>Makes textbox enabled. Default is true</td></tr>
+						<tr class="tab_even"><td class="high">limit</td><td>Number</td><td>Optional</td><td>Sets a limitation of how many characters are allowed</td></tr>
+						<tr class="tab_odd"><td class="high">validation</td><td>String</td><td>Optional</td><td>A validation process which forces the user to enter correct values
+							<table cellpadding="0" cellspacing="0" >
+								<tr class="tab_head"><th>String</th><th>Description</th></tr>
+								<tr class="tab_odd"><td class="high">numeric</td><td>Only numbers are allowed</td></tr>
+								<tr class="tab_even"><td class="high">decimal</td><td>Only numbers or decimal numbers are allowed</td></tr>
+								<tr class="tab_odd"><td class="high">alpha</td><td>Only alphabets are allowed</td></tr>
+								<tr class="tab_even"><td class="high">alphanumeric</td><td>Only alphabets and numbers are allowed. Special characters are not allowed</td></tr>
+								<tr class="tab_odd"><td class="high">email</td><td>Only email IDs are allowed</td></tr>
+								<tr class="tab_even"><td class="high">custom RegEx</td><td>Developers can provide their custom regular expression to validate the input as and when the user types</td></tr>
+							</table>							
+						</td></tr>
+					</table>			
+				</div>	
+				<br/>
+
+				<div class="field_explain">
+					<span class="field_head">Methods</span>
+					<table cellpadding="0" cellspacing="0" >
+						<tr class="tab_head"><th>Name</th><th>Description</th></tr>
+						<tr class="tab_odd"><td class="high">disable()</td><td>Disables the textbox</td></tr>
+						<tr class="tab_even"><td class="high">enable()</td><td>Enables the textbox</td></tr>
+						<tr class="tab_odd"><td class="high">setText( new_text )</td><td>Sets text value to the textbox. Needs a string input</td></tr>
+						<tr class="tab_even"><td class="high">getText()</td><td>Returns the value of the textbox.</td></tr>
+					</table>			
+				</div>	
+
+				<br/>				
+				<span class="oth_head">TextBox Widget Example</span>				
+				<div class="codeblock" id="code_1">
+					<span class="tabtitle" id="code_1_js">JS</span>
+					<span class="tabtitle" id="code_1_html">HTML</span>
+					<div class="nedil_code" id="code_1_js_pre">
+						<pre class="brush: js;">			$.domLoaded(function() {
+			
+				//without watermark
+				$.get("#tbox1").widget("textbox");
+				
+				//with default value
+				$.get("#tbox12").widget("textbox", {
+					value: "Senthil"
+				});					
+								
+				//with watermark
+				$.get("#tbox2").widget("textbox", {
+					watermark: "Username"
+				});	
+				
+				//diabled
+				$.get("#tbox3").widget("textbox", {
+					watermark: "Disabled",
+					enabled: false
+				});		
+
+				//limit
+				$.get("#tbox4").widget("textbox", {
+					watermark: "With 10 Chars limit",
+					limit: 10
+				});						
+				
+				//validation
+				$.get("#tbox5").widget("textbox", {
+					watermark: "Only Numbers",
+					validation : "numeric"
+				});		
+				
+				$.get("#tbox6").widget("textbox", {
+					watermark: "Decimals",
+					validation: "decimal"
+				});		
+
+				$.get("#tbox7").widget("textbox", {
+					watermark: "Only Alphabets",
+					validation: "alpha"
+				});		
+
+				$.get("#tbox8").widget("textbox", {
+					watermark: "Alpha Numeric",
+					validation: "alphanumeric"
+				});	
+				
+				$.get("#tbox9").widget("textbox", {
+					watermark: "Email",
+					validation: "email"
+				});	
+
+				$.get("#tbox10").widget("textbox", {
+					watermark: "'a'",
+					validation: "^a*$"
+				});	
+				
+				var tb = $.get("#tbox11").widget("textbox", {
+					watermark: "Username"
+				});	
+				
+				$.get("#toggle").on("click", function() {
+					if(tb.enabled) {
+						tb.disable();
+					} else {
+						tb.enable();
+					}
+				});
+				
+				$.get("#sText").on("click", function() {
+					tb.setText("Welcome");					
+				});
+				
+				$.get("#gText").on("click", function() {
+					alert(tb.getText());					
+				});				
+			});</pre>
+					</div>
+					<div class="nedil_code hide" id="code_1_html_pre">
+						<pre class="brush: html;">&lt;body&gt;
+	Default Text Box       &lt;input type="text" id="tbox1" /&gt;
+	
+	Default Value      &lt;input type="text" id="tbox12" /&gt;
+	
+	With Watermark       &lt;input type="text" id="tbox2" /&gt;	
+	
+	Disabled TextBox (CHECK CSS)       &lt;input type="text" id="tbox3" /&gt;			
+	
+	Limit 10 Chars       &lt;input type="text" id="tbox4" /&gt;	
+	
+	Only Numeric       &lt;input type="text" id="tbox5" /&gt;	
+	
+	Decimal       &lt;input type="text" id="tbox6" /&gt;	
+	
+	Only Alphabets       &lt;input type="text" id="tbox7" /&gt;	
+	
+	Alpha Numeric       &lt;input type="text" id="tbox8" /&gt;	
+	
+	Email       &lt;input type="text" id="tbox9" /&gt;	
+	
+	User Defined RegX       &lt;input type="text" id="tbox10" /&gt;	
+	
+	External Methods       &lt;input type="text" id="tbox11" /&gt;
+							&lt;input type="button" id="toggle" value="Enable/Disable"/&gt; 
+							&lt;input type="button" id="sText" value="setText 'Welcome'"/&gt;
+							&lt;input type="button" id="gText" value="getText"/&gt;	
+&lt;/body&gt;	</pre>
+					</div>
+				
+				</div>
+					
+
+				<div class="resultblock">
+					<span class="resulttitle" >Result</span>
+					<div class="nedil_result">
+						<iframe src="../result/widget_demo/textbox_ex1.html" style="height: 700px">
+						</iframe>
+					</div>
+				</div>						
+		
+	
+			</div>
+		</td></tr>	
+		<tr><td style="height:100px;">
+		<div id="extra_panel" style="display:inline-block; margin:0px; margin-left:4px; margin-bottom:4px; padding : 2px; width: 260px;">
+		<span>
+			<a id="fbshare" href="" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/fb.png" alt="Facebook Share"/>
+			</a>
+			<a id="twshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/twit.png" alt="Twitter Share"/>
+			</a>
+			<a id="gpshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/gp.png" alt="Google Plus Share" />
+			</a>	
+			<a id="linshare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fparse.com" target="_blank">
+				<img class="share_ic" src="../../images/download_icons/lin.png" alt="LinkedIn Share"/>
+			</a>
+		</span>		
+		</div>	
+		</td></tr>
+		</table>
+	</div>
+	
+	<div id="footer">
+		<a href="../../index.html">Home</a> | 
+		<a href="installation.html">Documentation</a> | 
+		<a href="../../download.html">Download</a> | 
+		<a href="aboutdefaultwidgets1.html">Demo</a> | 
+		<a href="../../about.html">About</a> | 
+		<a href="../../contact.php">Contact Me</a> | 
+		<a href="../../contact.php">Report a Bug</a> 
+		<br/>
+		<span>NedilJS has been released under <a id="op_license" class="highlight">MIT license</a></span>
+	</div>
+</div>
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52388639-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>
