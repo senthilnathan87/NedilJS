@@ -105,9 +105,9 @@
 }
 
 .content a {
-	color : #000;
-	font-weight : bold;
-	text-shadow : none;
+	color: #ddd;
+    font-weight: 400;
+    text-shadow: none;
 }
 
 .cont_head {

@@ -3,7 +3,7 @@ http://www.nediljs.com/support/tutorials/installation.html
 http://www.nediljs.com/download.html
 http://www.nediljs.com/support/tutorials/aboutdefaultwidgets1.html
 http://www.nediljs.com/about.html
-http://www.nediljs.com/contact.php
+http://www.nediljs.com/contact.html
 http://www.nediljs.com/support/tutorials/domloaded.html
 http://www.nediljs.com/support/tutorials/get.html
 http://www.nediljs.com/support/tutorials/nedilobjects.html

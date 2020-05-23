@@ -1,5 +1,0 @@
-[02-Mar-2017 03:25:43 UTC] PHP Fatal error:  Cannot redeclare is_ssl() (previously declared in /home/nediljsc/public_html/wp/wp-includes/load.php:964) in /home/nediljsc/public_html/wp/wp-includes/functions.php on line 3975
-[08-Nov-2019 21:57:37 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/nediljsc/public_html/wp/wp-includes/load.php on line 404
-[08-Nov-2019 21:57:37 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/nediljsc/public_html/wp/wp-includes/load.php on line 404
-[08-Nov-2019 21:57:37 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/nediljsc/public_html/wp/wp-includes/load.php on line 404
-[08-Nov-2019 21:57:37 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/nediljsc/public_html/wp/wp-includes/load.php on line 404
