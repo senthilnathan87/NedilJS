@@ -8,4 +8,4 @@ Animation, AJAX API, Event Handling, Data Structures and even more.
 
 Nedil JS - A collection of highly customizable/configurable widgets developed using Nedil JS.
 
-[nediljs.com](http://www.nediljs.com)
+[site](http://senthilnathan87.github.io/NedilJS/)
